@@ -1,3 +1,3 @@
 # Applied-Datascience-Minor
-*Student: Joanne Pals
-*Studentennummer: 20189186
+Student: Joanne Pals  
+Studentennummer: 20189186
