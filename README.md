@@ -20,6 +20,12 @@ Studentennummer: 20189186
 ![This is a alt text.](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ### Reflectie 
+#### Mine contribution to the project
+bla
+#### Own learning objectives
+bla
+#### Evaluation on the group project as a whole
+bla
 ## Research project
 ## Predictive Analytics
 ## Domain knowledge
