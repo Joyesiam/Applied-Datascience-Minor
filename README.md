@@ -3,7 +3,9 @@ Student: Joanne Pals
 Studentennummer: 20189186
 
 # Inhoud
-
+- [Obligatory criteria](#Obligatory-criteria)
+  -DataCamp
+  -Reflectie 
 - 1. [Research project](#Research-project)
   - iets
 - 3. [Predictive Analytics](#Predictive-Analytics)
@@ -12,6 +14,7 @@ Studentennummer: 20189186
 - 6. [Communication](#Communication)
 
 
+## Obligatory criteri
 ## Research project
 ## Predictive Analytics
 ## Domain knowledge
