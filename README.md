@@ -17,7 +17,7 @@ Studentennummer: 20189186
 ## Obligatory criteria
 ### DataCamp
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ![alt text](https://github.com/[Joyesiam]/[Applied-Datascience-Minor]/blob/[Afbeeldingen]/DataCamp.jpg?raw=true)
 
