@@ -14,7 +14,9 @@ Studentennummer: 20189186
 - 6. [Communication](#Communication)
 
 
-## Obligatory criteri
+## Obligatory criteria
+### DataCamp
+### Reflectie 
 ## Research project
 ## Predictive Analytics
 ## Domain knowledge
