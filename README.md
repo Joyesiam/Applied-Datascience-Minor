@@ -16,6 +16,11 @@ Studentennummer: 20189186
 
 ## Obligatory criteria
 ### DataCamp
+
+![This is a alt text.](/image/sample.png "This is a sample image.")
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ### Reflectie 
 ## Research project
 ## Predictive Analytics
