@@ -5,10 +5,10 @@ Studentennummer: 20189186
 # Inhoud
 
 1. Item 1
-1. Item 2
-1. Item 3
-  11. Item 3a
-  11. Item 3b
+- iers
+3. Item 2
+4. Item 3
+
 
 ## Research project
 ## Predictive Analytics
