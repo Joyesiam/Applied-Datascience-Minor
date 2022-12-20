@@ -5,10 +5,10 @@ Studentennummer: 20189186
 # Inhoud
 
 1. [Research project](#Research-project)
-3. Predictive Analytics
-4. Domain knowledge
-5. Data preprocessing
-6. Communication
+3. [Predictive Analytics](#Predictive-Analytics)
+4. [Domain knowledge](#Domain-knowledge)
+5. [Data preprocessing](#Data-preprocessing)
+6. [Communication](#Communication)
 
 
 ## Research project
