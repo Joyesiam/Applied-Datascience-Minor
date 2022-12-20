@@ -4,10 +4,11 @@ Studentennummer: 20189186
 
 # Inhoud
 
-1. Item 1
-- iers
-3. Item 2
-4. Item 3
+1. Research project
+3. Predictive Analytics
+4. Domain knowledge
+5. Data preprocessing
+6. Communication
 
 
 ## Research project
