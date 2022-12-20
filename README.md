@@ -3,7 +3,7 @@ Student: Joanne Pals
 Studentennummer: 20189186
 
 # Inhoud
-- [Obligatory criteria](#Obligatory-criteria)
+- [Obligatory criteria](#Obligatory-criteria)  
   -DataCamp
   -Reflectie 
 - 1. [Research project](#Research-project)
