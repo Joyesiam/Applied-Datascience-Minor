@@ -12,6 +12,6 @@ Studentennummer: 20189186
 
 ## Research project
 ## Predictive Analytics
-## Domein kennis 
+## Domain knowledge
 ## Data preprocessing
-## Communicatie 
+## Communication
