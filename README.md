@@ -19,7 +19,7 @@ Studentennummer: 20189186
 
 ![This is a alt text.](/image/sample.png "This is a sample image.")
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[Joyesiam]/[Applied-Datascience-Minor]/blob/[Afbeeldingen]/DataCamp.jpg?raw=true)
 
 ### Reflectie 
 ## Research project
