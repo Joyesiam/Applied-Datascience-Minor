@@ -4,8 +4,8 @@ Studentennummer: 20189186
 
 # Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
-  - DataCamp
-  - Reflectie 
+  - [DataCamp](#DataCamp)
+  - [Reflectie](#Reflectie)
 - 1. [Research project](#Research-project)
   - iets
 - 3. [Predictive Analytics](#Predictive-Analytics)
