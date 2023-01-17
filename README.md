@@ -31,3 +31,5 @@ bla
 ## Domain knowledge
 ## Data preprocessing
 ## Communication
+### Presentaties
+### Paper 
