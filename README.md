@@ -29,7 +29,14 @@ bla
 ## Research project
 ## Predictive Analytics
 ## Domain knowledge
+
 ## Data preprocessing
+
+### Data exploration
+### Data cleansing
+### Data preparation
+### Data visualization (exploratory)
+
 ## Communication
 ### Presentaties
 - [Week 2 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Foodproject%20week%202.pdf).
