@@ -32,4 +32,6 @@ bla
 ## Data preprocessing
 ## Communication
 ### Presentaties
+- 
+You may be using [Markdown Live Preview](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Foodproject%20week%202.pdf).
 ### Paper 
