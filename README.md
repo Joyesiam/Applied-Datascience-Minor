@@ -70,17 +70,22 @@ Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 ve
 Het [notebook](link) met de code. 
 
 ### Container
+
+##### Onderzoek naar de datasets
+De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de datasets bekeken welke waardes er in voorkwamen en of we de kolom mogelijk nodig hebben. De resultaten heb ik onder elkaar gezet in een [word bestand](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf). De blauw gemarkeerde kolommen in het bestand hadden we waarschijnlijk niet nodig als we de datasets zouden gebruiken. De rood gemarkeerde kolommen hebben geen waardes, allen NaN's, minder dan 5 ingevulde waardes en daarnaast alleen NaN's of overal dezelfde waardes.
+
+##### Scheepsdata simuleren
+
+Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1,2 of 3 hebben. Doormiddel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
+
+onderdelen
+- Data exploration
+- Data cleansing
+- Data preparation
+- Data explanation
+- Data visualization (exploratory)
+
  
-De aangerijkte 
-- [title](link)
-- [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
-- [Schepen simuleren](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
-
-### Data exploration
-### Data cleansing
-### Data preparation
-### Data visualization (exploratory)
-
 ## Communication
 ### Presentaties
 - [Week 2 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Foodproject%20week%202.pdf).
