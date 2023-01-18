@@ -40,6 +40,7 @@ Ik heb zowel voor het Foodboost project als het Container project de data bekeke
 ### Foodboost
 - [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
 - [Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
+- [Statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 ### Container
 - [Data voorbereiden](link)
 - to do: verschil oplossen in recepten 
