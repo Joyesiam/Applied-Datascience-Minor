@@ -69,6 +69,7 @@ Het [notebook](link) met de code.
 
 ### Container
  
+De aangerijkte 
 - [title](link)
 - [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
 - [Schepen simuleren](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
