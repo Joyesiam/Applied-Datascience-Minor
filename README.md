@@ -40,7 +40,7 @@ Ik heb zowel voor het Foodboost project als het Container project de data bekeke
 
 ### Foodboost
 Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevonden aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. 
-![Boxplot statistiek op calorieën](/Afbeeldingen/Statistiek op calorieën1.png "This is a sample image.")
+![Boxplot statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Afbeeldingen/Statistiek%20op%20calorie%C3%ABn1.png)
 Eerst had ik samen met Jesse 
 - [Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
 - [Statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
