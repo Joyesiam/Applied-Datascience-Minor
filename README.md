@@ -3,6 +3,8 @@ Student: Joanne Pals
 Studentennummer: 20189186
 https://markdownlivepreview.com/
 
+[title](link)
+
 # Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
   - [DataCamp](#DataCamp)
@@ -32,6 +34,11 @@ bla
 ## Domain knowledge
 
 ## Data preprocessing
+[Container dataset onderzoek]([link](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
+[Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
+[Data voorbereiden](link)
+to do: verschil oplossen in recepten 
+[title](link)
 
 ### Data exploration
 ### Data cleansing
