@@ -34,7 +34,7 @@ bla
 ## Domain knowledge
 
 ## Data preprocessing
-- [Container dataset onderzoek]((https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
+- [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
 - [Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
 - [Data voorbereiden](link)
 - to do: verschil oplossen in recepten 
