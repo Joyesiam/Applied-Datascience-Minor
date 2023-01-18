@@ -34,8 +34,13 @@ bla
 ## Domain knowledge
 
 ## Data preprocessing
+
+Ik heb zowel voor het Foodboost project als het Container project de data bekeken en voorbereid. 
+
+### Foodboost
 - [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
 - [Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
+### Container
 - [Data voorbereiden](link)
 - to do: verschil oplossen in recepten 
 - [title](link)
