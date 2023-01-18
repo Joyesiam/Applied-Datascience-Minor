@@ -20,7 +20,7 @@ https://markdownlivepreview.com/
 ## Obligatory criteria
 ### DataCamp
 
-![This is a alt text.](/Afbeeldingen/DataCamp.png "This is a sample image.")
+![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ### Reflectie 
 #### Mine contribution to the project
@@ -30,6 +30,7 @@ bla
 #### Evaluation on the group project as a whole
 bla
 ## Research project
+literatuuronderzoek calorieen 
 ## Predictive Analytics
 ## Domain knowledge
 
@@ -38,13 +39,16 @@ bla
 Ik heb zowel voor het Foodboost project als het Container project de data bekeken en voorbereid. 
 
 ### Foodboost
-- [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
+Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevonden aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. 
+![Boxplot statistiek op calorieën](/Afbeeldingen/Statistiek op calorieën1.png "This is a sample image.")
+Eerst had ik samen met Jesse 
 - [Schepen simuleren](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
 - [Statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 ### Container
 - [Data voorbereiden](link)
 - to do: verschil oplossen in recepten 
 - [title](link)
+- [Container dataset onderzoek](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf)
 
 ### Data exploration
 ### Data cleansing
