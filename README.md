@@ -40,11 +40,14 @@ Ik heb zowel voor het Foodboost project als het Container project de data bekeke
 
 ### Foodboost
 Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevonden aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. In de boxplot is te zijn dat de lunch twee uitschieters heeft en de diner er geen. 
+
 <details>
   <summary>Lunch en dinner kcal boxplot</summary>
   <img src="Afbeeldingen/Statistiek op calorieën1.png" />
 </details>
+
 Ook hebben we een histogram gemaakt en de mediaan en het gemiddelde berekend voor het diner en de lunch. 
+
 <details>
   <summary>Lunch en dinner kcal histogrammen</summary>
   <img src="Afbeeldingen/Statistiek%20op%20calorieën2.png" />
