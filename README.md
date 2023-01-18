@@ -14,7 +14,11 @@ https://markdownlivepreview.com/
 - 3. [Predictive Analytics](#Predictive-Analytics)
 - 4. [Domain knowledge](#Domain-knowledge)
 - 5. [Data preprocessing](#Data-preprocessing)
+  - [Foodboost](#Foodboost)
+  - [Container](#Container)
 - 6. [Communication](#Communication)
+  - [Presentaties](#Presentaties)
+  - [Paper](#Paper)
 
 
 ## Obligatory criteria
