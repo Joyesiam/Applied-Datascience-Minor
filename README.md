@@ -44,7 +44,8 @@ Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel d
   <summary>Lunch en dinner kcal boxplot</summary>
   <img src="Afbeeldingen/Statistiek op calorieën1.png" />
 </details>
-- [Schepen simuleren](Notebooks/Simulated data schepen en containers.ipynb)
+
+- [Schepen simuleren](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
 - [Statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 ### Container
 - [Data voorbereiden](link)
