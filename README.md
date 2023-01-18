@@ -79,7 +79,7 @@ De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de da
 Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1,2 of 3 hebben. Doormiddel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
 
 <details>
-  <summary>Lunch en dinner kcal histogrammen</summary>
+  <summary>Schip simulatie</summary>
   <img src="Afbeeldingen/schip%20simulatie.png" />
 </details>
 
