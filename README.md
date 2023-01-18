@@ -45,15 +45,18 @@ Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel d
   <img src="Afbeeldingen/Statistiek op calorieën1.png" />
 </details>
 Ook hebben we een histogram gemaakt en de mediaan en het gemiddelde berekend voor het diner en de lunch. 
-
 <details>
   <summary>Lunch en dinner kcal histogrammen</summary>
   <img src="Afbeeldingen/Statistiek%20op%20calorieën2.png" />
   <img src="Afbeeldingen/Statistiek%20op%20calorieën3.png" />
 </details>
 
+Op basis van deze gevens hebben bepaald dat het diner maximaal 570 calorieën mag zijn en de lunch 470 calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen. 
+
+Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
+
 - [Schepen simuleren](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb)
-- [Statistiek op calorieën](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
+- 
 ### Container
 - [Data voorbereiden](link)
 - to do: verschil oplossen in recepten 
