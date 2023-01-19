@@ -38,6 +38,12 @@ literatuuronderzoek calorieen
 ## Predictive Analytics
 ## Domain knowledge
 
+
+##### Introduction
+#### Literatuuronderzoek
+##### Termologie 
+
+
 ## Data preprocessing
 
 Ik heb zowel voor het Foodboost project als het Container project de data bekeken en voorbereid. 
