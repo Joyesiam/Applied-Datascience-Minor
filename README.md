@@ -38,9 +38,11 @@ literatuuronderzoek calorieen
 ## Predictive Analytics
 ## Domain knowledge
 
-
 #### Introduction
+
 #### Literatuuronderzoek
+
+##### 
 #### Termologie 
 
 ```diff
