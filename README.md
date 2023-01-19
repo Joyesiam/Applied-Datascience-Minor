@@ -94,7 +94,6 @@ Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/N
 ```diff
 - to do: verschil oplossen in recepten
 ```
-
 De data voor het voorspellen of iemand een recept lekker vindt of niet heb ik gemaakt. Dat werd gedaan op basis van de ingrediënten van een recept. De recepten zonder noten van de lunch en diner werden alleen meegenomen. 
 Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was voegde ik de twee kolommen samen. Daarna waren er nog 4797 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 166 ingrediënten over. 
 Het [notebook](link) met de code. 
@@ -113,14 +112,12 @@ Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak 
   <img src="Afbeeldingen/schip%20simulatie.png" />
 </details>
 
-
 onderdelen
 - Data exploration
 - Data cleansing
 - Data preparation
 - Data explanation
 - Data visualization (exploratory)
-
  
 ## Communication
 ### Presentaties
