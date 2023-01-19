@@ -50,7 +50,7 @@ Ik heb zowel voor het Foodboost project als het Container project de data bekeke
 
 ### Foodboost
 
-##### Calorieën
+#### Calorieën
 Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevonden aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. In de boxplot is te zijn dat de lunch twee uitschieters heeft en de diner er geen. 
 
 <details>
@@ -70,7 +70,7 @@ Op basis van deze gevens hebben bepaald dat het diner maximaal 570 calorieën ma
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
 
-##### Data voorbereiden
+#### Data voorbereiden
 ```diff
 - to do: verschil oplossen in recepten
 ```
@@ -81,10 +81,10 @@ Het [notebook](link) met de code.
 
 ### Container
 
-##### Onderzoek naar de datasets
+#### Onderzoek naar de datasets
 De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de datasets bekeken welke waardes er in voorkwamen en of we de kolom mogelijk nodig hebben. De resultaten heb ik onder elkaar gezet in een [MS Word bestand](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf). De blauw gemarkeerde kolommen in het bestand hadden we waarschijnlijk niet nodig als we de datasets zouden gebruiken. De rood gemarkeerde kolommen hebben geen waardes, allen NaN's, minder dan 5 ingevulde waardes en daarnaast alleen NaN's of overal dezelfde waardes.
 
-##### Scheepsdata simuleren
+#### Scheepsdata simuleren
 
 Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1,2 of 3 hebben. Doormiddel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
 
