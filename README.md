@@ -44,7 +44,7 @@ literatuuronderzoek calorieen
 #### Termologie 
 
 ```diff
-meer begrippen
+-meer begrippen
 ```
 ##### Foodboost
 - Allergie: Als iemand in aanraking komt een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
@@ -56,13 +56,13 @@ meer begrippen
 
 ##### Container
 - Reinforcement Learing:
-- Stack:
-- Yard:
+- Stack: Een stapel containers.
+- Yard: 
 - Agent:
-- Envoirment:
-- Learning rate:
-- Move:
-- 
+- Envoirment: De ruimte waard
+- Learning rate: De mate/snelheid waarin de agent leert.
+- Move: Een container oppakken en ergens anders weer neerzetten.
+- Episode: 
 
 ## Data preprocessing
 
