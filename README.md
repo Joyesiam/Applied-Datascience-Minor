@@ -23,7 +23,6 @@ https://markdownlivepreview.com/
 
 ## Obligatory criteria
 ### DataCamp
-
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ### Reflectie 
@@ -34,7 +33,9 @@ bla
 #### Evaluation on the group project as a whole
 bla
 ## Research project
+
 literatuuronderzoek calorieen 
+
 ## Predictive Analytics
 ## Domain knowledge
 
@@ -42,7 +43,11 @@ literatuuronderzoek calorieen
 
 #### Literatuuronderzoek
 
-##### 
+##### Foodboost
+
+##### Container
+
+
 #### Termologie 
 
 ```diff
