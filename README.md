@@ -39,10 +39,30 @@ literatuuronderzoek calorieen
 ## Domain knowledge
 
 
-##### Introduction
+#### Introduction
 #### Literatuuronderzoek
-##### Termologie 
+#### Termologie 
 
+```diff
+meer begrippen
+```
+##### Foodboost
+- Allergie: Als iemand in aanraking komt een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
+- Calorie: Hoeveel energie het eten bevat.
+- Kcal: De eenheid die de hoeveelheid energie aangeeft. 1 kcal = 1000 calorieën
+- Lineair programmeren: Een wiskundige manier om de beste uitkomst te berekenen. 
+- Pivot tabel: Een draaitabel; een tabel wordt vervormd: de unieke waardes uit een bepaalde kolom worden de nieuwe kolomnamen, een andere kolom wordt de index. 
+- Tag: label; omschrijft tot welke categorie een gerecht behoort.
+
+##### Container
+- Reinforcement Learing:
+- Stack:
+- Yard:
+- Agent:
+- Envoirment:
+- Learning rate:
+- Move:
+- 
 
 ## Data preprocessing
 
