@@ -5,7 +5,7 @@ https://markdownlivepreview.com/
 
 [title](link)
 
-# Inhoud
+## Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
