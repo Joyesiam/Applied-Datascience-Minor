@@ -136,6 +136,7 @@ onderdelen
 - [Week 8 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20week%208.pdf).
 - [Week 14 - eindpresentatie](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20eindpresentatie%20week%2014.pdf).
 ### Paper 
+Voordat we aan de paper konden beginnen hadden we opzetje nodig van de hoofdstukken en wat er in moest. Daarvoor had ik een klein onderzoekje naar gedaan. Dat hadden ik tijden een vergadering met een docent besproken. En vervolgens hadden we de paper verdeeld in stukjes, zodat iedereen een stuk schreef. Ik had de inleiding toebedeeld gekregen. Na dat iedereen zijn stukje afhad kreeg iedereen weer een ander stuk van de paper die hij moest controleren. Ik had het stukje toekomstig werk gekregen. Daar was nog veel aan te doen want het waren nog bulletpoints en de grammatica was nog niet goed genoeg, daardoor moest ik het hele stuk herschrijven. Ook heb de hele paper doorgelezen een aangepast waar nodig en de paper ik de paper stijl met behulp van MS Word gezet. 
 ```diff
-- inleiding
+- In dit bestand staat mijn inleiding en eerdere versie en mijn versie van toekomstig werk. En de uiteindelijke paper staat hier. 
 ```
