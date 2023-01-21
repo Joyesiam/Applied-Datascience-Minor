@@ -19,6 +19,7 @@ https://markdownlivepreview.com/
 - [Communication](#Communication)
   - [Presentaties](#Presentaties)
   - [Paper](#Paper)
+- [Overige dingen](#Overige-dingen)
 
 
 ## Obligatory criteria
@@ -150,3 +151,4 @@ Voordat we aan de paper konden beginnen hadden we opzet nodig van de hoofdstukke
 ```diff
 - In dit bestand staat mijn inleiding en eerdere versie en mijn versie van toekomstig werk. En de uiteindelijke paper staat hier. 
 ```
+## Overige dingen
