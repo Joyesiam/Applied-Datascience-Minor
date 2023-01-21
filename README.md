@@ -39,6 +39,19 @@ literatuuronderzoek calorieen
 
 ## Predictive Analytics
 
+-	Discreet 
+
+Waarom dit model?  literatuur
+Trainen, overfitten, parameter tuning 
+Evaluatie 
+Visualisatie 
+
+Voor het container probleem heb ik reinforcement learning gebruikt omdat er geen beste uitkomst bestaand en omdat er ook niet echt data is. Bij reinforcement learning genereerd het model zelf data door spelletjes te spelen. Met de die data leert het model zo. In mijn geval zijn is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. Het spelletje is afgelopen als de kade volstaat of dat de agent te veel pogingen nodig heeft om een container neer te zetten. 
+Voor mijn reinfocement model heb ik 
+
+Als resultaat uit het model heb ik een learning-curve gemaakt met daarin de minimale en de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat en de minimale het langzaamste. Maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dan die lijn ook het maximum bereikt. 
+
+
 [notebook reinfocement learning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb)
 
 <details>
