@@ -38,6 +38,14 @@ bla
 literatuuronderzoek calorieen 
 
 ## Predictive Analytics
+
+[notebook reinfocement learning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb)
+
+<details>
+  <summary>Reinforcement learning 3x3x1</summary>
+  <img src="Afbeeldingen/RL%203x3x1.png" />
+</details>
+
 ## Domain knowledge
 
 #### Introduction
