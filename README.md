@@ -38,21 +38,16 @@ bla
 literatuuronderzoek calorieen 
 
 ## Predictive Analytics
+#### Container
 
--	Discreet 
+Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaand. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model zo. In mijn geval zijn is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. Het spelletje is afgelopen als de kade volstaat of dat de agent te veel pogingen nodig heeft om een container neer te zetten. 
+Voor mijn Reinforcement model heb ik een Deep Q-Network gebruikt. Hiervoor heb ik eerste een environment en agent gemaakt. Daarnaast heb ik de controles gemaakt die controleren of een move mag of niet. Voor deze controles wordt het platte speelbord vervormt naar een driedimensionale matrix.
+Mijn environment heeft een discrete action space. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld omdat dat niet mag dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade vol is of als er te veel pogingen zijn gedaan om de container te plaatsen. 
+Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat Maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dan die lijn ook het maximum bereikt bij ongeveer 1100 games.
 
-Waarom dit model?  literatuur
-Trainen, overfitten, parameter tuning 
-Evaluatie 
-Visualisatie 
-
-Voor het container probleem heb ik reinforcement learning gebruikt omdat er geen beste uitkomst bestaand en omdat er ook niet echt data is. Bij reinforcement learning genereerd het model zelf data door spelletjes te spelen. Met de die data leert het model zo. In mijn geval zijn is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. Het spelletje is afgelopen als de kade volstaat of dat de agent te veel pogingen nodig heeft om een container neer te zetten. 
-Voor mijn reinfocement model heb ik 
-
-Als resultaat uit het model heb ik een learning-curve gemaakt met daarin de minimale en de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat en de minimale het langzaamste. Maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dan die lijn ook het maximum bereikt. 
+Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
 
 
-[notebook reinfocement learning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb)
 
 <details>
   <summary>Reinforcement learning 3x3x1</summary>
