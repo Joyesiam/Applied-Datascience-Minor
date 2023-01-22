@@ -12,7 +12,11 @@ https://markdownlivepreview.com/
 - [Research project](#Research-project)
   - iets
 - [Predictive Analytics](#Predictive-Analytics)
+  - [Container](#Container)
 - [Domain knowledge](#Domain-knowledge)
+  - [Introduction](#Introduction)
+  - [Literatuuronderzoek](#Literatuuronderzoek)
+  - [Terminologie](#Terminologie)
 - [Data preprocessing](#Data-preprocessing)
   - [Foodboost](#Foodboost)
   - [Container](#Container)
@@ -82,7 +86,7 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 - [An optimization model for the container pre-marshalling problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/An%20optimization%20model%20for%20the%20container%20pre-marshalling%20problem.pdf)
 - [Two-stage search algorithm for the inbound container unloading and stacking problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Two-stage%20search%20algorithm%20for%20the%20inbound%20container%20unloading%20and%20stacking%20problem.pdf)
 
-#### Termologie 
+#### Terminologie 
 
 ```diff
 -meer begrippen
