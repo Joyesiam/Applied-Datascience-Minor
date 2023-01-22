@@ -65,10 +65,10 @@ Als resultaat uit het model heb ik een learning-curve gemaakt met daarin de mini
 
 ##### Foodboost 
 
-Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek op eten en diëten. Ook behoort het tot data Science. De recepten, die we gebruiken, komen van Allerhande en zullen daardoor al gecontroleerd zijn op de eetbaarheid van de recepten. Wij hebben als groep de recepten daaruit gefilterd die geen noten bevatten want ons model genereerd recepten voor mensen die allergisch voor noten zijn. Dat is een risico want het kan erge gevolgen hebben als we een recept aanraden waar toch noten inzit. Daarnaast zijn er geen strikte regels in deze sectoren. Het ergste wat kan gebeuren is dat ons model een recept aanraadt die de gebruiker niet lekker vindt. 
+Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek eten en diëten. Ook behoort het tot Data Science. De recepten die we gebruiken komen van Allerhande en zullen daardoor al gecontroleerd zijn op de eetbaarheid van de recepten. Wij hebben als groep de recepten daaruit gefilterd die geen noten bevatten want ons model genereerd recepten voor mensen die allergisch voor noten zijn. Dat is een risico want het kan erge gevolgen hebben als we een recept aanraden waar toch noten inzitten. Daarnaast zijn er geen strikte regels in deze sectoren. Het ergste wat kan gebeuren is dat ons model een recept aanraadt die de gebruiker niet lekker vindt. 
 
 ##### Container 
-Tot de Transport en logistiek sector behoort het container project. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele ander zijn voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
+Het container project behoort tot de Transport en logistiek sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
 
 
 #### Literatuuronderzoek
@@ -112,7 +112,7 @@ Ik heb zowel voor het Foodboost project als het Container project de data bekeke
 ### Foodboost
 
 #### Calorieën
-Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevonden aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. In de boxplot is te zijn dat de lunch twee uitschieters heeft en de diner er geen. 
+Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevolen aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. In de boxplot is te zien dat de lunch twee uitschieters heeft en het diner geen. 
 
 <details>
   <summary>Lunch en dinner kcal boxplot</summary>
@@ -127,7 +127,7 @@ Ook hebben we een histogram gemaakt en de mediaan en het gemiddelde berekend voo
   <img src="Afbeeldingen/Statistiek%20op%20calorieën3.png" />
 </details>
 
-Op basis van deze gevens hebben bepaald dat het diner maximaal 570 calorieën mag zijn en de lunch 470 calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn. 
+Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 calorieën mag zijn en de lunch 470 calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn. 
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
 
@@ -136,17 +136,17 @@ Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/N
 - to do: verschil oplossen in recepten
 ```
 De data voor het voorspellen of iemand een recept lekker vindt of niet heb ik gemaakt. Dat werd gedaan op basis van de ingrediënten van een recept. De recepten zonder noten van de lunch en diner werden alleen meegenomen. 
-Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was voegde ik de twee kolommen samen. Daarna waren er nog 4797 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 166 ingrediënten over. 
+Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met Fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was, voegde ik de twee kolommen samen. Daarna waren er nog 4797 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 166 ingrediënten over. 
 Het [notebook](link) met de code. 
 
 ### Container
 
 #### Onderzoek naar de datasets
-De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de datasets bekeken welke waardes er in voorkwamen en of we de kolom mogelijk nodig hebben. De resultaten heb ik onder elkaar gezet in een [MS Word bestand](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf). De blauw gemarkeerde kolommen in het bestand hadden we waarschijnlijk niet nodig als we de datasets zouden gebruiken. De rood gemarkeerde kolommen hebben geen waardes, allen NaN's, minder dan 5 ingevulde waardes en daarnaast alleen NaN's of overal dezelfde waardes.
+De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de datasets bekeken welke waardes er in voorkwamen en of we de kolom mogelijk nodig hebben. De resultaten heb ik onder elkaar gezet in een [MS Word bestand](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf). De blauw gemarkeerde kolommen in het bestand hadden we waarschijnlijk niet nodig als we de datasets zouden gebruiken. De rood gemarkeerde kolommen hebben geen waardes, alleen NaN's of minder dan 5 ingevulde waardes en daarnaast alleen NaN's of overal dezelfde waardes.
 
 #### Scheepsdata simuleren
 
-Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1,2 of 3 hebben. Doormiddel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
+Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1, 2 of 3 hebben. Door middel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
 
 <details>
   <summary>Schip simulatie</summary>
@@ -168,7 +168,7 @@ onderdelen
 - [Week 8 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20week%208.pdf).
 - [Week 14 - eindpresentatie](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20eindpresentatie%20week%2014.pdf).
 ### Paper 
-Voordat we aan de paper konden beginnen hadden we opzet nodig van de hoofdstukken en wat er in deze hoofdstukken moest. Daar had ik een klein onderzoekje naar gedaan. Dat hadden ik tijdens een vergadering met een docent besproken. En vervolgens hadden we de paper verdeeld in stukjes, zodat iedereen een stuk schreef. Ik had de inleiding toebedeeld gekregen. Na dat iedereen zijn stukje afhad kreeg iedereen weer een ander stuk van de paper die hij moest controleren. Ik had het stukje toekomstig werk gekregen. Daar was nog veel aan te doen want het waren nog bulletpoints en de grammatica was nog niet goed genoeg, daardoor moest ik het hele stuk herschrijven. Ook heb de hele paper doorgelezen een aangepast waar nodig. De uiteindelijke stijl van de paper heb ik gedaan met behulp van MS Word. 
+Voordat we aan de paper konden beginnen hadden we een opzet nodig van de hoofdstukken en wat er in deze hoofdstukken moest. Daar had ik een klein onderzoekje naar gedaan. Dat had ik tijdens een vergadering met een docent besproken. En vervolgens hadden we de paper verdeeld in stukjes, zodat iedereen een stuk schreef. Ik had de inleiding toebedeeld gekregen. Nadat iedereen zijn stukje afhad, kreeg iedereen weer een ander stuk van de paper die hij moest controleren. Ik had het stukje toekomstig werk gekregen. Daar was nog veel aan te doen want het waren nog bulletpoints en de grammatica was nog niet goed genoeg, daardoor moest ik het hele stuk herschrijven. Ook heb ik de hele paper doorgelezen een aangepast waar nodig. De uiteindelijke stijl van de paper heb ik gedaan met behulp van MS Word. 
 ```diff
 - In dit bestand staat mijn inleiding en eerdere versie en mijn versie van toekomstig werk. En de uiteindelijke paper staat hier. 
 ```
