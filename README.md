@@ -210,6 +210,15 @@ Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vij
     <img src="/Afbeeldingen/Restrictie5.png" />
   </details>
 
+
+
+
+
+  <details>
+    <summary>Kade alles</summary>
+    <img src="/Afbeeldingen/kade%20alles.png" />
+  </details>
+
 ### Planning 
 
 #### Foodboost
