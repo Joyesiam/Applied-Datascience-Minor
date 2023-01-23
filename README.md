@@ -12,6 +12,7 @@ https://markdownlivepreview.com/
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
 - [Research project](#Research-project)
+  - [Task definition](#Task-definition)
   - [Planning](#Planning)
 - [Predictive Analytics](#Predictive-Analytics)
   - [Container](#Container)
