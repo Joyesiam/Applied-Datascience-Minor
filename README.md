@@ -136,7 +136,8 @@ Maar ze bevatten niet:
 </details>
 
 2. **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
-1040, voor meer uitleg zie paragraaf calorieën 
+1040, voor meer uitleg zie paragraaf [Calorieën](#Calorieën).
+
 ```diff
 - meer uitleg?
 ```
