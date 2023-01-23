@@ -14,8 +14,8 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
 - [Research project](#Research-project)
-  - [Conclusies](#Conclusies)
   - [Task definition](#Task-definition)
+  - [Conclusies](#Conclusies)
   - [Planning](#Planning)
 - [Predictive Analytics](#Predictive-Analytics)
   - [Container](#Container)
@@ -88,7 +88,7 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 ---
   
-### Conlusies
+### Conclusies
 
 #### Foodboost
 
