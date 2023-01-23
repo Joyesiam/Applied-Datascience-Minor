@@ -55,15 +55,35 @@ Naast de notenallergie wilden we ook rekening houden met de aanbevolen dagelijks
 Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 
 ---
-**Met welke methode kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?**
+**Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?**
 
-1)	Welke ingrediënten bevat noten?
-2)	Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen? 
-3)	Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?
-4)	Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?
+1. Welke ingrediënten bevat noten?
+2. Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen? 
+3. Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?
+4. Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?
 
 ---
 
+#### Container
+
+De opdracht gever van het container project is Cofano. De vraag van hen was hoe de containers zo met zo min mogelijk stappen van het ene schip naar de kade en dan naar het andere schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container van af het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet, de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
+
+Toen we de lay-out van de kade zagen wisten we meteen dan we die niet gingen gebruiken omdat enorm veel containers zijn. Om een model te maken is het makkelijker om klein te beginnen. Daardoor maakte we onze eigen kade opstelling en eigen restricties daarvan. De containers zelf hebben ook restricties waar we rekening meer willen houden. 
+
+Na dat we onze kade opstelling hadden gemaakt was het probleem nog steeds groot door de verschillende vervoersmiddelen die containers kunnen verplaatsten. Wij hebben er voor gekomen om één reachstacker te gebruiken. Ook vullen we de kade met container die van één schip komen. 
+
+Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld: 
+
+---
+**Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Probleem oplossen, gebruik makend van één reachstacker en één schip met een random lading?**
+
+1.	Welke methoden zijn mogelijk bij het Container Stacking Probleem?  
+2.	Wat is een move en wat zijn de restricties? 
+3.	Welke containers zijn er en welke gaan we gebruiken?
+4.	Hoe is de haven ingericht en wat zijn de restricties?
+5.	Hoe kunnen we de container data simuleren? 
+
+---
   
 
 
