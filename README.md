@@ -52,6 +52,7 @@ Voor het Foodboost project wilden we een voor mensen met een notenallergie een a
 Naast de notenallergie wilden we ook rekening houden met de aanbevolen dagelijkse calorieën. Eerst wilden we de aanbevolen dagelijkse calorieën apart voor lunch en diner gebruiken voor het menu. Maar we kwamen er achter dat er dan minder mogelijkheden zijn. Ook bedachten we dat als een lunch wat minder calorieën heeft en het diner wat meer, dat dat ook nog goed is of andersom. Zolang het totaal maar rond de som van de aanbevolen dagelijkse calorieën voor lunch en diner is. 
 
 Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
+
 ---
 **Met welke methode kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?**
 
