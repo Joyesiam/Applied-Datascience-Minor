@@ -42,6 +42,11 @@ bla
 literatuuronderzoek calorieen 
 
 ## Predictive Analytics
+-	Waarom dit model -> literatuur
+-	Trainen -> underfitten overfitting etc. 
+-	Modellen vergelijken + evalueren 
+-	Visualisatie 
+
 #### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
