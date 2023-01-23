@@ -7,6 +7,7 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 [title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
+- naar elk bestand/ plaatje verwijzen
 
 ## Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
@@ -90,19 +91,44 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 #### Foodboost
 
+Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?
+
+**Welke ingrediënten bevat noten?**
+
+Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
+Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:
+"noot","pinda","eikel","amandel","cashew","hazelno","hican","hickory","kemirie","macadamia","nangaino","parano","pecan","pistache","kastanje","walnoot","betelno","beukenno"
+Maar ze bevatten niet:
+Muskaat, peper, kokos
+
+**Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
+1040, voor meer uitleg zie paragraaf calorieën 
+
+**Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?**
+Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspeelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
+
 <details>
   <summary>Modellen vergelijken</summary>
   <img src="/Afbeeldingen/modellen%20vergelijken%20lekker%20voorspellen.png" />
 </details>
 
-<details>
-  <summary>Verspreiding van de calorieën per week</summary>
-  <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
-</details>
+De Decision Tree Classifier scoort het hoogst van de drie modellen op precision. Daarom is de Decision Tree Classifier van de drie methodes de best om te voorspellen of iemand een recept lekker vindt of niet. 
+
+**Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?**
+Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is ortools.linear_solver. De restricties hier van zijn:
+-	Elke dag staat er één lunch en één diner op het menu
+-	Elke dag staat er maximaal 1040 calorieën op het menu 
+-	Elk recept mag maar één keer voorkomen tijdens de week
+Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorieën gemaximaliseerd worden. Een voorbeeld van een weekmenu en de verdeling van de calorieën:
 
 <details>
   <summary>Weekmenu</summary>
   <img src="/Afbeeldingen/weekmenu.png" />
+</details>
+
+<details>
+  <summary>Verspreiding van de calorieën per week</summary>
+  <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
 </details>
 
 ### Planning 
