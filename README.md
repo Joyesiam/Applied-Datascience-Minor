@@ -52,6 +52,7 @@ Voor het Foodboost project hebben we een Trello board gemaakt als groep zijnde. 
   <summary>Trello board Foodboost</summary>
   <img src="/Afbeeldingen/Trello1.png" />
 </details>
+
 #### Container
 
 Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave:[Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet leesbaar.
