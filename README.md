@@ -97,9 +97,10 @@ Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening 
 
 Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
 
+Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:
 
 <details>
-  <summary>Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:</summary>
+  <summary>Woorden die de ingrediënten met noten bevatten</summary>
   
   - Noot
   - pinda
@@ -122,27 +123,22 @@ Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke n
   
 </details>
 
+Maar ze bevatten niet:
 
 <details>
-  <summary>Maar ze bevatten niet:</summary>
+  <summary>Delen die de ingrediënten met noten niet bevatten</summary>
   
   - Muskaat
   - peper
   - kokos
   
 </details>
-
-<details><summary>CLICK ME</summary>
-<p>
-  - Muskaat
-  - peper
-  - kokos
-</p>
-</details>
-
 
 **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
 1040, voor meer uitleg zie paragraaf calorieën 
+```diff
+- meer uitleg?
+```
 
 **Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?**
 Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspeelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
