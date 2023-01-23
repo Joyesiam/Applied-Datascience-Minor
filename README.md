@@ -43,6 +43,22 @@ bla
 
 literatuuronderzoek calorieen 
 
+### Task definition
+
+#### Foodboost
+
+Voor het Foodboost project wilden we een voor mensen met een notenallergie een aanbeveling maken. We kwamen er snel acht dat een aanbeveling voor alle maaltijden en snacks erg veel zou zijn. Daarom hebben we gekozen om alleen een aanbeveling te doen voor de lunch en het diner. Om te kunnen controleren of aanbevelingen variërend zijn moet de aanbeveling meer dan één lunch- en diner recept bevatten en dus langer dan één dag zijn. Daarom hebben we gekozen dat de aanbeveling een menu van een week lang. 
+
+Naast de notenallergie wilden we ook rekening houden met de aanbevolen dagelijkse calorieën. Eerst wilden we de aanbevolen dagelijkse calorieën apart voor lunch en diner gebruiken voor het menu. Maar we kwamen er achter dat er dan minder mogelijkheden zijn. Ook bedachten we dat als een lunch wat minder calorieën heeft en het diner wat meer, dat dat ook nog goed is of andersom. Zolang het totaal maar rond de som van de aanbevolen dagelijkse calorieën voor lunch en diner is. 
+
+Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
+Hoofdvraag: Met welke methode kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen? 
+1)	Welke ingrediënten bevat noten?
+2)	Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen? 
+3)	Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?
+4)	Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?
+
+
 ### Planning 
 
 #### Foodboost
