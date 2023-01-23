@@ -41,6 +41,16 @@ bla
 
 literatuuronderzoek calorieen 
 
+#### Planning 
+
+
+
+[Projectplanning container](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als excel want PDF werkte niet
+<details>
+  <summary>Projectplanning Container</summary>
+  <img src="/Afbeeldingen/Projectplanning.png" />
+</details>
+
 <details>
   <summary>Trello board Foodboost</summary>
   <img src="/Afbeeldingen/Trello1.png" />
