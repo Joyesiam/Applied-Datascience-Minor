@@ -100,6 +100,7 @@ Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke n
 
 <details>
   <summary>Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:</summary>
+  
   - Noot
   - pinda
   - eikel
@@ -118,14 +119,17 @@ Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke n
   - walnoot
   - betelno
   - beukenno
+  
 </details>
 
 
 <details>
   <summary>Maar ze bevatten niet:</summary>
+  
   - Muskaat
   - peper
   - kokos
+  
 </details>
 
 <details><summary>CLICK ME</summary>
