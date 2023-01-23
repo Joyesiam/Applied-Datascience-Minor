@@ -174,28 +174,38 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie√
 2. **Wat is een move en wat zijn de restricties?**
 
 Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vijf restricties daaraan: 
+- Een container mag geplaatst worden op een plaats waar al een container staat want dat is niet mogelijk.
+
 <details>
-  <summary> a. Container niet plaatsen waar al een container staat</summary>
+  <summary>Afbeelding restrictie 1</summary>
   <img src="/Afbeeldingen/Restrictie1.png" />
 </details>
 
+- Een container mag niet geplaatste worden als er geen container onder zit. Dan zweeft de container en dat is niet mogelijk.
+
 <details>
-  <summary>b. Container niet plaatsen waar geen container onder zit</summary>
+  <summary>Afbeelding restrictie 2</summary>
   <img src="/Afbeeldingen/Restrictie2.png" />
 </details>
 
+- Een container mag niet op een stapel geplaatste worden die al de maximale hoogte heeft bereikt. De maximale hoogte is vijf containers hoog. De regel is er voor de veiligheid.
+
 <details>
-  <summary>c. Container niet plaatsen op een stapel die de max hoogte heeft bereikt</summary>
+  <summary>Afbeelding restrictie 3</summary>
   <img src="/Afbeeldingen/Restrictie3.png" />
 </details>
 
+- Een container mag niet buiten de gebieden voor containers staan. Dit is wederom voor de veiligheid.
+
 <details>
-  <summary>d. Container niet plaatsen buiten het lot</summary>
+  <summary>Afbeelding restrictie 4</summary>
   <img src="/Afbeeldingen/Restrictie4.png" />
 </details>
 
+- Een container mag niet tussen twee stapel worden geplaats via de korte kant van de container. Dit is omdat een reachstacker een container alleen van de lange kant kan oppakken. Als er dan twee stapels van containers aan beide lange kanten van die plek al staat dan kan de container er niet tussen gezet worden. 
+
 <details>
-  <summary>e. Container niet plaatsen tussen twee stapels (reachstacker kan namelijk alleen aan lange kant pakken)</summary>
+  <summary>Afbeelding restrictie 5</summary>
   <img src="/Afbeeldingen/Restrictie5.png" />
 </details>
 
