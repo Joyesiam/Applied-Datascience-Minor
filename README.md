@@ -12,7 +12,7 @@ https://markdownlivepreview.com/
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
 - [Research project](#Research-project)
-  - iets
+  - [Planning](#Planning)
 - [Predictive Analytics](#Predictive-Analytics)
   - [Container](#Container)
 - [Domain knowledge](#Domain-knowledge)
