@@ -128,6 +128,19 @@ Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke n
   - kokos
 </details>
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+  - Muskaat
+  - peper
+  - kokos
+
+</p>
+</details>
+
+
 **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
 1040, voor meer uitleg zie paragraaf calorieën 
 
