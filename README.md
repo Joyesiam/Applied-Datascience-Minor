@@ -171,29 +171,31 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie√
 
 #### Container
 
+2. **Wat is een move en wat zijn de restricties?**
 
+Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vijf restricties daaraan: 
 <details>
-  <summary>Container niet plaatsen waar al een container staat</summary>
+  <summary> a. Container niet plaatsen waar al een container staat</summary>
   <img src="/Afbeeldingen/Restrictie1.png" />
 </details>
 
 <details>
-  <summary>Container niet plaatsen waar geen container onder zit</summary>
+  <summary>b. Container niet plaatsen waar geen container onder zit</summary>
   <img src="/Afbeeldingen/Restrictie2.png" />
 </details>
 
 <details>
-  <summary>Container niet plaatsen op een stapel die de max hoogte heeft bereikt</summary>
+  <summary>c. Container niet plaatsen op een stapel die de max hoogte heeft bereikt</summary>
   <img src="/Afbeeldingen/Restrictie3.png" />
 </details>
 
 <details>
-  <summary>: Container niet plaatsen buiten het lot</summary>
+  <summary>d. Container niet plaatsen buiten het lot</summary>
   <img src="/Afbeeldingen/Restrictie4.png" />
 </details>
 
 <details>
-  <summary>Container niet plaatsen tussen twee stapels (reachstacker kan namelijk alleen aan lange kant pakken)</summary>
+  <summary>e. Container niet plaatsen tussen twee stapels (reachstacker kan namelijk alleen aan lange kant pakken)</summary>
   <img src="/Afbeeldingen/Restrictie5.png" />
 </details>
 
