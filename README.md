@@ -96,10 +96,10 @@ Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening 
 **Welke ingrediënten bevat noten?**
 
 Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
-Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:
+
 
 <details>
-  <summary>Ingrediënten moeten niet bevatten:</summary>
+  <summary>Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:</summary>
   - Noot
   - pinda
   - eikel
@@ -120,8 +120,13 @@ Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende b
   - beukenno
 </details>
 
-Maar ze bevatten niet:
-Muskaat, peper, kokos
+
+<details>
+  <summary>Maar ze bevatten niet:</summary>
+  - Muskaat
+  - peper
+  - kokos
+</details>
 
 **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
 1040, voor meer uitleg zie paragraaf calorieën 
