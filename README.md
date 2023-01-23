@@ -41,6 +41,16 @@ bla
 
 literatuuronderzoek calorieen 
 
+<details>
+  <summary>Trello board Foodboost</summary>
+  <img src="/Afbeeldingen/Trello1.png" />
+</details>
+
+<details>
+  <summary>Trello board Containers</summary>
+  <img src="/Afbeeldingen/Trello2.png" />
+</details>
+
 ## Predictive Analytics
 ```diff
 Foodboost
