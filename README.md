@@ -91,8 +91,18 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 #### Foodboost
 
 <details>
-  <summary>Modellen vergelijken Foodboost</summary>
+  <summary>Modellen vergelijken</summary>
   <img src="/Afbeeldingen/modellen%20vergelijken%20lekker%20voorspellen.png" />
+</details>
+
+<details>
+  <summary>Verspreiding van de calorieën per week</summary>
+  <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
+</details>
+
+<details>
+  <summary>Weekmenu</summary>
+  <img src="/Afbeeldingen/weekmenu.png" />
 </details>
 
 ### Planning 
