@@ -130,13 +130,9 @@ Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke n
 
 <details><summary>CLICK ME</summary>
 <p>
-
-#### yes, even hidden code blocks!
-
   - Muskaat
   - peper
   - kokos
-
 </p>
 </details>
 
