@@ -85,8 +85,14 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 ---
   
+### Conlusies
 
+#### Foodboost
 
+<details>
+  <summary>Modellen vergelijken Foodboost</summary>
+  <img src="/Afbeeldingen/modellen%20vergelijken%20lekker%20voorspellen.png" />
+</details>
 
 ### Planning 
 
