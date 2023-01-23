@@ -5,6 +5,7 @@ https://markdownlivepreview.com/
 
 [title](link)
 - container project met of zonder hoofdletter?
+- koppen grootte
 
 ## Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
@@ -42,20 +43,25 @@ bla
 
 literatuuronderzoek calorieen 
 
-#### Planning 
+### Planning 
 
-
-
-[Projectplanning container](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als excel want PDF werkte niet
-<details>
-  <summary>Projectplanning Container</summary>
-  <img src="/Afbeeldingen/Projectplanning.png" />
-</details>
+#### Foodboost
+Voor het Foodboost project hebben we een Trello board gemaakt als groep zijnde. Elke vergadering opende we dit board en bespraken we de voortang en knelpunten van deze taken. Dan voegde we ook nieuwe taken toe als dat nodig was. Het board vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en een nieuwe taken/ deadline voor de volgende vergadering. Dat was soms ook ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
 
 <details>
   <summary>Trello board Foodboost</summary>
   <img src="/Afbeeldingen/Trello1.png" />
 </details>
+#### Container
+
+Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave:[Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet leesbaar.
+
+<details>
+  <summary>Projectplanning Container</summary>
+  <img src="/Afbeeldingen/Projectplanning.png" />
+</details>
+
+Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we overzicht over wat iedereen aan het doen was. 
 
 <details>
   <summary>Trello board Containers</summary>
