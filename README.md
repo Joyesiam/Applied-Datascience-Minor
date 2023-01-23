@@ -42,11 +42,13 @@ bla
 literatuuronderzoek calorieen 
 
 ## Predictive Analytics
+```diff
+Foodboost
 -	Waarom dit model -> literatuur
 -	Trainen -> underfitten overfitting etc. 
 -	Modellen vergelijken + evalueren 
 -	Visualisatie 
-
+```
 #### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
@@ -64,10 +66,6 @@ Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maxi
 </details>
 
 Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
-
-
-
-
 
 ## Domain knowledge
 
