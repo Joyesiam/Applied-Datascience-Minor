@@ -8,8 +8,8 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 - container project met of zonder hoofdletter?
 - koppen grootte
 # hoofdstuk titel 
-## sub onder deel hoofdstuk
-### sub sub
+## sub onderdeel hoofdstuk
+### sub sub onderdeel
 
 - naar elk bestand/ plaatje verwijzen
 
