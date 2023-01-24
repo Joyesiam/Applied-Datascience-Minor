@@ -94,7 +94,24 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 ---
 
 ## Evaluatie
+
+### Foodboost
+
+Als iemand verdergaat met ons Foodboost project dan zijn er een aantal punten die een beter model kunnen opleveren. Zoals een ander model dan een Logistic Regression, een Decision Tree Classifier of een K- nearest Neighbors Classifier gebruiken. Want dit een relatief makkelijk model en mogelijk zijn er andere (ingewikkeldere) modellen die het beter doen om een voorspelling te maken of iemand een recept wel of niet lekker vindt. 
+
+Daarnaast is het handig om de data die we hebben gegeneerd te balanceren. Voor deze data hebben we een groepsgenoot laten aangeven of hij de honderd recepten wel of niet lekker vond met een 0 of 1. Later bleek dat hij veel meer recepten wel lekker vond dan niet lekken. Door dit meer te balanceren is een model eerder geneigd om meer naar de input van het model zelf te kijken dan alle recepten als lekker te voorspellen omdat dat voor de meeste recepten geldt. 
+
+Bij Lineair Programmeren andere restricties op de calorieën zetten. Dit kan zowel door een minimum en een maximum aantal calorieën per dag te zetten zodat de verspreiding van de calorieën van het weekmenu meer gelijk wordt. Of door te zeggen dat iemand maximaal 1040 X 7 calorieën mag eten in een week, met een minimum per dag, zodat er meer variatie mogelijk is tussen de recepten. Als iemand dan iets minder calorieën eet op een dag en op een andere dag wat meer, dan komt het gemiddeld aantal calorieën per dag nog steeds overeen met het aantal aanvaardbare calorieën per dag voor lunch en diner. 
+
+### Container
   
+Bij het container project zijn er ook een aantal punten waaraan gedacht kan worden om onze oplossing te verbeteren of uit te bereiden. Bijvoorbeeld het aantal container per prioriteit op het schip als input geven aan ons model, wat tot betere resultaten kan leiden. Nu heeft het model als input de prioriteit van de huidige container en de huidige opstelling van de kade (state). Ook kan het model niet één container als input hebben maar meerdere containers, zodat de agent de beste container kan kiezen om die neer te zetten op de kade. Dit lijkt meer op de realiteit bij het uitladen van schip kunnen de containers in verschillende volgordes van het schip af.  
+
+Andere en/of meerdere vervoersmiddelen gebruiken om het meer op de werkelijkheid te laten lijken. In ons model gebruiken we één reachstacker maar in de have van Rotterdam maken ze bijvoorbeeld ook gebruik van kranen om de containers te verplaatsen. Andere vervoersmiddelen kunnen container dan soms ook vanaf boven oppakken waardoor er meer mogelijkheden zijn om container te plaatsen. 
+
+De kade uitbreiden naar een werkelijke opstelling van een haven, hiermee kan onderzocht worden of ons model ook voor zo’n grote kade werkt. 
+Tijdens het uitladen van een schip rekening houden met het evenwicht van het schip. Een uitbereiding daarvan is de containers zelf een gewicht geven. In de realiteit zijn niet alle containers even zwaar beladen en sommige zijn ook leeg. Dit levert ook meer restricties op tijdens het stapelen van de containers. 
+
 ## Conclusies
 
 ### Foodboost
