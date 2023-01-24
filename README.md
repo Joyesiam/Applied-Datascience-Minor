@@ -50,8 +50,6 @@ bla
 bla
 ## Research project
 
-literatuuronderzoek calorieen 
-
 ## Task definition
 
 ### Foodboost
@@ -276,8 +274,6 @@ Zelf heb ik code geschreven die drie verschillende soorten schepen willekeurig i
 
 Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te maken, met daarin de volgorde hoe de containers van het schip af gaan. In die lijst staan de prioriteiten van de containers. Deze lijst is willekeuring gegenereerd. 
 
-
-
 ## Planning 
 
 ### Foodboost
@@ -312,6 +308,7 @@ Foodboost
 -	Modellen vergelijken + evalueren 
 -	Visualisatie 
 ```
+
 ### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
@@ -341,7 +338,6 @@ Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek et
 ### Container 
 Het container project behoort tot de Transport en logistiek sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
 
-
 ## Literatuuronderzoek
 
 ### Foodboost
@@ -358,6 +354,7 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 ```diff
 -meer begrippen
 ```
+
 ### Foodboost
 - Allergie: Als iemand in aanraking komt een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
 - Calorie: Hoeveel energie het eten bevat.
@@ -443,4 +440,5 @@ Voordat we aan de paper konden beginnen hadden we een opzet nodig van de hoofdst
 ```diff
 - In dit bestand staat mijn inleiding en eerdere versie en mijn versie van toekomstig werk. En de uiteindelijke paper staat hier. 
 ```
+
 # Overige dingen
