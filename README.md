@@ -97,7 +97,6 @@ Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening 
 
 
 1. **Welke ingrediënten bevat noten?**
----
 
 Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
 
@@ -138,8 +137,6 @@ Maar ze bevatten niet:
   
 </details>
 
----
-
 2. **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
 
 1040, voor meer uitleg zie paragraaf [Calorieën](#Calorieën).
@@ -147,8 +144,6 @@ Maar ze bevatten niet:
 ```diff
 - meer uitleg?
 ```
-
----
 
 3. **Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?**
 Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspeelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
@@ -179,6 +174,8 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie�
 </details>
 
 #### Container
+
+Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Probleem oplossen, gebruik makend van één reachstacker en één schip met een random lading?
 
 1. **Welke methoden zijn mogelijk bij het Container Stacking Probleem?**
 
@@ -250,6 +247,10 @@ Op deze beelden staan enorm veel containers, om de kade klein te houden hebben w
 Dus we hebben uiteindelijk niks gedaan met de informatie op de kade die we van Cofano hadden gekregen.
 
 5. **Hoe kunnen we de container data simuleren?**
+
+Zelf heb ik code geschreven die drie verschillende soorten schepen willekeurig indeelt met containers. Per container is het bekend op welk schip hij staat, op welke plek hij zich op datzelfde schip bevind en welke prioriteit de container heeft. Voor meer informatie, zie paragraaf [Scheepsdata simuleren](#Scheepsdata-simuleren).
+
+Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te maken, met daarin de volgorde hoe de containers van het schip af gaan. In die lijst staan de prioriteiten van de containers. Deze lijst is willekeuring gegenereerd. 
 
 
 
