@@ -47,9 +47,7 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 | --- | --- |
 | S | Iedereen van de groep moest een Reinfocement Learning model. |
 | T | Mijn taak was om zelf een Reinfocement Learning model te maken.  |
-| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een envoirment en een agent eest moest maken. Als eerste heb ik een envoirment gemaakt. Daar voor heb ik verschillende voorbeelden van een envoirments geschreven in Python opgezocht. De makkelijkste enviroment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn envoirment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn envoirment werkt. 
-
-  |
+| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een envoirment en een agent eest moest maken. Als eerste heb ik een envoirment gemaakt. Daar voor heb ik verschillende voorbeelden van een envoirments geschreven in Python opgezocht. De makkelijkste enviroment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn envoirment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn envoirment werkt. <br> hallo |
 | R | --- |
 | R | --- |
 
