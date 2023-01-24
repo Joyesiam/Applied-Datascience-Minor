@@ -146,6 +146,7 @@ Maar ze bevatten niet:
 ```
 
 3. **Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?**
+
 Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspeelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
 
 <details>
@@ -156,6 +157,7 @@ Om te bepalen welke methode het beste is om te voorspellen of iemand een recept 
 De Decision Tree Classifier scoort het hoogst van de drie modellen op precision. Daarom is de Decision Tree Classifier van de drie methodes de best om te voorspellen of iemand een recept lekker vindt of niet. 
 
 4.  **Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?**
+
 Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is ortools.linear_solver. De restricties hier van zijn:
 -	Elke dag staat er één lunch en één diner op het menu
 -	Elke dag staat er maximaal 1040 calorieën op het menu 
@@ -230,7 +232,7 @@ Er zijn veel verschillende soorten containers. De meest gebruikte zijn die van 2
 Van Cofano, de opdrachtgever, hebben drie sataliet beelden gekregen van de kade:
 
   <details>
-    <summary>Sataliet aanzicht van de kades</summary>
+    <summary>Sataliet aanzichten van de kades</summary>
     <img src="/Afbeeldingen/kade%20alles.png" />
   </details>
 
