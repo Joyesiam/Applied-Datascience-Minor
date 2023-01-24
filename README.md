@@ -43,12 +43,13 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 
 ## Reflectie 
 ### Mine contribution to the project
-bla
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| STARR| Uitleg |
+| S| --- |
+| T| List all *new or modified* files |
+| A| Show file differences that **haven't been** staged |
+| R| --- |
+| R| --- |
 
 
 ### Own learning objectives
