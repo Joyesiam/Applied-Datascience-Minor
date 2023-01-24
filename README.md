@@ -15,6 +15,7 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
   - [Reflectie](#Reflectie)
 - [Research project](#Research-project)
   - [Task definition](#Task-definition)
+  - [Evaluatie](#Evaluatie)
   - [Conclusies](#Conclusies)
   - [Planning](#Planning)
 - [Predictive Analytics](#Predictive-Analytics)
@@ -87,6 +88,8 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 5.	Hoe kunnen we de container data simuleren? 
 
 ---
+
+### Evaluatie
   
 ### Conclusies
 
