@@ -94,9 +94,10 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?
 
----
+
 
 1. **Welke ingrediënten bevat noten?**
+---
 
 Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
 
