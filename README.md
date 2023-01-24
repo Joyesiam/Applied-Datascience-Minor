@@ -158,6 +158,7 @@ Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar
 -	Elke dag staat er één lunch en één diner op het menu
 -	Elke dag staat er maximaal 1040 calorieën op het menu 
 -	Elk recept mag maar één keer voorkomen tijdens de week
+
 Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorieën gemaximaliseerd worden. Een voorbeeld van een weekmenu en de verdeling van de calorieën:
 
 <details>
@@ -172,52 +173,78 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie�
 
 #### Container
 
+1. **Welke methoden zijn mogelijk bij het Container Stacking Probleem?**
+
+  Voor het oplossen van dit probleem hebben Reinforcement Learning gebruikt. Het Deep Q-Network algoritme. De agent vult steeds de kade (het environment) opnieuw en    krijgt steeds een beloning of straf voor wat hij doet, daar leert het model van. 
+
+  Ook kan het probleem opgelost met lineair programmeren of andere operations research algoritmes of heuristieken. 
+
 2. **Wat is een move en wat zijn de restricties?**
 
-Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vijf restricties daaraan: 
-- Een container mag geplaatst worden op een plaats waar al een container staat want dat is niet mogelijk.
+  Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vijf restricties daaraan: 
+  - Een container mag geplaatst worden op een plaats waar al een container staat want dat is niet mogelijk.
+
+    <details>
+      <summary>Afbeelding restrictie 1</summary>
+      <img src="/Afbeeldingen/Restrictie1.png" />
+    </details>
+
+  - Een container mag niet geplaatste worden als er geen container onder zit. Dan zweeft de container en dat is niet mogelijk.
+
+    <details>
+      <summary>Afbeelding restrictie 2</summary>
+      <img src="/Afbeeldingen/Restrictie2.png" />
+    </details>
+
+  - Een container mag niet op een stapel geplaatste worden die al de maximale hoogte heeft bereikt. De maximale hoogte is vijf containers hoog. De regel is er voor de veiligheid.
+
+    <details>
+      <summary>Afbeelding restrictie 3</summary>
+      <img src="/Afbeeldingen/Restrictie3.png" />
+    </details>
+
+  - Een container mag niet buiten de gebieden voor containers staan. Dit is wederom voor de veiligheid.
+
+    <details>
+      <summary>Afbeelding restrictie 4</summary>
+      <img src="/Afbeeldingen/Restrictie4.png" />
+    </details>
+
+  - Een container mag niet tussen twee stapel worden geplaats via de korte kant van de container. Dit is omdat een reachstacker een container alleen van de lange kant kan oppakken. Als er dan twee stapels van containers aan beide lange kanten van die plek al staat dan kan de container er niet tussen gezet worden. 
+
+    <details>
+      <summary>Afbeelding restrictie 5</summary>
+      <img src="/Afbeeldingen/Restrictie5.png" />
+    </details>
+
+3. **Welke containers zijn er en welke gaan we gebruiken?**
+
+Er zijn veel verschillende soorten containers. De meest gebruikte zijn die van 20 en 40 feet. We hadden gekozen voor de 20ft container maar later hebben we het niet gebruikt omdat de containers in ons model altijd dezelfde afmetingen hebben. 
+
+4. **Hoe is de haven ingericht en wat zijn de restricties?**
+
+Van Cofano, de opdrachtgever, hebben drie sataliet beelden gekregen van de kade:
 
   <details>
-    <summary>Afbeelding restrictie 1</summary>
-    <img src="/Afbeeldingen/Restrictie1.png" />
-  </details>
-
-- Een container mag niet geplaatste worden als er geen container onder zit. Dan zweeft de container en dat is niet mogelijk.
-
-  <details>
-    <summary>Afbeelding restrictie 2</summary>
-    <img src="/Afbeeldingen/Restrictie2.png" />
-  </details>
-
-- Een container mag niet op een stapel geplaatste worden die al de maximale hoogte heeft bereikt. De maximale hoogte is vijf containers hoog. De regel is er voor de veiligheid.
-
-  <details>
-    <summary>Afbeelding restrictie 3</summary>
-    <img src="/Afbeeldingen/Restrictie3.png" />
-  </details>
-
-- Een container mag niet buiten de gebieden voor containers staan. Dit is wederom voor de veiligheid.
-
-  <details>
-    <summary>Afbeelding restrictie 4</summary>
-    <img src="/Afbeeldingen/Restrictie4.png" />
-  </details>
-
-- Een container mag niet tussen twee stapel worden geplaats via de korte kant van de container. Dit is omdat een reachstacker een container alleen van de lange kant kan oppakken. Als er dan twee stapels van containers aan beide lange kanten van die plek al staat dan kan de container er niet tussen gezet worden. 
-
-  <details>
-    <summary>Afbeelding restrictie 5</summary>
-    <img src="/Afbeeldingen/Restrictie5.png" />
-  </details>
-
-
-
-
-
-  <details>
-    <summary>Kade alles</summary>
+    <summary>Sataliet aanzicht van de kades</summary>
     <img src="/Afbeeldingen/kade%20alles.png" />
   </details>
+
+Ook hebben we kaarten gekregen met iets meer informatie over de indeling van de kade.
+
+  <details>
+    <summary>Kaarten van de kade</summary>
+    <img src="/Afbeeldingen/indeling%20kade.png" />
+    <img src="/Afbeeldingen/indeling%20kade2.png" />
+  </details>
+
+Op deze beelden staan enorm veel containers, om de kade klein te houden hebben we zelf een kade bedacht. Die kade is vier containers breed, vier lang en vijf hoog. Vijf containers hoog omdat dat het maximale aantal op elkaar te zetten container is. Vier breed en vier lang zodat er ook containers tussen andere containers neergezet kunnen worden, zodat het meer op de werkelijkheid lijkt. Ook is dat omdat het model dan getraind wordt er van uitgaande dat een container alleen vanaf de lange kant opgepakt en neergezet kan worden door de reachstacker.
+
+Dus we hebben uiteindelijk niks gedaan met de informatie op de kade die we van Cofano hadden gekregen.
+
+5. **Hoe kunnen we de container data simuleren?**
+
+
 
 ### Planning 
 
