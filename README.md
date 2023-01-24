@@ -7,9 +7,13 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 [title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
+# hoofdstuk titel 
+## sub onder deel hoofdstuk
+### sub sub
+
 - naar elk bestand/ plaatje verwijzen
 
-## Inhoud
+# Inhoud
 - [Obligatory criteria](#Obligatory-criteria)  
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
@@ -33,24 +37,24 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 - [Overige dingen](#Overige-dingen)
 
 
-## Obligatory criteria
-### DataCamp
+# Obligatory criteria
+## DataCamp
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
-### Reflectie 
-#### Mine contribution to the project
+## Reflectie 
+### Mine contribution to the project
 bla
-#### Own learning objectives
+### Own learning objectives
 bla
-#### Evaluation on the group project as a whole
+### Evaluation on the group project as a whole
 bla
 ## Research project
 
 literatuuronderzoek calorieen 
 
-### Task definition
+## Task definition
 
-#### Foodboost
+### Foodboost
 
 Voor het Foodboost project wilden we een voor mensen met een notenallergie een aanbeveling maken. We kwamen er snel acht dat een aanbeveling voor alle maaltijden en snacks erg veel zou zijn. Daarom hebben we gekozen om alleen een aanbeveling te doen voor de lunch en het diner. Om te kunnen controleren of aanbevelingen variërend zijn moet de aanbeveling meer dan één lunch- en diner recept bevatten en dus langer dan één dag zijn. Daarom hebben we gekozen dat de aanbeveling een menu van een week lang. 
 
@@ -68,7 +72,7 @@ Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 
 ---
 
-#### Container
+### Container
 
 De opdracht gever van het container project is Cofano. De vraag van hen was hoe de containers zo met zo min mogelijk stappen van het ene schip naar de kade en dan naar het andere schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container van af het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet, de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
 
@@ -89,15 +93,13 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 ---
 
-### Evaluatie
+## Evaluatie
   
-### Conclusies
+## Conclusies
 
-#### Foodboost
+### Foodboost
 
 Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?
-
-
 
 1. **Welke ingrediënten bevat noten?**
 
@@ -178,7 +180,7 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie�
   <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
 </details>
 
-#### Container
+### Container
 
 Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Probleem oplossen, gebruik makend van één reachstacker en één schip met een random lading?
 
@@ -259,9 +261,9 @@ Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te make
 
 
 
-### Planning 
+## Planning 
 
-#### Foodboost
+### Foodboost
 Voor het Foodboost project hebben we een Trello board gemaakt als groep zijnde. Elke vergadering opende we dit board en bespraken we de voortang en knelpunten van deze taken. Dan voegde we ook nieuwe taken toe als dat nodig was. Het board vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en een nieuwe taken/ deadline voor de volgende vergadering. Dat was soms ook ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
 
 <details>
@@ -269,7 +271,7 @@ Voor het Foodboost project hebben we een Trello board gemaakt als groep zijnde. 
   <img src="/Afbeeldingen/Trello1.png" />
 </details>
 
-#### Container
+### Container
 
 Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave: [Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet leesbaar.
 
@@ -293,7 +295,7 @@ Foodboost
 -	Modellen vergelijken + evalueren 
 -	Visualisatie 
 ```
-#### Container
+### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
 Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaand. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model zo. In mijn geval zijn is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. Het spelletje is afgelopen als de kade volstaat of dat de agent te veel pogingen nodig heeft om een container neer te zetten. 
@@ -311,35 +313,35 @@ Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maxi
 
 Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
 
-## Domain knowledge
+# Domain knowledge
 
-#### Introduction
+## Introduction
 
-##### Foodboost 
+### Foodboost 
 
 Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek eten en diëten. Ook behoort het tot Data Science. De recepten die we gebruiken komen van Allerhande en zullen daardoor al gecontroleerd zijn op de eetbaarheid van de recepten. Wij hebben als groep de recepten daaruit gefilterd die geen noten bevatten want ons model genereerd recepten voor mensen die allergisch voor noten zijn. Dat is een risico want het kan erge gevolgen hebben als we een recept aanraden waar toch noten inzitten. Daarnaast zijn er geen strikte regels in deze sectoren. Het ergste wat kan gebeuren is dat ons model een recept aanraadt die de gebruiker niet lekker vindt. 
 
-##### Container 
+### Container 
 Het container project behoort tot de Transport en logistiek sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
 
 
-#### Literatuuronderzoek
+## Literatuuronderzoek
 
-##### Foodboost
+### Foodboost
 ```diff
 -   bestanden/ videos 
 ```
-##### Container
+### Container
 - [A decision support system for managing combinatorial problems in container terminals](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/A%20decision%20support%20system%20for%20managing%20combinatorial%20problems%20in%20container%20terminals.pdf)
 - [An optimization model for the container pre-marshalling problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/An%20optimization%20model%20for%20the%20container%20pre-marshalling%20problem.pdf)
 - [Two-stage search algorithm for the inbound container unloading and stacking problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Two-stage%20search%20algorithm%20for%20the%20inbound%20container%20unloading%20and%20stacking%20problem.pdf)
 
-#### Terminologie 
+## Terminologie 
 
 ```diff
 -meer begrippen
 ```
-##### Foodboost
+### Foodboost
 - Allergie: Als iemand in aanraking komt een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
 - Calorie: Hoeveel energie het eten bevat.
 - Kcal: De eenheid die de hoeveelheid energie aangeeft. 1 kcal = 1000 calorieën
@@ -347,7 +349,7 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 - Pivot tabel: Een draaitabel; een tabel wordt vervormd: de unieke waardes uit een bepaalde kolom worden de nieuwe kolomnamen, een andere kolom wordt de index. 
 - Tag: label; omschrijft tot welke categorie een gerecht behoort.
 
-##### Container
+### Container
 - Reinforcement Learing:
 - Stack: Een stapel containers.
 - Yard: 
@@ -357,13 +359,13 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 - Move: Een container oppakken en ergens anders weer neerzetten.
 - Episode: 
 
-## Data preprocessing
+# Data preprocessing
 
 Ik heb zowel voor het Foodboost project als het Container project de data bekeken en voorbereid. 
 
-### Foodboost
+## Foodboost
 
-#### Calorieën
+### Calorieën
 Samen met Jesse had ik de taak om de maximale calorieën te bepalen voor zowel de lunch en diner. Daarvoor had ik eerst literatuuronderzoek gedaan naar de aanbevolen aantal calorieën. Met deze resultaten hebben we een boxplot gemaakt om zo de verdeling te zien. In de boxplot is te zien dat de lunch twee uitschieters heeft en het diner geen. 
 
 <details>
@@ -383,7 +385,7 @@ Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 calorie�
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
 
-#### Data voorbereiden
+### Data voorbereiden
 ```diff
 - to do: verschil oplossen in recepten
 ```
@@ -391,12 +393,12 @@ De data voor het voorspellen of iemand een recept lekker vindt of niet heb ik ge
 Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met Fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was, voegde ik de twee kolommen samen. Daarna waren er nog 4797 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 166 ingrediënten over. 
 Het [notebook](link) met de code. 
 
-### Container
+## Container
 
-#### Onderzoek naar de datasets
+### Onderzoek naar de datasets
 De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de datasets bekeken welke waardes er in voorkwamen en of we de kolom mogelijk nodig hebben. De resultaten heb ik onder elkaar gezet in een [MS Word bestand](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/onderzoekdataset%20containers.pdf). De blauw gemarkeerde kolommen in het bestand hadden we waarschijnlijk niet nodig als we de datasets zouden gebruiken. De rood gemarkeerde kolommen hebben geen waardes, alleen NaN's of minder dan 5 ingevulde waardes en daarnaast alleen NaN's of overal dezelfde waardes.
 
-#### Scheepsdata simuleren
+### Scheepsdata simuleren
 
 Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1, 2 of 3 hebben. Door middel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
 
@@ -412,16 +414,16 @@ onderdelen
 - Data explanation
 - Data visualization (exploratory)
  
-## Communication
-### Presentaties
+# Communication
+## Presentaties
 - [Week 2 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Foodproject%20week%202.pdf).
 - [Week 4 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Voortgang%20food%20project%20week%204.pdf) 
 - [Week 6 - eindpresentatie](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/food%20project%20week%206.pdf).
 - [Week 8 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20week%208.pdf).
 - [Week 14 - eindpresentatie](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/container%20-%20eindpresentatie%20week%2014.pdf).
-### Paper 
+## Paper 
 Voordat we aan de paper konden beginnen hadden we een opzet nodig van de hoofdstukken en wat er in deze hoofdstukken moest. Daar had ik een klein onderzoekje naar gedaan. Dat had ik tijdens een vergadering met een docent besproken. En vervolgens hadden we de paper verdeeld in stukjes, zodat iedereen een stuk schreef. Ik had de inleiding toebedeeld gekregen. Nadat iedereen zijn stukje afhad, kreeg iedereen weer een ander stuk van de paper die hij moest controleren. Ik had het stukje toekomstig werk gekregen. Daar was nog veel aan te doen want het waren nog bulletpoints en de grammatica was nog niet goed genoeg, daardoor moest ik het hele stuk herschrijven. Ook heb ik de hele paper doorgelezen een aangepast waar nodig. De uiteindelijke stijl van de paper heb ik gedaan met behulp van MS Word. 
 ```diff
 - In dit bestand staat mijn inleiding en eerdere versie en mijn versie van toekomstig werk. En de uiteindelijke paper staat hier. 
 ```
-## Overige dingen
+# Overige dingen
