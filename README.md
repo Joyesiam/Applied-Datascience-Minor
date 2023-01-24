@@ -43,13 +43,27 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 
 ## Reflectie 
 ### Mine contribution to the project
+
+Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er om maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds om maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderden en de weken er na hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juister persoon was om de voorzitter te zijn.
+Tijdens het Foodboost project heb ik vooral bijgedragen aan het Lineair programmeer model en de koppeling tussen bestanden. Zo heb ik bijvoorbeeld de koppeling tussen het LP-model en de Decision Tree Classifier gemaakt. Daarnaast heb ik de aanbevolen aanvaardbare calorieën voor lunch en diner opgezocht, deze heb ik samen met Jesse onderzocht. De verschillende noten heb ik ook opgezocht. Ik heb de data gefilterd zodat we alleen lunch en diner recepten gebruikten voor het voorspellen van een recept. 
+
+Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het verbeteren van toekomstig werk. Voor meer achtergrond zie paragraaf. Ook heb ik een aantal presentaties gegeven, zie paragraaf. 
+
+```diff
+- Bij het Container project was mijn grootste bijdrage de restricties van de kade, Marrti geholpen tijdens het programmeren van 
+- Een eigen Reinfocement Learning model gemaakt. 
+- Om kennis op te doen tijdens de minor had ik Datacamp gemaakt. 
+- Andere helpen waar nodig 
+```
+
 | STARR | Uitleg |
 | --- | --- |
 | S | Iedereen van de groep moest een Reinfocement Learning model. |
 | T | Mijn taak was om zelf een Reinfocement Learning model te maken.  |
-| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een envoirment en een agent eest moest maken. Als eerste heb ik een envoirment gemaakt. Daar voor heb ik verschillende voorbeelden van een envoirments geschreven in Python opgezocht. De makkelijkste enviroment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn envoirment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn envoirment werkt. <br> hallo |
-| R | --- |
-| R | --- |
+| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een environment en een agent eest moest maken. Als eerste heb ik een speelveld gemaakt waar de container opgezet konden worden. Dat heb ik gedaan met een driedimensionale matrix. Vervolgens heb ik controles gemaakt voor de restricties op de kade op basis van deze matrix. Het speelveld en de controles heb ik getest en aangepast waar nodig. Daarna heb ik een environment gemaakt met daarin de controles en heb speelveld. Daarvoor heb ik verschillende voorbeelden van een environment geschreven in Python opgezocht. Het makkelijkste environment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn environment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn environment werkt. <br> <br> Om een agent te maken heb ik dezelfde stappen doorlopen als bij die van een environment. Daarna heb ik mijn environment gekoppeld aan mijn agent en getest of dat werkte. <br> <br> Daarna ging ik een neuraal netwerk aan mijn environment en agent koppelen. Dat lukt erg lang niet, maar uiteindelijk is het gelukt. Ik dacht dat ik Deep Q-learning aan mijn agent had gekoppeld maar later kwam ik er achter dat het Q-learning was. Het Q-learning heb ik getraind op mijn environment. Vervolgend heb ik mijn code van het Q-learning omgeschreven naar Deep Q-learning met behulp van voorbeelden op het internet. Deep Q-learning heb ik ook getraind op de agent. |
+| R | Als resultaat heb ik een agent en een environment waarop zowel het Q-learning algoritme als het Deep Q-learning algoritme op is getraind. Deze algoritmes voldoen ook aan de restricties van de kade.  |
+| R | De volgende keer moet ik meer uitzoeken Deep Q-learning is en of er niet iets bijna hetzelfde is met ongeveer dezelfde naam, zodat ik de volgende keer niet weer de fout maak van iets proberen te maken maar dan toch net iets anders maken. Daarnaast moet ik de volgende keer eerder om hulp vragen aan andere als ik vast zit. Want nu heb erg lang op een bepaald stuk vast gezeten en mogelijk kon iemand anders redelijk snel het probleem vinden en een mogelijke oplossing vinden. |
+
 
 
 
