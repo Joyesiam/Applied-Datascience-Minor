@@ -42,9 +42,9 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ## Reflectie 
-### Mine contribution to the project
+### My contribution to the project
 
-Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er om maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds om maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderden en de weken er na hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juister persoon was om de voorzitter te zijn.
+Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er om maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds op maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderd en de weken erna hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juiste persoon was om de voorzitter te zijn.
 
 Tijdens het Foodboost project heb ik vooral bijgedragen aan het Lineair programmeer model en de koppeling tussen bestanden. Zo heb ik bijvoorbeeld de koppeling tussen het LP-model en de Decision Tree Classifier gemaakt. Daarnaast heb ik de aanbevolen aanvaardbare calorieën voor lunch en diner opgezocht, deze heb ik samen met Jesse onderzocht. De verschillende noten heb ik ook opgezocht. Ik heb de data gefilterd zodat we alleen lunch en diner recepten gebruikten voor het voorspellen van een recept. 
 
@@ -61,9 +61,9 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 | --- | --- |
 | S | Iedereen van de groep moest een Reinfocement Learning model maken. |
 | T | Mijn taak was om zelf een Reinfocement Learning model te maken.  |
-| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een environment en een agent eest moest maken. Als eerste heb ik een speelveld gemaakt waar de container opgezet konden worden. Dat heb ik gedaan met een driedimensionale matrix. Vervolgens heb ik controles gemaakt voor de restricties op de kade op basis van deze matrix. Het speelveld en de controles heb ik getest en aangepast waar nodig. Daarna heb ik een environment gemaakt met daarin de controles en heb speelveld. Daarvoor heb ik verschillende voorbeelden van een environment geschreven in Python opgezocht. Het makkelijkste environment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn environment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn environment werkt. <br> <br> Om een agent te maken heb ik dezelfde stappen doorlopen als bij die van een environment. Daarna heb ik mijn environment gekoppeld aan mijn agent en getest of dat werkte. <br> <br> Daarna ging ik een neuraal netwerk aan mijn environment en agent koppelen. Dat lukt erg lang niet, maar uiteindelijk is het gelukt. Ik dacht dat ik Deep Q-learning aan mijn agent had gekoppeld maar later kwam ik er achter dat het Q-learning was. Het Q-learning heb ik getraind op mijn environment. Vervolgend heb ik mijn code van het Q-learning omgeschreven naar Deep Q-learning met behulp van voorbeelden op het internet. Deep Q-learning heb ik ook getraind op de agent. |
+| A | Eerst heb ik online een voorbeeld van een Reinfocement Learning opgezocht. Toen kwam ik er achter dat ik een environment en een agent moest maken. Als eerste heb ik een speelveld gemaakt waar de containers opgezet konden worden. Dat heb ik gedaan met een driedimensionale matrix. Vervolgens heb ik controles gemaakt voor de restricties op de kade op basis van deze matrix. Het speelveld en de controles heb ik getest en aangepast waar nodig. Daarna heb ik een environment gemaakt met daarin de controles en het speelveld. Daarvoor heb ik verschillende voorbeelden van een environment in Python opgezocht. Het makkelijkste environment heb ik aangepast naar ons probleem en op basis van de andere heb ik in mijn environment aangepast/ uitbereid. Daarna heb ik test code geschreven om te kijken of alles in mijn environment werkt. <br> <br> Om een agent te maken heb ik dezelfde stappen doorlopen als bij die van een environment. Daarna heb ik mijn environment gekoppeld aan mijn agent en getest of dat werkte. <br> <br> Daarna ging ik een neuraal netwerk aan mijn environment en agent koppelen. Dat lukte erg lang niet, maar uiteindelijk is het gelukt. Ik dacht dat ik Deep Q-learning aan mijn agent had gekoppeld maar later kwam ik er achter dat het Q-learning was. Het Q-learning heb ik getraind op mijn environment. Vervolgens heb ik mijn code van het Q-learning omgeschreven naar Deep Q-learning met behulp van voorbeelden op het internet. Deep Q-learning heb ik ook getraind op de agent. |
 | R | Als resultaat heb ik een agent en een environment waarop zowel het Q-learning algoritme als het Deep Q-learning algoritme op is getraind. Deze algoritmes voldoen ook aan de restricties van de kade.  |
-| R | De volgende keer moet ik meer uitzoeken Deep Q-learning is en of er niet iets bijna hetzelfde is met ongeveer dezelfde naam, zodat ik de volgende keer niet weer de fout maak van iets proberen te maken maar dan toch net iets anders maken. <br> Daarnaast moet ik de volgende keer eerder om hulp vragen aan andere als ik vast zit. Want nu heb erg lang op een bepaald stuk vast gezeten en mogelijk kon iemand anders redelijk snel het probleem vinden en een mogelijke oplossing vinden. |
+| R | De volgende keer moet ik meer uitzoeken wat Deep Q-learning is en of er niet iets bijna hetzelfde is met ongeveer dezelfde naam, zodat ik de volgende keer niet weer de fout maak van iets proberen te maken maar dan toch net iets anders maak. <br> Daarnaast moet ik de volgende keer eerder om hulp vragen aan anderen als ik vast zit. Want nu heb erg lang op een bepaald stuk vast gezeten en mogelijk kon iemand anders redelijk snel het probleem vinden en een mogelijke oplossing vinden. |
 
 
 
@@ -78,7 +78,7 @@ bla
 
 ### Foodboost
 
-Voor het Foodboost project wilden we een voor mensen met een notenallergie een aanbeveling maken. We kwamen er snel acht dat een aanbeveling voor alle maaltijden en snacks erg veel zou zijn. Daarom hebben we gekozen om alleen een aanbeveling te doen voor de lunch en het diner. Om te kunnen controleren of aanbevelingen variërend zijn moet de aanbeveling meer dan één lunch- en diner recept bevatten en dus langer dan één dag zijn. Daarom hebben we gekozen dat de aanbeveling een menu van een week lang. 
+Voor het Foodboost project wilden we een voor mensen met een notenallergie een aanbeveling maken. We kwamen er snel achter dat een aanbeveling voor alle maaltijden en snacks erg veel zou zijn. Daarom hebben we gekozen om alleen een aanbeveling te doen voor de lunch en het diner. Om te kunnen controleren of aanbevelingen variërend zijn moet de aanbeveling meer dan één lunch- en diner recept bevatten en dus langer dan één dag zijn. Daarom hebben we gekozen dat de aanbeveling een menu van een week lang is. 
 
 Naast de notenallergie wilden we ook rekening houden met de aanbevolen dagelijkse calorieën. Eerst wilden we de aanbevolen dagelijkse calorieën apart voor lunch en diner gebruiken voor het menu. Maar we kwamen er achter dat er dan minder mogelijkheden zijn. Ook bedachten we dat als een lunch wat minder calorieën heeft en het diner wat meer, dat dat ook nog goed is of andersom. Zolang het totaal maar rond de som van de aanbevolen dagelijkse calorieën voor lunch en diner is. 
 
@@ -87,8 +87,8 @@ Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 ---
 **Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?**
 
-1. Welke ingrediënten bevat noten?
-2. Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen? 
+1. Welke ingrediënten bevatten noten?
+2. Hoeveel is de aanbevolen dagelijkse calorieën voor lunch en diner samen? 
 3. Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?
 4. Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?
 
@@ -96,11 +96,11 @@ Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 
 ### Container
 
-De opdracht gever van het container project is Cofano. De vraag van hen was hoe de containers zo met zo min mogelijk stappen van het ene schip naar de kade en dan naar het andere schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container van af het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet, de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
+De opdrachtgever van het container project is Cofano. De vraag van hen was hoe de containers zo met zo min mogelijk stappen van het ene schip naar de kade en dan naar het andere schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container vanaf het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet; de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
 
-Toen we de lay-out van de kade zagen wisten we meteen dan we die niet gingen gebruiken omdat enorm veel containers zijn. Om een model te maken is het makkelijker om klein te beginnen. Daardoor maakte we onze eigen kade opstelling en eigen restricties daarvan. De containers zelf hebben ook restricties waar we rekening meer willen houden. 
+Toen we de lay-out van de kade zagen wisten we meteen dat we die niet gingen gebruiken omdat er enorm veel containers zijn. Om een model te maken is het makkelijker om klein te beginnen. Daardoor maakte we onze eigen kade opstelling en eigen restricties daarvan. De containers zelf hebben ook restricties waar we rekening meer willen houden. 
 
-Na dat we onze kade opstelling hadden gemaakt was het probleem nog steeds groot door de verschillende vervoersmiddelen die containers kunnen verplaatsten. Wij hebben er voor gekomen om één reachstacker te gebruiken. Ook vullen we de kade met container die van één schip komen. 
+Nadat we onze kade opstelling hadden gemaakt was het probleem nog steeds groot door de verschillende vervoersmiddelen die containers kunnen verplaatsten. Wij hebben er voor gekozen om één reachstacker te gebruiken. Ook vullen we de kade met containers die van één schip komen. 
 
 Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld: 
 
@@ -119,9 +119,9 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 ### Foodboost
 
-Als iemand verdergaat met ons Foodboost project dan zijn er een aantal punten die een beter model kunnen opleveren. Zoals een ander model dan een Logistic Regression, een Decision Tree Classifier of een K- nearest Neighbors Classifier gebruiken. Want dit een relatief makkelijk model en mogelijk zijn er andere (ingewikkeldere) modellen die het beter doen om een voorspelling te maken of iemand een recept wel of niet lekker vindt. 
+Als iemand verdergaat met ons Foodboost project dan zijn er een aantal punten die een beter model kunnen opleveren. Zoals een ander model dan een Logistic Regression, een Decision Tree Classifier of een K- nearest Neighbors Classifier gebruiken. Want dit is een relatief makkelijk model en mogelijk zijn er andere (ingewikkeldere) modellen die het beter doen om een voorspelling te maken of iemand een recept wel of niet lekker vindt. 
 
-Daarnaast is het handig om de data die we hebben gegeneerd te balanceren. Voor deze data hebben we een groepsgenoot laten aangeven of hij de honderd recepten wel of niet lekker vond met een 0 of 1. Later bleek dat hij veel meer recepten wel lekker vond dan niet lekken. Door dit meer te balanceren is een model eerder geneigd om meer naar de input van het model zelf te kijken dan alle recepten als lekker te voorspellen omdat dat voor de meeste recepten geldt. 
+Daarnaast is het handig om de data die we hebben gegenereerd te balanceren. Voor deze data hebben we een groepsgenoot laten aangeven of hij de honderd recepten wel of niet lekker vond met een 0 of 1. Later bleek dat hij veel meer recepten wel lekker vond dan niet lekker. Door dit meer te balanceren is een model eerder geneigd om meer naar de input van het model zelf te kijken dan alle recepten als lekker te voorspellen omdat dat voor de meeste recepten geldt. 
 
 Bij Lineair Programmeren andere restricties op de calorieën zetten. Dit kan zowel door een minimum en een maximum aantal calorieën per dag te zetten zodat de verspreiding van de calorieën van het weekmenu meer gelijk wordt. Of door te zeggen dat iemand maximaal 1040 X 7 calorieën mag eten in een week, met een minimum per dag, zodat er meer variatie mogelijk is tussen de recepten. Als iemand dan iets minder calorieën eet op een dag en op een andere dag wat meer, dan komt het gemiddeld aantal calorieën per dag nog steeds overeen met het aantal aanvaardbare calorieën per dag voor lunch en diner. 
 
@@ -129,7 +129,7 @@ Bij Lineair Programmeren andere restricties op de calorieën zetten. Dit kan zow
   
 Bij het container project zijn er ook een aantal punten waaraan gedacht kan worden om onze oplossing te verbeteren of uit te bereiden. Bijvoorbeeld het aantal container per prioriteit op het schip als input geven aan ons model, wat tot betere resultaten kan leiden. Nu heeft het model als input de prioriteit van de huidige container en de huidige opstelling van de kade (state). Ook kan het model niet één container als input hebben maar meerdere containers, zodat de agent de beste container kan kiezen om die neer te zetten op de kade. Dit lijkt meer op de realiteit bij het uitladen van schip kunnen de containers in verschillende volgordes van het schip af.  
 
-Andere en/of meerdere vervoersmiddelen gebruiken om het meer op de werkelijkheid te laten lijken. In ons model gebruiken we één reachstacker maar in de have van Rotterdam maken ze bijvoorbeeld ook gebruik van kranen om de containers te verplaatsen. Andere vervoersmiddelen kunnen container dan soms ook vanaf boven oppakken waardoor er meer mogelijkheden zijn om container te plaatsen. 
+Andere en/of meerdere vervoersmiddelen gebruiken om het meer op de werkelijkheid te laten lijken. In ons model gebruiken we één reachstacker maar in de haven van Rotterdam maken ze bijvoorbeeld ook gebruik van kranen om de containers te verplaatsen. Andere vervoersmiddelen kunnen container dan soms ook vanaf boven oppakken waardoor er meer mogelijkheden zijn om container te plaatsen. 
 
 De kade uitbreiden naar een werkelijke opstelling van een haven, hiermee kan onderzocht worden of ons model ook voor zo’n grote kade werkt. 
 Tijdens het uitladen van een schip rekening houden met het evenwicht van het schip. Een uitbereiding daarvan is de containers zelf een gewicht geven. In de realiteit zijn niet alle containers even zwaar beladen en sommige zijn ook leeg. Dit levert ook meer restricties op tijdens het stapelen van de containers. 
@@ -140,16 +140,16 @@ Tijdens het uitladen van een schip rekening houden met het evenwicht van het sch
 
 Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening houdend met een noten allergie en het gemiddeld aantal aanvaardbare calorieën, aanbevelen?
 
-1. **Welke ingrediënten bevat noten?**
+1. **Welke ingrediënten bevatten noten?**
 
-Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daarom hebben we het filteren op aangepast. 
+Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben we voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daar hebben we het filteren op aangepast. 
 
 Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:
 
 <details>
   <summary>Woorden die de ingrediënten met noten bevatten</summary>
   
-  - Noot
+  - noot
   - pinda
   - eikel
   - amandel
@@ -225,7 +225,7 @@ Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Pro
 
 1. **Welke methoden zijn mogelijk bij het Container Stacking Probleem?**
 
-Voor het oplossen van dit probleem hebben Reinforcement Learning gebruikt. Het Deep Q-Network algoritme. De agent vult steeds de kade (het environment) opnieuw en    krijgt steeds een beloning of straf voor wat hij doet, daar leert het model van. 
+Voor het oplossen van dit probleem hebben Reinforcement Learning gebruikt. Het Deep Q-Network algoritme. De agent vult steeds de kade (het environment) opnieuw en krijgt steeds een beloning of straf voor wat hij doet, daar leert het model van. 
 
 Ook kan het probleem opgelost met lineair programmeren of andere operations research algoritmes of heuristieken. 
 
@@ -246,7 +246,7 @@ Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vij
     <img src="/Afbeeldingen/Restrictie2.png" />
   </details>
 
-- Een container mag niet op een stapel geplaatste worden die al de maximale hoogte heeft bereikt. De maximale hoogte is vijf containers hoog. De regel is er voor de veiligheid.
+- Een container mag niet op een stapel geplaatst worden die al de maximale hoogte heeft bereikt. De maximale hoogte is vijf containers hoog. Deze regel is er voor de veiligheid.
 
   <details>
     <summary>Afbeelding restrictie 3</summary>
@@ -260,7 +260,7 @@ Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vij
     <img src="/Afbeeldingen/Restrictie4.png" />
   </details>
 
-- Een container mag niet tussen twee stapel worden geplaats via de korte kant van de container. Dit is omdat een reachstacker een container alleen van de lange kant kan oppakken. Als er dan twee stapels van containers aan beide lange kanten van die plek al staat dan kan de container er niet tussen gezet worden. 
+- Een container mag niet tussen twee stapels worden geplaats via de korte kant van de container. Dit is omdat een reachstacker een container alleen van de lange kant kan oppakken. Als er dan twee stapels van containers aan beide lange kanten van die plek al staan dan kan de container er niet tussen gezet worden. 
 
   <details>
     <summary>Afbeelding restrictie 5</summary>
@@ -273,10 +273,10 @@ Er zijn veel verschillende soorten containers. De meest gebruikte zijn die van 2
 
 4. **Hoe is de haven ingericht en wat zijn de restricties?**
 
-Van Cofano, de opdrachtgever, hebben drie sataliet beelden gekregen van de kade:
+Van Cofano, de opdrachtgever, hebben we drie satellietbeelden gekregen van de kade:
 
   <details>
-    <summary>Sataliet aanzichten van de kades</summary>
+    <summary>Satelliet aanzichten van de kades</summary>
     <img src="/Afbeeldingen/kade%20alles.png" />
   </details>
 
@@ -288,7 +288,7 @@ Ook hebben we kaarten gekregen met iets meer informatie over de indeling van de 
     <img src="/Afbeeldingen/indeling%20kade2.png" />
   </details>
 
-Op deze beelden staan enorm veel containers, om de kade klein te houden hebben we zelf een kade bedacht. Die kade is vier containers breed, vier lang en vijf hoog. Vijf containers hoog omdat dat het maximale aantal op elkaar te zetten container is. Vier breed en vier lang zodat er ook containers tussen andere containers neergezet kunnen worden, zodat het meer op de werkelijkheid lijkt. Ook is dat omdat het model dan getraind wordt er van uitgaande dat een container alleen vanaf de lange kant opgepakt en neergezet kan worden door de reachstacker.
+Op deze beelden staan enorm veel containers, om de kade klein te houden hebben we zelf een kade bedacht. Die kade is vier containers breed, vier lang en vijf hoog. Vijf containers hoog omdat dat het maximale aantal op elkaar te zetten container is. Vier breed en vier lang zodat er ook containers tussen andere containers neergezet kunnen worden, zodat het meer op de werkelijkheid lijkt. Ook is dat omdat het model dan getraind wordt ervan uitgaande dat een container alleen vanaf de lange kant opgepakt en neergezet kan worden door de reachstacker.
 
 Dus we hebben uiteindelijk niks gedaan met de informatie op de kade die we van Cofano hadden gekregen.
 
@@ -301,10 +301,10 @@ Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te make
 ## Planning 
 
 ### Foodboost
-Voor het Foodboost project hebben we een Trello board gemaakt als groep zijnde. Elke vergadering opende we dit board en bespraken we de voortang en knelpunten van deze taken. Dan voegde we ook nieuwe taken toe als dat nodig was. Het board vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en een nieuwe taken/ deadline voor de volgende vergadering. Dat was soms ook ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
+Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. Elke vergadering opende we dit bord en bespraken we de voortang en knelpunten van deze taken. Dan voegde we ook nieuwe taken toe als dat nodig was. Het bord vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en nieuwe taken/deadlines voor de volgende vergadering. Dat was soms ook: ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
 
 <details>
-  <summary>Trello board Foodboost</summary>
+  <summary>Trello bord Foodboost</summary>
   <img src="/Afbeeldingen/Trello1.png" />
 </details>
 
@@ -317,7 +317,7 @@ Aan het begin van het container project wilden we echt een planning. Die heb ik 
   <img src="/Afbeeldingen/Projectplanning.png" />
 </details>
 
-Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we overzicht over wat iedereen aan het doen was. 
+Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we een overzicht van wat iedereen aan het doen was. 
 
 <details>
   <summary>Trello board Containers</summary>
@@ -336,13 +336,13 @@ Foodboost
 ### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
-Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaand. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model zo. In mijn geval zijn is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. Het spelletje is afgelopen als de kade volstaat of dat de agent te veel pogingen nodig heeft om een container neer te zetten. 
+Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model. In mijn geval is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. 
 
-Voor mijn Reinforcement model heb ik een Deep Q-Network gebruikt. Hiervoor heb ik eerste een environment en agent gemaakt. Daarnaast heb ik de controles gemaakt die controleren of een move mag of niet. Voor deze controles wordt het platte speelbord vervormt naar een driedimensionale matrix.
+Voor mijn Reinforcement model heb ik een Deep Q-Network gebruikt. Hiervoor heb ik eerst een environment en een agent gemaakt. Daarnaast heb ik de controles gemaakt die controleren of een move mag of niet. Voor deze controles wordt het platte speelbord vervormt naar een driedimensionale matrix.
 
-Mijn environment heeft een discrete action space. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld omdat dat niet mag dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade vol is of als er te veel pogingen zijn gedaan om de container te plaatsen. 
+Mijn environment heeft een discrete action space. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld omdat dat niet mag dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade volstaat of als er te veel pogingen zijn gedaan om de container te plaatsen. 
 
-Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat Maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dan die lijn ook het maximum bereikt bij ongeveer 1100 games.
+Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat, maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dat die lijn ook het maximum bereikt bij ongeveer 1100 games.
 
 <details>
   <summary>Reinforcement learning curve</summary>
@@ -380,9 +380,9 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 ```
 
 ### Foodboost
-- Allergie: Als iemand in aanraking komt een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
+- Allergie: Als iemand in aanraking komt met een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
 - Calorie: Hoeveel energie het eten bevat.
-- Kcal: De eenheid die de hoeveelheid energie aangeeft. 1 kcal = 1000 calorieën
+- Kcal: Eenheid die de hoeveelheid energie aangeeft. 1 kcal = 1000 calorieën
 - Lineair programmeren: Een wiskundige manier om de beste uitkomst te berekenen. 
 - Pivot tabel: Een draaitabel; een tabel wordt vervormd: de unieke waardes uit een bepaalde kolom worden de nieuwe kolomnamen, een andere kolom wordt de index. 
 - Tag: label; omschrijft tot welke categorie een gerecht behoort.
