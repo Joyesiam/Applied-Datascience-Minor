@@ -374,9 +374,9 @@ Voor dit project hebben we ook een Trello bord gemaakt. Wederom hebben we dit ee
   <img src="/Afbeeldingen/Trello2.png" />
 </details>
 
-## Predictive Analytics
+# Predictive Analytics
 
-### Foodboost
+## Foodboost
 
 Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. Vervolgens heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g” (2 gram). Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend: 
 
@@ -429,7 +429,7 @@ De R2 scores van het Ridge en het Lineaire regressie model liggen erg dichtbij e
 
 De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Ridge%20en%20lineaire%20regressie%20Foodboost(1).ipynb).
 
-### Container
+## Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
 Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model. In mijn geval is een spelletje één keer een kade van drie breed bij drie lang bij één hoog vullen. 
