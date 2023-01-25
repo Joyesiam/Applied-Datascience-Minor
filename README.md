@@ -21,10 +21,9 @@ https://markdownlivepreview.com/
 # Inhoud
 - [Obligatory criteria](#Verplichte-criteria)  
   - [DataCamp](#DataCamp)
-  - [Reflectie](#Reflectie)
-    - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan-het-project)
-    - [Mijn leerdoelen](#Mijn-leerdoelen)
-    - [Evaluatie van de groep](#Evaluatie-van-de-groep)
+  - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan-het-project)
+  - [Mijn leerdoelen](#Mijn-leerdoelen)
+  - [Evaluatie van de groep](#Evaluatie-van-de-groep)
 - [Research project](#Research-project)
   - [Task definition](#Task-definition)
   - [Evaluatie](#Evaluatie)
@@ -50,9 +49,7 @@ https://markdownlivepreview.com/
 ## DataCamp
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
-## Reflectie 
-
-### Mijn bijdrage aan het project
+## Mijn bijdrage aan het project
 
 Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er om maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds op maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderd en de weken erna hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juiste persoon was om de voorzitter te zijn.
 
@@ -75,15 +72,11 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 | R | Als resultaat heb ik een agent en een environment waarop zowel het Q-learning algoritme als het Deep Q-learning algoritme op is getraind. Deze algoritmes voldoen ook aan de restricties van de kade.  |
 | R | De volgende keer moet ik meer uitzoeken wat Deep Q-learning is en of er niet iets bijna hetzelfde is met ongeveer dezelfde naam, zodat ik de volgende keer niet weer de fout maak van iets proberen te maken maar dan toch net iets anders maak. <br> Daarnaast moet ik de volgende keer eerder om hulp vragen aan anderen als ik vast zit. Want nu heb erg lang op een bepaald stuk vast gezeten en mogelijk kon iemand anders redelijk snel het probleem vinden en een mogelijke oplossing vinden. |
 
-
-
-
-### Mijn leerdoelen
+## Mijn leerdoelen
 
 Aan het begin van de minor wilde ik graag kennis maken met Machine Learning en neurale netwerken. Tijdens de minor heb ik dat gedaan door de colleges, Datacamp en online bronnen tijdens het programmeren. 
 Ik wist niet dat er zo veel verschillend dingen waren waar je op moet letten als je een model wil fitten. Ik wist bijvoorbeeld wel dat de data eerste voorbereid moest zijn maar niet dat je ook moest kijken of het gebalanceerd was. De met meeste evaluatie metrieken had ik al ervaring maar ik heb er nu meer inhoudelijke kennis over. Ik dacht dat een model zelf fitten veel lasteriger zou zijn maar nu ik het gedaan heb valt het allemaal mee, want de meeste tijd zit in de data voorbereiden en het model evalueren. 
 Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later sneller nog een keer gebruiken. 
- 
 
 ```diff
 - | STARR | Uitleg |
@@ -95,10 +88,9 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 | R | --- |
 ```
 
-### Evaluatie van de groep
+## Evaluatie van de groep
 
-
-Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad.  Ik zal nu reflecteren per groepslid.
+Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
 
 ```diff
 - Ayrton: Een zin dit hem omschrijft: Het maakt mij niet zo veel uit. Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Tijdens vergaderingen probeer ik iedereen zijn mening te laten geven dus ook hem, maar dan zei hij meestal niet veel. Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. 
@@ -124,8 +116,7 @@ Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen er
 | R | Hierdoor hebben we een taakverdeling waarbij iedereen een taak heeft en de duidelijk wanner het af moet zijn. |
 | R | Ik denk dat ik het zo goed gaat en dat ik het volgende keer weer zo zou aanpakken. Mogelijk zal ik er de volgende keer opletten dat iedereen wel eens een anders soort taak doet dan altijd, bijvoorbeeld niet alleen programmeer taken maar ook literatuuronderzoek. |
 
-
-## Research project
+# Research project
 
 ## Task definition
 
