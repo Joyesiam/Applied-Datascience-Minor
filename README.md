@@ -7,6 +7,7 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 [title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
+- titels nederlands of engels?
 # hoofdstuk titel 
 ## sub onderdeel hoofdstuk
 ### sub sub onderdeel
@@ -17,6 +18,7 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 - [Obligatory criteria](#Obligatory-criteria)  
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
+  - [Mijn leerdoelen](#Mijnl-eerdoelen)
 - [Research project](#Research-project)
   - [Task definition](#Task-definition)
   - [Evaluatie](#Evaluatie)
@@ -68,7 +70,7 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 
 
 
-### Own learning objectives
+### Mijn leerdoelen
 bla
 ### Evaluation on the group project as a whole
 bla
