@@ -3,7 +3,6 @@ Student: Joanne Pals
 Studentennummer: 20189186
 https://markdownlivepreview.com/
 
-- koppen grootte
 - titels bij grafiek
 - episode/ games/ epoch recht trekken
 - naar elk bestand/ plaatje verwijzen
