@@ -384,7 +384,7 @@ Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen.
 | Energie | 0.8218 |
 | Eiwit  | 0.5199 |
 
-In de tabel is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie.  
+In de tabel is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie. Ik heb deze modellen gekozen omdat zo wel de feature als de target variable numerieke waardes zijn.
 
 Eerst heb ik gekeken of er uitschieters in de trainingset zitten. Daarvoor heb ik twee boxplotten gemaakt, weer een voor vet en een voor energie. Uit de boxplot met vet komen geen duidelijke uitschieters, maar in die van energie komt er een duidelijke uitschieter. Ik heb daarom gekeken welk recept de uitschieter was; Roggebrood met noten en bessen. Dat recept heeft de voedingswaardes van het hele brood in plaatst van per portie, zoals de andere recepten. Daarom heb ik dat recept uit de trainset gehaald. 
 
