@@ -97,6 +97,7 @@ Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden resp
 - Ik merkte dat het soms achterliep op de groep qua kennis, want niet erg is. Maar als we hem dan vroegen of hij het begreep 
 - Tijdens het verdelen van de taken kon iedereen aangeven wat hij wilde doen, specifiek moest ik dat dan ook aan hem vragen maar dan zei hij: het maak mij niet zo veel uit. 
 - Leerdoel voor hem is om hulp vragen als je dat nodig hebt, wij vinden het niet erg om je te helpen. 
+- wekenlang literatuuronderzoek zonder resultaat te laten zien
 ```
 
 Eric: Met Eric heb ik al vaker projecten gedaan en deze ik ben ik weer blij dat ik het met hem mogen doen. Hij heeft vaak veel goede input over hoe we een probleem kunnen oplossen. Daarnaast kon ik hem altijd om hulp vragen en dan gaf hij een duidelijk antwoord zodat ik weer verder kon. Zijn taken voerde hij grondig uit, niet alles is in de eindproducten gekomen maar hij heeft het toch gedaan. 
