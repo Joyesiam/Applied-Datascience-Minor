@@ -542,6 +542,8 @@ Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak 
  
 # Communication
 ## Presentaties
+
+Tijdens de minor heb ik verschillende presentaties voorbereid en gegeven, de presentaties: 
 - [Week 2 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Foodproject%20week%202.pdf).
 - [Week 4 - voortgang](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/Voortgang%20food%20project%20week%204.pdf) 
 - [Week 6 - eindpresentatie](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Presentaties/food%20project%20week%206.pdf).
