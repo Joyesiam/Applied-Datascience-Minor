@@ -10,7 +10,8 @@ https://markdownlivepreview.com/
 - titels nederlands of engels?
 - inhoud foodboost, container fixen
 - titels bij grafiek
-- 
+- episode/ games/ epoch recht trekken
+\
 # hoofdstuk titel 
 ## sub onderdeel hoofdstuk
 ### sub sub onderdeel
@@ -357,7 +358,7 @@ Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te make
 ## Planning 
 
 ### Foodboost
-Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. Elke vergadering opende we dit bord en bespraken we de voortang en knelpunten van deze taken. Dan voegde we ook nieuwe taken toe als dat nodig was. Het bord vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en nieuwe taken/deadlines voor de volgende vergadering. Dat was soms ook: ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
+Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. Elke vergadering opende we dit bord en bespraken we de voortang en knelpunten van deze taken. Dan was ook het moment dat we we ook nieuwe taken toevoegden als dat nodig was. Het bord vergaten we wel eens, maar tijdens de vergadering bespraken we altijd de voortgang van de taken en nieuwe taken/deadlines voor de volgende vergadering. Dat was soms ook: ga door met waar je nu mee bezig bent. Door deze vergaderingen was het duidelijk waar iedereen mee bezig was en wisten we de vervolgstappen.
 
 <details>
   <summary>Trello bord Foodboost</summary>
@@ -366,17 +367,17 @@ Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. E
 
 ### Container
 
-Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave: [Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet leesbaar.
+Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave: [Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet goed leesbaar.
 
 <details>
   <summary>Projectplanning Container</summary>
   <img src="/Afbeeldingen/Projectplanning.png" />
 </details>
 
-Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we een overzicht van wat iedereen aan het doen was. 
+Voor dit project hebben we ook een Trello bord gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we een overzicht van wat iedereen aan het doen was. 
 
 <details>
-  <summary>Trello board Containers</summary>
+  <summary>Trello bord Containers</summary>
   <img src="/Afbeeldingen/Trello2.png" />
 </details>
 
@@ -384,7 +385,7 @@ Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit e
 
 ### Foodboost
 
-Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. En vervolgend heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g”. Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend: 
+Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. Vervolgens heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g” (2 gram). Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend: 
 
 | Voedingsstof | Correlatie met vet |
 | --- | --- |
@@ -396,7 +397,7 @@ Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen.
 
 In de tabel is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie.  
 
-Eerst heb ik gekeken op er uitschieters in de trainingset zitten. Daarvoor heb ik twee boxplotten geemaakt, weer een voor vet en een voor energie. Uit de boxplot met vet komen niet duidelijke uitschieters, maar in die van energie komt een duidelijke uitschieter. Ik heb daarom gekeken welk recept de uitschieter was; Roggebrood met noten en bessen. Dat recept heeft de voedingswaardes van het hele brood in plaatst van per portie. Daarom heb ik dat recept uit de testset gehaald. 
+Eerst heb ik gekeken of er uitschieters in de trainingset zitten. Daarvoor heb ik twee boxplotten gemaakt, weer een voor vet en een voor energie. Uit de boxplot met vet komen geen duidelijke uitschieters, maar in die van energie komt er een duidelijke uitschieter. Ik heb daarom gekeken welk recept de uitschieter was; Roggebrood met noten en bessen. Dat recept heeft de voedingswaardes van het hele brood in plaatst van per portie, zoals de andere recepten. Daarom heb ik dat recept uit de trainset gehaald. 
 
 <details>
   <summary>Boxplotten vet en energie</summary>
@@ -412,17 +413,19 @@ Voor de Lineaire Regressie heb ik eerste gekeken op de data normaal verdeeld was
   <img src="/Afbeeldingen/hist%20energie%201.png" />
 </details>
 
-Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daarom heb ik van de waardes de wortelgetrokken getrokken.Uit de nieuwe histogrammen blijkt dat de voedingsstoffen daardoor meer normaal verdeeld zijn dan eerst. 
+Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daarom heb ik van de waardes de wortelgetrokken getrokken. Uit de nieuwe histogrammen blijkt dat de voedingsstoffen daardoor meer normaal verdeeld zijn dan eerst. 
 
 <details>
-  <summary>Histogrammen vet en energie</summary>
+  <summary>Histogrammen vet en energie na het normaliseren</summary>
   <img src="/Afbeeldingen/hist%20vet%202.png" />
   <img src="/Afbeeldingen/hist%20energie%202.png" />
 </details>
 
-Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en gefit. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
+Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en getraind. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
 
-Als input van het Ridge model heb ik deze trainset gebruikt als voor Lineaire regressie maar niet genormaliseerd. Daar heb ik het model op gefit. Met het getrainde model heb ik de vetwaardes voorspeld op basis van de originele energie waardes. Met een R2-score heb ik weer de originele vetwaardes vergeleken met de voorspelde waarden uit het model.
+Als input van het Ridge model heb ik dezelfde trainset gebruikt als voor Lineaire Regressie maar niet genormaliseerd. Daarna heb ik het model op getraind. Met het getrainde model heb ik de vetwaardes voorspeld op basis van de originele energie waardes. Met een R2-score heb ik weer de originele vetwaardes vergeleken met de voorspelde waarden uit het model.
+
+Om beide modellen te kunnen vergelijken heb ik de volgende tabel gemaakt:
 
 | Model| R2-score |
 | --- | --- |
@@ -436,13 +439,13 @@ De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datasci
 ### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
-Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model. In mijn geval is een spelletje één keer een kade van 3 breed bij 3 lang bij 1 hoog vullen. 
+Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model. In mijn geval is een spelletje één keer een kade van drie breed bij drie lang bij één hoog vullen. 
 
 Voor mijn Reinforcement model heb ik een Deep Q-Network gebruikt. Hiervoor heb ik eerst een environment en een agent gemaakt. Daarnaast heb ik de controles gemaakt die controleren of een move mag of niet. Voor deze controles wordt het platte speelbord vervormt naar een driedimensionale matrix.
 
-Mijn environment heeft een discrete action space. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld omdat dat niet mag dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade volstaat of als er te veel pogingen zijn gedaan om de container te plaatsen. 
+Mijn environment heeft een discrete action space want er zijn maar negen plekken om een container neer te zetten. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld, omdat dat niet mag, dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade volstaat of als er te veel pogingen zijn gedaan om de container te plaatsen. 
 
-Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan van de score. In de plot is duidelijk te zien dat de maximale score het hardste omhoog gaat, maar de mediaan is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is ook duidelijk te zien dat die lijn ook het maximum bereikt bij ongeveer 1100 games.
+Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan en het maximum van de games. In de plot is duidelijk te zien dat de blauwe lijn het hardste omhoog gaat, maar de mediaan (oranje) is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is  duidelijk te zien dat die lijn ook het maximum bereikt bij ongeveer 1100 games.
 
 <details>
   <summary>Reinforcement learning curve</summary>
