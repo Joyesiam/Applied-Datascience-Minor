@@ -559,7 +559,7 @@ onderdelen
 
 Voordat we aan de paper konden beginnen hadden we een opzet nodig van de hoofdstukken en wat er in deze hoofdstukken moest. Daar had ik een klein onderzoekje naar gedaan. Dat had ik tijdens een vergadering met een docent besproken. En vervolgens hadden we de paper verdeeld in stukjes, zodat iedereen een stuk schreef. Ik had de inleiding toebedeeld gekregen. Nadat iedereen zijn stukje afhad, kreeg iedereen weer een ander stuk van de paper die hij moest controleren. Ik had het stukje toekomstig werk gekregen. Daar was nog veel aan te doen want het waren nog bulletpoints en de grammatica was nog niet goed genoeg, daardoor moest ik het hele stuk herschrijven. Ook heb ik de hele paper doorgelezen een aangepast waar nodig. De uiteindelijke stijl van de paper heb ik gedaan met behulp van MS Word. 
 
-We hadden de paper naar twee docenten gestuurd voor feedback, veel van die feedback heb ik verwerkt en/of andermans stukje van gecontroleerd om een zo goed mogeljke paper op te leveren. 
+We hadden de paper naar twee docenten gestuurd voor feedback, een deel van die feedback heb ik verwerkt. Daarnaast heb ik de stukjes van andere gecontroleerd op aanleiding van de feedback en aangepast waar nodig, om een zo goed mogelijke paper op te leveren.
 
 De uiteindelijke paper staat [hier](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Paper%20Groep%205%20Cofano%20Containers%20(1).pdf). 
 
