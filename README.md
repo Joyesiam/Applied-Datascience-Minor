@@ -108,6 +108,14 @@ Martti: Een gezellige jongen die altijd in was voor een praatje. Daarnaast was h
 
 Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen ervaring met Python, maar dat heeft hij goed opgepakt in de eerste paar weken. Maar ik merkte wel dat hij soms moet had met de groep bijhouden qua kennis, wat niet erg is. op zulke moment vroeg hij dan om uitleg en blijf doorvragen tot hij het snapte. Ik denk dat hij grote stappen heeft gemaakt tijdens de minor op de gebieden van Machine Learning en neurale netwerken en ik denk dat hij trots mag zijn op wat hij heeft bereikt.
 
+| STARR | Uitleg |
+| --- | --- |
+| S | Er moest een taakverdeling gemaakt worden, dit gebeurde elke vergadering. |
+| T | Mijn taak als voorzitter is een taakverdeling maken waarmee iedereen het eens is. Daarnaast moet het ook duidelijk zijn wie wat moet gaan doen en wanneer het af moet zijn. |
+| A | Mijn aanpak begin altijd al tijdens het maken van een agenda, daar zet ik al de nieuwe taken op die besproken moeten worden. Tijdens de vergadering zelf bespreken we de voortang van de taken van iedereen. Aan het eind van de vergadering staat er altijd het punt taakverdeling op de agenda. Eerst bespreken we elke taken er allemaal zijn, en daarna kan iedereen zijn voorkeur aangeven voor een taak. Vaak laat zich als eerst horen Martti, daarna ik als ik een voorkeur heb en vervolgens zeggen Eric en Jesse dat ze een bepaalde taak wel op zich kunnen nemen. De taken staan dan nog niet vast, want ik vraag dan eerst aan de rest van de groep of zijn het er mee eens zijn of de persoon met de voorkeur die taak gaat doen. Hierna geeft Sefa vaak ook aan wat hij zou willen doen. Als ik geen voorkeur had dan is dit het moment dat ik aangeeft dat ik nog geen taak had. Ook heeft Ayrton nog geen taak op dit moment maar dat geeft hij niet aan. Ik moet dan specifiek vragen aan hem wat hij graag zou willen doen, zijn antwoord is dan meestal: Het maakt mij niet zo veel uit. Daardoor krijgt hij vaak de taken waar niemand echt zin in heeft of hij wordt bij iemand anders bij een taak gezet zodat ze er samen aan kunnen werken. Hier na vraag ik aan de groep of het zo duidelijk is en of er nog aanpassingen nodig zijn. Daarna bespreken we als groep per taak wanneer het af moet zijn, hierbij geeft de persoon met deze taak aan wanner hij het af kan hebben en vaak wordt dat de deadline. |
+| R | Hierdoor hebben we een taakverdeling waarbij iedereen een taak heeft en de duidelijk wanner het af moet zijn. |
+| R | Ik denk dat ik het zo goed gaat en dat ik het volgende keer weer zo zou aanpakken. Mogelijk zal ik er de volgende keer opletten dat iedereen wel eens een anders soort taak doet dan altijd, bijvoorbeeld niet alleen programmeer taken maar ook literatuuronderzoek. |
+
 
 ## Research project
 
