@@ -90,7 +90,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 
 ## Evaluatie van de groep
 
-Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
+Ik vond het erg fijn om met mijn groepsgenoten samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
 
 ```diff
 - Ayrton: Een zin dit hem omschrijft: Het maakt mij niet zo veel uit. Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Tijdens vergaderingen probeer ik iedereen zijn mening te laten geven dus ook hem, maar dan zei hij meestal niet veel. Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. 
