@@ -88,7 +88,26 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 ```
 
 ### Evaluation on the group project as a whole
-bla
+
+
+Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad.  Ik zal nu reflecteren per groepslid.
+
+```diff
+- Ayrton: Een zin dit hem omschrijft: Het maakt mij niet zo veel uit. Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Tijdens vergaderingen probeer ik iedereen zijn mening te laten geven dus ook hem, maar dan zei hij meestal niet veel. Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. 
+- Ik merkte dat het soms achterliep op de groep qua kennis, want niet erg is. Maar als we hem dan vroegen of hij het begreep 
+- Tijdens het verdelen van de taken kon iedereen aangeven wat hij wilde doen, specifiek moest ik dat dan ook aan hem vragen maar dan zei hij: het maak mij niet zo veel uit. 
+- Leerdoel voor hem is om hulp vragen als je dat nodig hebt, wij vinden het niet erg om je te helpen. 
+```
+
+Eric: Met Eric heb ik al vaker projecten gedaan en deze ik ben ik weer blij dat ik het met hem mogen doen. Hij heeft vaak veel goede input over hoe we een probleem kunnen oplossen. Daarnaast kon ik hem altijd om hulp vragen en dan gaf hij een duidelijk antwoord zodat ik weer verder kon. Zijn taken voerde hij grondig uit, niet alles is in de eindproducten gekomen maar hij heeft het toch gedaan. 
+
+Jesse: Ook met Jesse heb ik vaker samengewerkt en ook nu weer is hij erg fijn om mee te werken. Hij was altijd enthousiast over de projecten, waardoor de rest van de groep, en ik gemotiveerd werden om een mooi eindresultaat te hebben.  Naast de minor volgde hij ook vierdejaars vakken van Toegepaste Wiskunde waar we als groep ook wat aan hadden, zo kwam hij bijvoorbeeld met Optuna studies. 
+
+Martti: Een gezellige jongen die altijd in was voor een praatje. Daarnaast was hij ook erg serieus als het over de projecten ging. Hij had altijd wel een idee over hoe we het konden aanpakken en geen aanpak wat de moeilijk voor hem en anders vroeg hij op tijd hulp. Ik denk dat we enorm veel aan hem hadden tijden de minor. Als we hem een taak gaven dan was hij er meestal snel mee klaar. 
+
+Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen ervaring met Python, maar dat heeft hij goed opgepakt in de eerste paar weken. Maar ik merkte wel dat hij soms moet had met de groep bijhouden qua kennis, wat niet erg is. op zulke moment vroeg hij dan om uitleg en blijf doorvragen tot hij het snapte. Ik denk dat hij grote stappen heeft gemaakt tijdens de minor op de gebieden van Machine Learning en neurale netwerken en ik denk dat hij trots mag zijn op wat hij heeft bereikt.
+
+
 ## Research project
 
 ## Task definition
