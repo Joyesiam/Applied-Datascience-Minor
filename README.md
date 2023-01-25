@@ -71,7 +71,22 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 
 
 ### Mijn leerdoelen
-bla
+
+Aan het begin van de minor wilde ik graag kennis maken met Machine Learning en neurale netwerken. Tijdens de minor heb ik dat gedaan door de colleges, Datacamp en online bronnen tijdens het programmeren. 
+Ik wist niet dat er zo veel verschillend dingen waren waar je op moet letten als je een model wil fitten. Ik wist bijvoorbeeld wel dat de data eerste voorbereid moest zijn maar niet dat je ook moest kijken of het gebalanceerd was. De met meeste evaluatie metrieken had ik al ervaring maar ik heb er nu meer inhoudelijke kennis over. Ik dacht dat een model zelf fitten veel lasteriger zou zijn maar nu ik het gedaan heb valt het allemaal mee, want de meeste tijd zit in de data voorbereiden en het model evalueren. 
+Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later sneller nog een keer gebruiken. 
+ 
+
+```diff
+- | STARR | Uitleg |
+| --- | --- |
+| S | --- |
+| T | --- |
+| A | --- |
+| R | --- |
+| R | --- |
+```
+
 ### Evaluation on the group project as a whole
 bla
 ## Research project
