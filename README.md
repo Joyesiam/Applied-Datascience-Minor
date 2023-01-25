@@ -161,7 +161,7 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 1.	Welke methoden zijn mogelijk bij het Container Stacking Probleem?  
 2.	Wat is een move en wat zijn de restricties? 
 3.	Welke containers zijn er en welke gaan we gebruiken?
-4.	Hoe is de haven ingericht en wat zijn de restricties?
+4.	Hoe is de haven ingericht?
 5.	Hoe kunnen we de container data simuleren? 
 
 ---
@@ -258,9 +258,9 @@ Uit de tabel hierboven blijkt dat de Decision Tree Classifier het hoogst van de 
 
 4.  **Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?**
 
-Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is `ortools.linear_solver`. De restricties hier van zijn:
+Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is ortools.linear_solver. De restricties hier van zijn:
 -	Elke dag staat er één lunch en één diner op het menu
--	Elke dag staat er maximaal 1040 calorieën op het menu 
+-	Elke dag staan er maximaal 1040 calorieën op het menu 
 -	Elk recept mag maar één keer voorkomen tijdens de week
 
 Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorieën gemaximaliseerd worden. Een voorbeeld van een weekmenu en de verdeling van de calorieën:
@@ -281,9 +281,9 @@ Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Pro
 
 1. **Welke methoden zijn mogelijk bij het Container Stacking Probleem?**
 
-Voor het oplossen van dit probleem hebben Reinforcement Learning gebruikt. Het Deep Q-Network algoritme. De agent vult steeds de kade (het environment) opnieuw en krijgt steeds een beloning of straf voor wat hij doet, daar leert het model van. 
+Voor het oplossen van dit probleem hebben Reinforcement Learning gebruikt, specifiek het Deep Q-Network algoritme. De agent vult steeds de kade (het environment) opnieuw en krijgt een beloning of straf voor wat hij doet, daar leert het model van. 
 
-Ook kan het probleem opgelost met lineair programmeren of andere operations research algoritmes of heuristieken. 
+Ook kan het probleem opgelost worden met Lineair Programmeren of andere Operations Research algoritmes of heuristieken. 
 
 2. **Wat is een move en wat zijn de restricties?**
 
@@ -327,7 +327,7 @@ Een move is een container oppakken en ergens anders weer neerzetten. Er zijn vij
 
 Er zijn veel verschillende soorten containers. De meest gebruikte zijn die van 20 en 40 feet. We hadden gekozen voor de 20ft container maar later hebben we het niet gebruikt omdat de containers in ons model altijd dezelfde afmetingen hebben. 
 
-4. **Hoe is de haven ingericht en wat zijn de restricties?**
+4. **Hoe is de haven ingericht?**
 
 Van Cofano, de opdrachtgever, hebben we drie satellietbeelden gekregen van de kade:
 
@@ -344,7 +344,7 @@ Ook hebben we kaarten gekregen met iets meer informatie over de indeling van de 
     <img src="/Afbeeldingen/indeling%20kade2.png" />
   </details>
 
-Op deze beelden staan enorm veel containers, om de kade klein te houden hebben we zelf een kade bedacht. Die kade is vier containers breed, vier lang en vijf hoog. Vijf containers hoog omdat dat het maximale aantal op elkaar te zetten container is. Vier breed en vier lang zodat er ook containers tussen andere containers neergezet kunnen worden, zodat het meer op de werkelijkheid lijkt. Ook is dat omdat het model dan getraind wordt ervan uitgaande dat een container alleen vanaf de lange kant opgepakt en neergezet kan worden door de reachstacker.
+Op deze beelden staan enorm veel containers, om de kade klein te houden hebben we zelf een kade bedacht. Die kade is vier containers breed, vier lang en vijf hoog. Vijf containers hoog omdat dat het maximale aantal op elkaar te zetten container is. Vier breed en vier lang zodat er ook containers tussen andere containers neergezet kunnen worden, zodat het meer op de werkelijkheid lijkt. Ook is dat omdat het model dan getraind wordt ervan uitgaande dat een container alleen vanaf de lange kant opgepakt en neergezet kan worden door een reachstacker.
 
 Dus we hebben uiteindelijk niks gedaan met de informatie op de kade die we van Cofano hadden gekregen.
 
