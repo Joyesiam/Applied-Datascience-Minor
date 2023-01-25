@@ -11,13 +11,10 @@ https://markdownlivepreview.com/
 - inhoud foodboost, container fixen
 - titels bij grafiek
 - episode/ games/ epoch recht trekken
-\
-# hoofdstuk titel 
-## sub onderdeel hoofdstuk
-### sub sub onderdeel
-
 - naar elk bestand/ plaatje verwijzen
-- Lp model https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
+- Lp model 
+
+https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
 - q learning 
 - makkelijke modellen fixen
@@ -463,7 +460,7 @@ Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https:/
 Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek eten en diëten. Ook behoort het tot Data Science. De recepten die we gebruiken komen van Allerhande en zullen daardoor al gecontroleerd zijn op de eetbaarheid van de recepten. Wij hebben als groep de recepten daaruit gefilterd die geen noten bevatten want ons model genereerd recepten voor mensen die allergisch voor noten zijn. Dat is een risico want het kan erge gevolgen hebben als we een recept aanraden waar toch noten inzitten. Daarnaast zijn er geen strikte regels in deze sectoren. Het ergste wat kan gebeuren is dat ons model een recept aanraadt die de gebruiker niet lekker vindt. 
 
 ### Container 
-Het container project behoort tot de Transport en logistiek sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
+Het container project behoort tot de transport en logistieke sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
 
 ## Literatuuronderzoek
 
