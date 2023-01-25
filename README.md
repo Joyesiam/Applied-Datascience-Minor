@@ -8,7 +8,6 @@ https://markdownlivepreview.com/
 [title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
-- inhoud foodboost, container fixen
 - titels bij grafiek
 - episode/ games/ epoch recht trekken
 - naar elk bestand/ plaatje verwijzen
