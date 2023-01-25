@@ -13,6 +13,7 @@ https://markdownlivepreview.com/
 - episode/ games/ epoch recht trekken
 - naar elk bestand/ plaatje verwijzen
 - Lp model 
+- links proberen
 
 https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
@@ -524,17 +525,17 @@ Ook hebben we een histogram gemaakt en de mediaan en het gemiddelde berekend voo
   <img src="Afbeeldingen/Statistiek%20op%20calorieën3.png" />
 </details>
 
-Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 (de mediaan) calorieën mag zijn en de lunch 470 (het gemiddelde) calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn. 
+Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 calorieën mag zijn, dit komt overeen met de mediaan. En de lunch mag 470 calorieën bevatten, dat komt overeen met het gemiddelde. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn.
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
 
 ### Data voorbereiden
-```diff
-- to do: verschil oplossen in recepten
-```
-De data voor het voorspellen of iemand een recept lekker vindt of niet heb ik gemaakt. Dat werd gedaan op basis van de ingrediënten van een recept. De recepten zonder noten van de lunch en diner werden alleen meegenomen. 
-Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 5100 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met Fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was, voegde ik de twee kolommen samen. Daarna waren er nog 4797 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 166 ingrediënten over. 
-Het [notebook](link) met de code. 
+
+De data voor het voorspellen of iemand een recept lekker vindt of niet heb ik gemaakt. Dat word gedaan op basis van de ingrediënten van een recept. De recepten zonder noten van de lunch en diner werden alleen meegenomen. 
+
+Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 7204 verschillende ingrediënten. Sommige ingrediënten lijken erg veel op elkaar bijvoorbeeld zwarte-peperkorrel en zwarte-peperkorrels. Met Fuzzywuzzy heb ik de verschillende ingrediënten met elkaar vergeleken. Als de token_sort_ratio hoog genoeg was, voegde ik de twee kolommen samen. Daarna waren er nog 6774 verschillende ingrediënten over. Niet elk ingrediënt kwam vaak voor. Om overfitten tegen te gaan hadden was als groep besloten om alleen ingrediënten mee te nemen die in 40 of meer recepten voorkomen. Daarmee hadden we nog 167 ingrediënten over. 
+
+Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Stap%202%20Data%20voorbereiden.ipynb) met de code. 
 
 ## Container
 
@@ -543,7 +544,7 @@ De aangereikte datasets van Colfano heb ik onderzocht. Ik heb per kolom in de da
 
 ### Scheepsdata simuleren
 
-Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1, 2 of 3 hebben. Door middel van mijn code is het gemakkelijk om een random aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
+Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak was het om deze data te simuleren. Ik had daar voor drie verschillende boten gekozen: de Alphenaar, de Bokkenboot en een Pinker. Op deze boten kunnen een verschillend aantal containers. De containers kunnen een prioriteit van 1, 2 of 3 hebben. Doormiddel van mijn code is het gemakkelijk om een willekeruig aantal volle boten te simuleren en dus ook de containers daar op. Elke container krijgt een random plaats op het schip en een random prioriteit. In deze [code](Notebooks/Simulated%20data%20schepen%20en%20containers.ipynb) wordt er random één boot gesimuleerd.
 
 <details>
   <summary>Schip simulatie</summary>
