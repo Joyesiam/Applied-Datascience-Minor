@@ -17,6 +17,7 @@ https://markdownlivepreview.com/
 - bronnen rl toevoegen
 - q learning 
 - makkelijke modellen fixen
+- verwijzinge naar ander paragraven
 
 # Inhoud
 - [Obligatory criteria](#Verplichte-criteria)  
