@@ -379,16 +379,43 @@ Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit e
 
 ### Foodboost
 
-Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen op basis van het aantal Kcal energie. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. En vervolgend heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g”. Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend. Daaruit is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie.  
+Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. En vervolgend heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g”. Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend: 
+
+| Voedingsstof | Correlatie met vet |
+| --- | --- |
+| Vezels | 0.1850 |
+| Natrium  | 0.3032|
+| Koolhydraten| 0.3002 |
+| Energie | 0.8218 |
+| Eiwit  | 0.5199 |
+
+In de tabel is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie.  
+
+Eerst heb ik gekeken op er uitschieters in de trainingset zitten. Daarvoor heb ik twee boxplotten geemaakt, weer een voor vet en een voor energie. Uit de boxplot met vet komen niet duidelijke uitschieters, maar in die van energie komt een duidelijke uitschieter. Ik heb daarom gekeken welk recept de uitschieter was; Roggebrood met noten en bessen. Dat recept heeft de voedingswaardes van het hele brood in plaatst van per portie. Daarom heb ik dat recept uit de testset gehaald. 
+
+<details>
+  <summary>Boxplotten vet en energie</summary>
+  <img src="/Afbeeldingen/boxplot%20vet.png" />
+  <img src="/Afbeeldingen/boxplot%20energie.png" />
+</details>
 
 Voor de Lineaire Regressie heb ik eerste gekeken op de data normaal verdeeld was of niet. Daarvoor heb ik twee histogrammen gemaakt; een voor vet en een voor energie. 
 
 <details>
   <summary>Histogrammen vet en energie</summary>
   <img src="/Afbeeldingen/hist%20vet%201.png" />
+  <img src="/Afbeeldingen/hist%20energie%201.png" />
 </details>
 
-Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daarom heb ik van de waardes de wortelgetrokken getrokken. Daardoor zijn ze meer normaal verdeeld. Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en gefit. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
+Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daarom heb ik van de waardes de wortelgetrokken getrokken.Uit de nieuwe histogrammen blijkt dat de voedingsstoffen daardoor meer normaal verdeeld zijn dan eerst. 
+
+<details>
+  <summary>Histogrammen vet en energie</summary>
+  <img src="/Afbeeldingen/hist%20vet%202.png" />
+  <img src="/Afbeeldingen/hist%20energie%202.png" />
+</details>
+
+Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en gefit. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
 
 Als input van het Ridge model heb ik deze trainset gebruikt als voor Lineaire regressie maar niet genormaliseerd. Daar heb ik het model op gefit. Met het getrainde model heb ik de vetwaardes voorspeld op basis van de originele energie waardes. Met een R2-score heb ik weer de originele vetwaardes vergeleken met de voorspelde waarden uit het model.
 
@@ -399,6 +426,7 @@ Als input van het Ridge model heb ik deze trainset gebruikt als voor Lineaire re
 
 De R2 scores van het Ridge en het Lineaire regressie model liggen erg dichtbij elkaar. Maar het lineaire regressie model is net een klein beetje beter. 
 
+De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Ridge%20en%20lineaire%20regressie%20Foodboost(1).ipynb).
 
 ### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
