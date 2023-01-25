@@ -22,7 +22,7 @@ https://markdownlivepreview.com/
 - [Obligatory criteria](#Verplichte-criteria)  
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
-    - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan het-project)
+    - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan-het-project)
     - [Mijn leerdoelen](#Mijn-leerdoelen)
     - [Evaluatie van de groep](#Evaluatie-van-de-groep)
 - [Research project](#Research-project)
