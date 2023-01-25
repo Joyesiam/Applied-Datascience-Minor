@@ -539,13 +539,6 @@ Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak 
   <summary>Schip simulatie</summary>
   <img src="Afbeeldingen/schip%20simulatie.png" />
 </details>
-
-onderdelen
-- Data exploration
-- Data cleansing
-- Data preparation
-- Data explanation
-- Data visualization (exploratory)
  
 # Communication
 ## Presentaties
