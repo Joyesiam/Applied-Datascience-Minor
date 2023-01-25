@@ -19,10 +19,12 @@ https://markdownlivepreview.com/
 - makkelijke modellen fixen
 
 # Inhoud
-- [Obligatory criteria](#Obligatory-criteria)  
+- [Obligatory criteria](#Verplichte-criteria)  
   - [DataCamp](#DataCamp)
   - [Reflectie](#Reflectie)
-  - [Mijn leerdoelen](#Mijnl-eerdoelen)
+    - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan het-project)
+    - [Mijn leerdoelen](#Mijn-leerdoelen)
+    - [Evaluatie van de groep](#Evaluatie-van-de-groep)
 - [Research project](#Research-project)
   - [Task definition](#Task-definition)
   - [Evaluatie](#Evaluatie)
@@ -43,12 +45,14 @@ https://markdownlivepreview.com/
 - [Overige dingen](#Overige-dingen)
 
 
-# Obligatory criteria
+# Verplichte criteria
+
 ## DataCamp
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
 ## Reflectie 
-### My contribution to the project
+
+### Mijn bijdrage aan het project
 
 Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er om maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds op maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderd en de weken erna hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juiste persoon was om de voorzitter te zijn.
 
@@ -91,7 +95,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 | R | --- |
 ```
 
-### Evaluation on the group project as a whole
+### Evaluatie van de groep
 
 
 Ik vond het erg fijn om met mijn groepsgenootjes samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. Ik de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad.  Ik zal nu reflecteren per groepslid.
