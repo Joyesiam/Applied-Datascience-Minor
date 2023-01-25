@@ -56,6 +56,8 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 ## DataCamp
 ![DataCamp](/Afbeeldingen/DataCamp.png "This is a sample image.")
 
+[Terug naar de inhoud](#inhoud)
+
 ## Mijn bijdrage aan het project
 
 Tijdens het de minor heb ik de rol van voorzitter op me genomen. Zo was ik de voorzitter tijdens de vergaderingen en maakte ik de agenda voor de vergaderingen.  Tijdens het maken van de agenda keek ik altijd vooruit naar toekomstige taken, bijvoorbeeld een presentatie, zodat we die als groep konden bespreken en niet vergeten. We dwaalden als groep vaak af van het onderwerp van de vergadering en haalde ons dan weer terug. Vanaf week elf was ik er op maandag tijdens de vergaderingen niet wegens de colleges van een tweedejaars vak. Het was de bedoeling dat de groep nog steeds op maandag ging vergaderen, daarvoor had ik aangeboden om een agenda te maken, dat hadden ze afgeslagen. In week elf hadden ze erg kort vergaderd en de weken erna hebben ze niet vergaderd. Daarom hadden we besloten om vanaf week 12 maar één keer per week te vergaderen met mij als voorzitter. Hierdoor denk ik dat ik de juiste persoon was om de voorzitter te zijn.
@@ -93,6 +95,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 | R | --- |
 | R | --- |
 ```
+[Terug naar de inhoud](#inhoud)
 
 ## Evaluatie van de groep
 
@@ -118,6 +121,8 @@ Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen er
 | R | Hierdoor hebben we een taakverdeling waarbij iedereen een taak heeft en de duidelijk wanneer het af moet zijn. |
 | R | Ik denk dat ik het zo goed gaat en dat ik het volgende keer weer zo zou aanpakken. Mogelijk zal ik er de volgende keer opletten dat iedereen wel eens een andere soort taak doet dan altijd, bijvoorbeeld niet alleen programmeertaken maar ook literatuuronderzoek. |
 
+[Terug naar de inhoud](#inhoud)
+
 # Onderzoek naar het projec
 
 ## Definiëren van de taken
@@ -140,6 +145,8 @@ Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 
 ---
 
+[Terug naar de inhoud](#inhoud)
+
 ### Container
 
 De opdrachtgever van het container project is Cofano. De vraag van hen was hoe de containers met zo min mogelijk stappen van een schip naar de kade en dan naar een ander schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container vanaf het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet; de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
@@ -161,6 +168,8 @@ Ook voor dit project hebben we hoofdvraag en deelvragen opgesteld:
 
 ---
 
+[Terug naar de inhoud](#inhoud)
+
 ## Evaluatie
 
 ### Foodboost
@@ -171,6 +180,8 @@ Daarnaast is het handig om de data die we hebben gegenereerd te balanceren. Voor
 
 Bij Lineair Programmeren andere restricties op de calorieën zetten. Dit kan zowel door een minimum en een maximum aantal calorieën per dag te zetten zodat de verspreiding van de calorieën van het weekmenu meer gelijk wordt. Of door te zeggen dat iemand maximaal 1040 X 7 calorieën mag eten in een week, met een minimum per dag, zodat er meer variatie mogelijk is tussen de recepten. Als iemand dan iets minder calorieën eet op een dag en op een andere dag wat meer, dan komt het gemiddeld aantal calorieën per dag nog steeds overeen met het aantal aanvaardbare calorieën per dag voor lunch en diner. 
 
+[Terug naar de inhoud](#inhoud)
+
 ### Container
   
 Bij het container project zijn er ook een aantal punten waaraan gedacht kan worden om onze oplossing te verbeteren of uit te bereiden. Bijvoorbeeld het aantal container per prioriteit op het schip als input geven aan ons model, wat tot betere resultaten kan leiden. Nu heeft het model als input de prioriteit van de huidige container en de huidige opstelling van de kade (state). Ook kan het model niet één container als input hebben maar meerdere containers, zodat de agent de beste container kan kiezen om die neer te zetten op de kade. Dit lijkt meer op de realiteit bij het uitladen van schip kunnen de containers in verschillende volgordes van het schip af.  
@@ -179,6 +190,8 @@ Andere en/of meerdere vervoersmiddelen gebruiken om het meer op de werkelijkheid
 
 De kade uitbreiden naar een werkelijke opstelling van een haven, hiermee kan onderzocht worden of ons model ook voor zo’n grote kade werkt. 
 Tijdens het uitladen van een schip rekening houden met het evenwicht van het schip. Een uitbereiding daarvan is de containers zelf een gewicht geven. In de realiteit zijn niet alle containers even zwaar beladen en sommige zijn ook leeg. Dit levert ook meer restricties op tijdens het stapelen van de containers. 
+
+[Terug naar de inhoud](#inhoud)
 
 ## Conclusies
 
@@ -270,6 +283,8 @@ Op basis van deze restricties wordt er een week menu gemaakt waarbij de calorie�
   <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
 </details>
 
+[Terug naar de inhoud](#inhoud)
+
 ### Container
 
 Met welke methode(s) kunnen we het uitladingsdeel van het Container Stacking Probleem oplossen, gebruik makend van één reachstacker en één schip met een random lading?
@@ -349,6 +364,8 @@ Zelf heb ik code geschreven die drie verschillende soorten schepen willekeurig i
 
 Bij ons Reinforcement model hebben we de data gesimuleerd door een lijst te maken, met daarin de volgorde hoe de containers van het schip af gaan. In die lijst staan de prioriteiten van de containers. Deze lijst is willekeuring gegenereerd. 
 
+[Terug naar de inhoud](#inhoud)
+
 ## Planning 
 
 ### Foodboost
@@ -358,6 +375,8 @@ Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. E
   <summary>Trello bord Foodboost</summary>
   <img src="/Afbeeldingen/Trello1.png" />
 </details>
+
+[Terug naar de inhoud](#inhoud)
 
 ### Container
 
@@ -374,6 +393,8 @@ Voor dit project hebben we ook een Trello bord gemaakt. Wederom hebben we dit ee
   <summary>Trello bord Containers</summary>
   <img src="/Afbeeldingen/Trello2.png" />
 </details>
+
+[Terug naar de inhoud](#inhoud)
 
 # Voorspellende analyses
 
@@ -430,6 +451,8 @@ De R2 scores van het Ridge en het Lineaire regressie model liggen erg dichtbij e
 
 De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Ridge%20en%20lineaire%20regressie%20Foodboost(1).ipynb).
 
+[Terug naar de inhoud](#inhoud)
+
 ## Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
@@ -448,6 +471,8 @@ Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maxi
 
 Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
 
+[Terug naar de inhoud](#inhoud)
+
 # Domeinkennis
 
 ## Introductie
@@ -459,6 +484,8 @@ Het foodboost project behoort tot de zorg- en welzijn sector en dan specifiek et
 ### Container 
 Het container project behoort tot de transport en logistieke sector. Hierbij gelden veel regels. Wij houden vooral rekening met de regels over het stapelen van containers. Zo mag een stapel van containers bijvoorbeeld niet hoger zijn dan vijf containers. Ook mogen containers niet worden neergezet buiten de toebedeelde plekken. Deze regels en vele andere zijn er voor de veiligheid. Tijdens dit project hebben we het probleem moeten versimpelen maar toch kijken we voor elke oplossing of het ook echt kan in de werkelijkheid. Het doel van dit project was om een indeling op de kade te vinden waarbij de containers zo efficiënt mogelijk op de kade worden neergezet, rekening houdend met dat de containers ook weer makkelijk op een andere schepen gezet moeten worden. Het voordeel hiervan is dat schepen minder lang stil aan de kade hoeven te liggen, wat geld kost. 
 
+[Terug naar de inhoud](#inhoud)
+
 ## Literatuuronderzoek
 
 ### Foodboost
@@ -469,6 +496,8 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 - [A decision support system for managing combinatorial problems in container terminals](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/A%20decision%20support%20system%20for%20managing%20combinatorial%20problems%20in%20container%20terminals.pdf)
 - [An optimization model for the container pre-marshalling problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/An%20optimization%20model%20for%20the%20container%20pre-marshalling%20problem.pdf)
 - [Two-stage search algorithm for the inbound container unloading and stacking problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Two-stage%20search%20algorithm%20for%20the%20inbound%20container%20unloading%20and%20stacking%20problem.pdf)
+
+[Terug naar de inhoud](#inhoud)
 
 ## Terminologie 
 
@@ -498,6 +527,8 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 - Trachstacker: 
 - Container Stacking Probleem: 
 - State: De huidige status van de kade/ speelveld
+
+[Terug naar de inhoud](#inhoud)
 
 # Data voorbereiding
 
@@ -533,6 +564,8 @@ Van de ingrediënten heb ik een pivot tabel gemaakt, dat waren in totaal 7204 ve
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Stap%202%20Data%20voorbereiden.ipynb) met de code. 
 
+[Terug naar de inhoud](#inhoud)
+
 ## Container
 
 ### Onderzoek naar de datasets
@@ -547,6 +580,8 @@ Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak 
   <img src="Afbeeldingen/schip%20simulatie.png" />
 </details>
  
+[Terug naar de inhoud](#inhoud)
+
 # Communicatie
 ## Presentaties
 
@@ -565,4 +600,9 @@ We hadden de paper naar twee docenten gestuurd voor feedback, een deel van die f
 
 De uiteindelijke paper staat [hier](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Paper%20Groep%205%20Cofano%20Containers%20(1).pdf). 
 
+[Terug naar de inhoud](#inhoud)
+
 # Overige dingen
+
+
+[Terug naar de inhoud](#inhoud)
