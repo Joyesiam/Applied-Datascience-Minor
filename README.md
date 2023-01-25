@@ -147,7 +147,7 @@ Voor dit project hebben we een hoofdvraag en deelvragen opgesteld:
 
 ### Container
 
-De opdrachtgever van het container project is Cofano. De vraag van hen was hoe de containers zo met zo min mogelijk stappen van het ene schip naar de kade en dan naar het andere schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container vanaf het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet; de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
+De opdrachtgever van het container project is Cofano. De vraag van hen was hoe de containers met zo min mogelijk stappen van een schip naar de kade en dan naar een ander schip verplaatst kunnen worden. Dat zijn veel verschillende onderdelen om rekening mee te houden. Daarom hebben wij specifiek gekeken naar het uitladingsdeel van het probleem: een container vanaf het schip op de kade neerzetten. Ook houden we rekening met welk schip de container weer mee moet; de prioriteit. De prioriteit is een nummer en hoe lager het nummer hoe sneller de container weer op het volgende schip moet worden gezet. 
 
 Toen we de lay-out van de kade zagen wisten we meteen dat we die niet gingen gebruiken omdat er enorm veel containers zijn. Om een model te maken is het makkelijker om klein te beginnen. Daardoor maakte we onze eigen kade opstelling en eigen restricties daarvan. De containers zelf hebben ook restricties waar we rekening meer willen houden. 
 
@@ -193,12 +193,12 @@ Met welke methode(s) kunnen we een wekelijks menu voor lunch en diner, rekening 
 
 1. **Welke ingrediënten bevatten noten?**
 
-Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben we voor elk ingrediënt van het recept gekeken of er minimaal één noot in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daar hebben we het filteren op aangepast. 
+Om de ingrediënten te vinden die noten bevatten hebben we eerst gekeken welke noten, waar mensen met notenallergie allergisch voor zijn, er allemaal zijn. Om de recepten te vinden die geen noten bevatten hebben we voor elk ingrediënt van het recept gekeken of er minimaal één noot, uit de notenlijst, in voorkwam of niet. Die recepten die een ingrediënt hebben met noten hebben we weg gefilterd. Toen we die lijst zagen, kwamen we er achter dat de recepten met nootmuskaat en kokosnoot ook weg waren gefilterd maar dat hoeft niet. Daar hebben we het filteren op aangepast. 
 
 Dus de ingrediënten die noten bevatten zijn de ingrediënten die het volgende bevatten:
 
 <details>
-  <summary>Woorden die de ingrediënten met noten bevatten</summary>
+  <summary>De notenlijst</summary>
   
   - noot
   - pinda
@@ -234,26 +234,31 @@ Maar ze bevatten niet:
 
 2. **Hoeveel is aanbevolen dagelijkse calorieën voor lunch en diner samen?**
 
-1040, voor meer uitleg zie paragraaf [Calorieën](#Calorieën).
+Hiervoor heb ik eerst literatuuronderzoek gedaan naar het aantal aanbevolen calorieën voor lunch en diner. De resultaten ik samen met Jesse verwerkt tot een boxplot en twee histogrammen:
 
-```diff
-- meer uitleg?
-```
+<details>
+  <summary>Lunch en diner kcal boxplot en histogrammen</summary>
+  <img src="Afbeeldingen/Statistiek op calorieën1.png" />
+  <img src="Afbeeldingen/Statistiek%20op%20calorieën2.png" />
+  <img src="Afbeeldingen/Statistiek%20op%20calorieën3.png" />
+</details>
+
+Op basis van de histogrammen en boxplot hebben we bepaald dan het diner maximaal 570 calorieën moet bevatten en de lunch 470 calorieën. Samen is dat 1040 calorieën, voor meer uitleg zie paragraaf [Calorieën](#Calorieën).
 
 3. **Welke methode kan gebruikt worden om te voorspellen of iemand een recept lekker vindt?**
 
-Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspeelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
+Om te bepalen welke methode het beste is om te voorspellen of iemand een recept lekker vindt of niet hebben we drie modellen met elkaar vergeleken: Logistic Regression, Decision Tree Classifier en K- nearest Neighbors Classifier. Voor de vergelijking hebben we de metrieken recall, precision, accuracy en de f1 score berekend. Voor het voorspellen of iemand een recept lekker vindt, kijken we vooral naar de metriek precision. Want precision geeft aan hoeveel van voorspelde lekkere recepten de persoon ook echt lekker vindt. Het nadeel hiervan is dat de persoon hier door misschien minder recepten aangeraden wordt maar de kans is dan wel groter dat de aangeraden recepten ook echt lekker zijn. 
 
 <details>
   <summary>Modellen vergelijken</summary>
   <img src="/Afbeeldingen/modellen%20vergelijken%20lekker%20voorspellen.png" />
 </details>
 
-De Decision Tree Classifier scoort het hoogst van de drie modellen op precision. Daarom is de Decision Tree Classifier van de drie methodes de best om te voorspellen of iemand een recept lekker vindt of niet. 
+Uit de tabel hierboven blijkt dat de Decision Tree Classifier het hoogst van de drie modellen scoort op precision. Daarom is de Decision Tree Classifier van de drie methodes de best om te voorspellen of iemand een recept lekker vindt of niet. 
 
 4.  **Welke methode kan gebruikt worden voor een weekmenu met zo veel mogelijk variatie?**
 
-Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is ortools.linear_solver. De restricties hier van zijn:
+Om de recepten zonder noten die alleen een lunch of diner zijn om te zetten naar een weekmenu, rekening houdend met variatie hebben we Lineair Programmeren gebruikt. De libary die we hebben gebruikt is `ortools.linear_solver`. De restricties hier van zijn:
 -	Elke dag staat er één lunch en één diner op het menu
 -	Elke dag staat er maximaal 1040 calorieën op het menu 
 -	Elk recept mag maar één keer voorkomen tijdens de week
@@ -481,6 +486,7 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 - Lineair programmeren: Een wiskundige manier om de beste uitkomst te berekenen. 
 - Pivot tabel: Een draaitabel; een tabel wordt vervormd: de unieke waardes uit een bepaalde kolom worden de nieuwe kolomnamen, een andere kolom wordt de index. 
 - Tag: label; omschrijft tot welke categorie een gerecht behoort.
+- Lineair Programmeren?
 
 ### Container
 - Reinforcement Learing:
@@ -491,6 +497,10 @@ Het container project behoort tot de Transport en logistiek sector. Hierbij geld
 - Learning rate: De mate/snelheid waarin de agent leert.
 - Move: Een container oppakken en ergens anders weer neerzetten.
 - Episode: 
+- Prioriteit: Een cijfer dat aangeeft met welk schip de container weer mee moet. Hoe lager, hoog sneller dat schip vertrekt
+- Trachstacker: 
+- Container Stacking Probleem: 
+- State: De huidige status van de kade/ speelveld
 
 # Data preprocessing
 
@@ -514,7 +524,7 @@ Ook hebben we een histogram gemaakt en de mediaan en het gemiddelde berekend voo
   <img src="Afbeeldingen/Statistiek%20op%20calorieën3.png" />
 </details>
 
-Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 calorieën mag zijn en de lunch 470 calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn. 
+Op basis van deze gegevens hebben we bepaald dat het diner maximaal 570 (de mediaan) calorieën mag zijn en de lunch 470 (het gemiddelde) calorieën. In het project zijn we verder gegaan met 1040 calorieën voor het diner en lunch samen, zodat er meer mogelijkheden zijn. 
 
 Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb) met de code. 
 
