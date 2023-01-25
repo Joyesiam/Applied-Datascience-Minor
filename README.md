@@ -3,7 +3,6 @@ Student: Joanne Pals
 Studentennummer: 20189186
 https://markdownlivepreview.com/
 
-- container project met of zonder hoofdletter?
 - koppen grootte
 - titels bij grafiek
 - episode/ games/ epoch recht trekken
@@ -377,14 +376,14 @@ Voor het Foodboost project hebben we een Trello bord gemaakt als groep zijnde. E
 Aan het begin van het container project wilden we echt een planning. Die heb ik toen samen met Jesse gemaakt. Hoe verder we ons in het project doken hoe meer we er achter kwamen dat de planning niet realistisch was. Ook hadden we van tevoren een aanpak bedacht die we later niet gebruikten omdat er andere beter waren. De projectplanning staat hieronder als afbeelding, voor een duidelijkere weergave: [Projectplanning](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Projectplanning.xlsx) als een MS Excel bestand want als PDF bestand is het niet goed leesbaar.
 
 <details>
-  <summary>Projectplanning Container</summary>
+  <summary>Projectplanning container project</summary>
   <img src="/Afbeeldingen/Projectplanning.png" />
 </details>
 
 Voor dit project hebben we ook een Trello bord gemaakt. Wederom hebben we dit een paar weken gebruikt en daarna niet meer. Maar door de vergaderingen hadden we een overzicht van wat iedereen aan het doen was. 
 
 <details>
-  <summary>Trello bord Containers</summary>
+  <summary>Trello bord container project</summary>
   <img src="/Afbeeldingen/Trello2.png" />
 </details>
 
