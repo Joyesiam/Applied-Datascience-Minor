@@ -18,7 +18,6 @@ https://markdownlivepreview.com/
 https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
 - q learning 
-- makkelijke modellen fixen
 - verwijzinge naar ander paragraven
 
 # Inhoud
