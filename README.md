@@ -74,6 +74,8 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 | R | Als resultaat heb ik een agent en een environment waarop zowel het Q-learning algoritme als het Deep Q-learning algoritme op is getraind. Deze algoritmes voldoen ook aan de restricties van de kade. |
 | R | De volgende keer moet ik meer uitzoeken wat Deep Q-learning is en of er niet iets bijna hetzelfde is met ongeveer dezelfde naam, zodat ik de volgende keer niet weer de fout maak van iets proberen te maken maar dan toch net iets anders maak. <br> <br> Daarnaast moet ik de volgende keer eerder om hulp vragen aan anderen als ik vast zit. Want nu heb erg lang op een bepaald stuk vast gezeten en mogelijk kon iemand anders redelijk snel het probleem vinden en een mogelijke oplossing vinden. |
 
+[Terug naar de inhoud](#inhoud)
+
 ## Mijn leerdoelen
 
 Aan het begin van de minor wilde ik graag kennis maken met Machine Learning en neurale netwerken. Tijdens de minor heb ik dat gedaan door de colleges te volgen, Datacamp te maken en online bronnen te gebruiken tijdens het programmeren. 
