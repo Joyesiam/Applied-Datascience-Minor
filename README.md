@@ -3,9 +3,6 @@ Student: Joanne Pals
 Studentennummer: 20189186
 https://markdownlivepreview.com/
 
-<!-- toc -->
-
-[title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
 - titels bij grafiek
@@ -17,7 +14,6 @@ https://markdownlivepreview.com/
 https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
 - q learning 
-- verwijzinge naar ander paragraven
 - starr leerdoelen
 - literatuuronderzoek uitbereiden 
 - termologie 
