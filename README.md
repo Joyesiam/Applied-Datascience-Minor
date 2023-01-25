@@ -513,7 +513,7 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 - Envoirment: De ruimte waard
 - Learning rate: De mate/snelheid waarin de agent leert.
 - Move: Een container oppakken en ergens anders weer neerzetten.
-- Episode: 
+- Game: Als de agent de kade van drie bij drie bij één heeft volgezet met containers of als er te veel pogingen zijn gedaan om een container neer te zetten.
 - Prioriteit: Een cijfer dat aangeeft met welk schip de container weer mee moet. Hoe lager, hoog sneller dat schip vertrekt
 - Trachstacker: 
 - Container Stacking Probleem: 
