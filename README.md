@@ -3,7 +3,7 @@ Student: Joanne Pals
 Studentennummer: 20189186
 https://markdownlivepreview.com/
 
-- episode/ games/ epoch recht trekken
+- episode/ games recht trekken
 - naar elk bestand/ plaatje verwijzen
 - Lp model 
 - links proberen
@@ -447,11 +447,11 @@ De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datasci
 ## Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
 
-Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door spelletjes te spelen. Met de die data leert het model. In mijn geval is een spelletje één keer een kade van drie breed bij drie lang bij één hoog vullen. 
+Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door games te spelen. Met de die data leert het model. In mijn geval is een game één keer een kade van drie breed bij drie lang bij één hoog vullen. 
 
 Voor mijn Reinforcement model heb ik een Deep Q-Network gebruikt. Hiervoor heb ik eerst een environment en een agent gemaakt. Daarnaast heb ik de controles gemaakt die controleren of een move mag of niet. Voor deze controles wordt het platte speelbord vervormt naar een driedimensionale matrix.
 
-Mijn environment heeft een discrete action space want er zijn maar negen plekken om een container neer te zetten. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld, omdat dat niet mag, dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De episode is afgelopen als de kade volstaat of als er te veel pogingen zijn gedaan om de container te plaatsen. 
+Mijn environment heeft een discrete action space want er zijn maar negen plekken om een container neer te zetten. In de step wordt een container aan het speelveld toegevoegd als dat mag, daarvoor krijgt de agent een reward van 1. Als de container niet wordt toegevoegd aan het speelveld, omdat dat niet mag, dan krijgt de agent een reward van -1. Als de laatste container wordt toegevoegd aan het speelveld dan krijgt de agent een bonus van 10. De game is afgelopen als de kade volstaat of als er te veel pogingen zijn gedaan om de container te plaatsen. 
 
 Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maximale score en de mediaan en het maximum van de games. In de plot is duidelijk te zien dat de blauwe lijn het hardste omhoog gaat, maar de mediaan (oranje) is de lijn waar ik het meest naar kijk, want dat is de meest voorkomende waarde per 100 games. Het is  duidelijk te zien dat die lijn ook het maximum bereikt bij ongeveer 1100 games.
 
