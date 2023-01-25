@@ -95,7 +95,7 @@ Ik vond het erg fijn om met mijn groepsgenoten samen te werken. We hadden respec
 
 Ayrton: Een zin dit hem omschrijft: "Het maakt mij niet zo veel uit". Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Ik merkte dat hij soms achterliep op de groep qua kennis, wat niet erg is. Maar als we hem vroegen of hij uitleg er over nodig had zei hij van niet, maar als we hem een vraag over het onderwerp stelden om te controleren of we het duidelijk habben uitgelegd dan begreep hij het niet. Het leek als of hij sommige dingen niet wilde begrijpen, doordat hij niet over onderwerpen door vroeg als hij het niet begreep. Een leerdoel voor hem is om hulp vragen als hij dat nodig heeft, wij vinden het niet erg om je te helpen. 
 
-Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. Zo heeft hij wekenlang literatuuronderzoek gedaan zonder dat wij er resultaten van zagen, ook als we er naar vroegen. 
+Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. Zo heeft hij wekenlang literatuuronderzoek gedaan zonder dat wij er resultaten van zagen, ook als we er naar vroegen terwijl de deadline al was geweest. 
 
 Eric: Met Eric heb ik al vaker projecten gedaan en deze ik ben ik weer blij dat ik het met hem heb mogen doen. Hij heeft vaak veel goede input over hoe we een probleem kunnen oplossen. Daarnaast kon ik hem altijd om hulp vragen en dan gaf hij een duidelijk antwoord zodat ik weer verder kon. Zijn taken voerde hij grondig uit, niet alles is in de eindproducten gekomen maar hij heeft het toch gedaan. 
 
