@@ -8,7 +8,6 @@ https://markdownlivepreview.com/
 [title](link)
 - container project met of zonder hoofdletter?
 - koppen grootte
-- titels nederlands of engels?
 - inhoud foodboost, container fixen
 - titels bij grafiek
 - episode/ games/ epoch recht trekken
@@ -26,27 +25,27 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 - hoofdstuk overig 
 
 # Inhoud
-- [Obligatory criteria](#Verplichte-criteria)  
+- [Verplichte criteria](#Verplichte-criteria)  
   - [DataCamp](#DataCamp)
   - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan-het-project)
   - [Mijn leerdoelen](#Mijn-leerdoelen)
   - [Evaluatie van de groep](#Evaluatie-van-de-groep)
-- [Research project](#Research-project)
-  - [Task definition](#Task-definition)
+- [Onderzoek naar het project](#Onderzoek-naar-het-projec)
+  - [Definiëren van de taken](#Definiëren-van-de-taken)
   - [Evaluatie](#Evaluatie)
   - [Conclusies](#Conclusies)
   - [Planning](#Planning)
-- [Predictive Analytics](#Predictive-Analytics)
+- [Voorspellende analyses](#Voorspellende-analyses)
   - [Foodboost](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/README.md#foodboost-4)
   - [Container](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/README.md#container-4)
-- [Domain knowledge](#Domain-knowledge)
-  - [Introduction](#Introduction)
+- [Domeinkennis](#Domeinkennis)
+  - [Introductie](#Introductie)
   - [Literatuuronderzoek](#Literatuuronderzoek)
   - [Terminologie](#Terminologie)
-- [Data preprocessing](#Data-preprocessing)
+- [Data voorbereiding](#Data-voorbereiding)
   - [Foodboost](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/README.md#foodboost-8)
   - [Container](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/README.md#container-8)
-- [Communication](#Communication)
+- [Communicatie](#Communicatie)
   - [Presentaties](#Presentaties)
   - [Paper](#Paper)
 - [Overige dingen](#Overige-dingen)
@@ -117,9 +116,9 @@ Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen er
 | R | Hierdoor hebben we een taakverdeling waarbij iedereen een taak heeft en de duidelijk wanneer het af moet zijn. |
 | R | Ik denk dat ik het zo goed gaat en dat ik het volgende keer weer zo zou aanpakken. Mogelijk zal ik er de volgende keer opletten dat iedereen wel eens een andere soort taak doet dan altijd, bijvoorbeeld niet alleen programmeertaken maar ook literatuuronderzoek. |
 
-# Research project
+# Onderzoek naar het projec
 
-## Task definition
+## Definiëren van de taken
 
 ### Foodboost
 
@@ -374,7 +373,7 @@ Voor dit project hebben we ook een Trello bord gemaakt. Wederom hebben we dit ee
   <img src="/Afbeeldingen/Trello2.png" />
 </details>
 
-# Predictive Analytics
+# Voorspellende analyses
 
 ## Foodboost
 
@@ -447,9 +446,9 @@ Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maxi
 
 Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
 
-# Domain knowledge
+# Domeinkennis
 
-## Introduction
+## Introductie
 
 ### Foodboost 
 
@@ -498,7 +497,7 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 - Container Stacking Probleem: 
 - State: De huidige status van de kade/ speelveld
 
-# Data preprocessing
+# Data voorbereiding
 
 Ik heb zowel voor het Foodboost project als het Container project de data bekeken en voorbereid. 
 
@@ -546,7 +545,7 @@ Bij de haven komen boten aan, maar daar hadden we nog geen data voor. Mijn taak 
   <img src="Afbeeldingen/schip%20simulatie.png" />
 </details>
  
-# Communication
+# Communicatie
 ## Presentaties
 
 Tijdens de minor heb ik verschillende presentaties voorbereid en gegeven, de presentaties: 
