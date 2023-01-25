@@ -20,6 +20,9 @@ https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%
 - q learning 
 - verwijzinge naar ander paragraven
 - starr leerdoelen
+- literatuuronderzoek uitbereiden 
+- termologie 
+- hoofdstuk overig 
 
 # Inhoud
 - [Obligatory criteria](#Verplichte-criteria)  
