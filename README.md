@@ -82,7 +82,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 ```diff
 - | STARR | Uitleg |
 | --- | --- |
-| S | --- |
+| S | model trainen |
 | T | --- |
 | A | --- |
 | R | --- |
@@ -93,7 +93,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 
 Ik vond het erg fijn om met mijn groepsgenoten samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. In de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
 
-- Ayrton: Een zin dit hem omschrijft: "Het maakt mij niet zo veel uit", dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Ik merkte dat hij soms achterliep op de groep qua kennis, wat niet erg is. Maar als we hem vroegen of hij uitleg er over nodig had zei hij van niet, maar als we hem een vraag over het onderwerp stelde om te controleren of we het duidelijk hebben uitgelegd dan wist hij het niet. Leerdoel voor hem is om hulp vragen als je dat nodig hebt, wij vinden het niet erg om je te helpen. 
+Ayrton: Een zin dit hem omschrijft: "Het maakt mij niet zo veel uit". Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Ik merkte dat hij soms achterliep op de groep qua kennis, wat niet erg is. Maar als we hem vroegen of hij uitleg er over nodig had zei hij van niet, maar als we hem een vraag over het onderwerp stelden om te controleren of we het duidelijk habben uitgelegd dan begreep hij het niet. Het leek als of hij sommige dingen niet wilde begrijpen, doordat hij niet over onderwerpen door vroeg als hij het niet begreep. Een leerdoel voor hem is om hulp vragen als hij dat nodig heeft, wij vinden het niet erg om je te helpen. 
 
 Voor mijn gevoel heeft hij niet zo veel bijgedragen aan de groep en het project. Zo heeft hij wekenlang literatuuronderzoek gedaan zonder dat wij er resultaten van zagen, ook als we er naar vroegen. 
 
