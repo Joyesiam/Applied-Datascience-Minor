@@ -73,9 +73,9 @@ Mijn bijdrage aan de paper was de inleiding, spellingscontrole, opmaak en het ve
 
 ## Mijn leerdoelen
 
-Aan het begin van de minor wilde ik graag kennis maken met Machine Learning en neurale netwerken. Tijdens de minor heb ik dat gedaan door de colleges te volgend, Datacamp te maken en online bronnen te gebruiken tijdens het programmeren. 
+Aan het begin van de minor wilde ik graag kennis maken met Machine Learning en neurale netwerken. Tijdens de minor heb ik dat gedaan door de colleges te volgen, Datacamp te maken en online bronnen te gebruiken tijdens het programmeren. 
 
-Ik wist niet dat er zo veel verschillend dingen waren waar je op moet letten als je een model wil trainen. Ik wist bijvoorbeeld wel dat de data eerste voorbereid moest zijn maar niet dat je ook moest kijken of het gebalanceerd was. Met de meeste evaluatie metrieken had ik al ervaring maar ik heb er nu meer inhoudelijke kennis over. Ik dacht dat een model zelf trainen veel lasteriger zou zijn maar nu ik het gedaan heb valt het allemaal mee. Want de meeste tijd zit in de data voorbereiden en het model evalueren. 
+Ik wist niet dat er zo veel verschillend dingen waren waar je op moet letten als je een model wil trainen. Ik wist bijvoorbeeld wel dat de data eerst voorbereid moest zijn maar niet dat je ook moest kijken of het gebalanceerd was. Met de meeste evaluatie metrieken had ik al ervaring maar ik heb er nu meer inhoudelijke kennis over op gedaan. Ik dacht dat een model zelf trainen veel lasteriger zou zijn, maar nu ik het gedaan heb valt het allemaal mee. Want de meeste tijd zit in de data voorbereiden en het model evalueren. 
 
 Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later sneller nog een keer gebruiken. 
 
