@@ -31,6 +31,7 @@ https://markdownlivepreview.com/
   - [Conclusies](#Conclusies)
   - [Planning](#Planning)
 - [Predictive Analytics](#Predictive-Analytics)
+  - [Foodboost](#Foodboost)
   - [Container](#Container)
 - [Domain knowledge](#Domain-knowledge)
   - [Introduction](#Introduction)
