@@ -14,7 +14,7 @@ https://markdownlivepreview.com/
 https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
 - q learning 
-- starr leerdoelen
+- starr leerdoelen controleren
 - literatuuronderzoek uitbereiden 
 - termologie 
 - hoofdstuk overig 
@@ -81,15 +81,14 @@ Ik wist niet dat er zo veel verschillend dingen waren waar je op moet letten als
 
 Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later sneller nog een keer gebruiken. 
 
-```diff
-- | STARR | Uitleg |
+| STARR | Uitleg |
 | --- | --- |
-| S | model trainen |
-| T | --- |
-| A | --- |
-| R | --- |
-| R | --- |
-```
+| S | Tijdens het Foodboost project moesten er modellen getraind worden. |
+| T | Mijn taak was om een model te maken en te trainen om de voedingsstof vet te voorspellen op basis van de andere voedingsstoffen. |
+| A | Als eerste had ik de dataset nutritions op geschoond. Daarna heb ik gekeken welke andere voedingsstoffen sterke correlatie hadden met vet. Daar kwam de voedingsstof energie uit. Vervolgens heb ik gekozen wel model ik wil gebruiken; Lineaire Regressie. <br> Om een model te trainen heb ik eerst de data gesplitst. Daarna kwam ik er achter dan ik eerst moest kijken of de data normaal verdeeld is of niet. Met histogrammen heb ik daar naar gekeken. De data was niet normaal verdeeld, dat heb ik opgelost door de wortel te trekken van de data. Daarna moest ik ook uitzoeken of de data geen uitschieters bevat. Van de originele data heb ik boxplotten gemaakt. Daar was één uitschieter te zien, die heb ik uit de data gehaald. <br> Daarna kon ik het model gaan trainen met de data. Vervolgens moest ik een evaluatie metriek kiezen. Daarvoor heb ik de R2-score gekozen. De uitkomsten uit het model moest ik eerst naast de originele waardes zetten zodat ik ze kon vergelijken, dus dat heb ik gedaan. Ook moest ik de uitkomsten van het model kwadrateren. Daarna heb ik de R2-score berekend en kon in het model daarmee evalueren. |
+| R | Als resultaat van de R2-score kwam een score van 0.6617. Dus ik heb een werkend Lineair Regressie model gemaakt. |
+| R | De volgende keer moet ik misschien Cross-validation op het model uitvoeren om zo een nog beter beeld te krijgen hoe goed het model werkt. Daarnaast weet ik voor de volgende keer dat ik genoeg tijd moet nemen om de data voor te bereiden voordat ik het model zelf kan train. Ik had zelf namelijk verwacht dat het trainen van het model langer zou duren dan de data voorbereiden. | 
+
 [Terug naar de inhoud](#inhoud)
 
 ## Evaluatie van de groep
