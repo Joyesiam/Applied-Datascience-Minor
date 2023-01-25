@@ -370,13 +370,22 @@ Voor dit project hebben we ook een Trello board gemaakt. Wederom hebben we dit e
 </details>
 
 ## Predictive Analytics
-```diff
-Foodboost
--	Waarom dit model -> literatuur
--	Trainen -> underfitten overfitting etc. 
--	Modellen vergelijken + evalueren 
--	Visualisatie 
-```
+
+### Foodboost
+
+Voor het Foodboost project heb ik het aantal gram vet geprobeerd te voorspellen op basis van het aantal Kcal energie. Dit heb ik gedaan met de nutritions dataset. Daar heb ik eerst een pivot tabel van gemaakt. En vervolgend heb ik die opgeschoond door de eenheden van de verschillen voedingsstoffen weggehaald, de eiwitten staan bijvoorbeeld als “2 g”. Eerst heb ik de data gesplitst in een train- en een testset. Met de trainset heb ik de correlatie tussen vet en de andere voedingsstoffen berekend. Daaruit is te zien dat vezels de minste correlatie heeft met vet en energie de meeste. Daarom heb ik twee modellen gemaakt om vet te voorspellen op basis van energie: Ridge en Lineaire Regressie.  
+
+Voor de Lineaire Regressie heb ik eerste gekeken op de data normaal verdeeld was of niet. Daarvoor heb ik twee histogrammen gemaakt; een voor vet en een voor energie. Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daarom heb ik van de waardes de wortelgetrokken getrokken. Daardoor zijn ze meer normaal verdeeld. Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en gefit. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
+
+Als input van het Ridge model heb ik deze trainset gebruikt als voor Lineaire regressie maar niet genormaliseerd. Daar heb ik het model op gefit. Met het getrainde model heb ik de vetwaardes voorspeld op basis van de originele energie waardes. Met een R2-score heb ik weer de originele vetwaardes vergeleken met de voorspelde waarden uit het model.
+
+| Model| R2-score |
+| --- | --- |
+| Ridge | 0.6588 |
+| Lineaire Regressie | 0.6617|
+
+De R2 scores van het Ridge en het Lineaire regressie model liggen erg dichtbij elkaar. Maar het lineaire regressie model is net een klein beetje beter. 
+
 
 ### Container
 https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
