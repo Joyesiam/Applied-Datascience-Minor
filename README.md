@@ -2,10 +2,7 @@
 Student: Joanne Pals  
 Studentennummer: 20189186
 
-
-- q learning 
-- termologie 
-- hoofdstuk overig 
+- termologie  
 
 als laatste:
 - alles na lezen en controleren
@@ -503,6 +500,7 @@ Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https:/
 
 Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier]( https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters Learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
 
+[Terug naar de inhoud](#inhoud)
 
 # Domeinkennis
 
@@ -553,10 +551,6 @@ Voor de Grid Search het ik deze bron gebruikt:
 [Terug naar de inhoud](#inhoud)
 
 ## Terminologie 
-
-```diff
--meer begrippen
-```
 
 ### Foodboost
 - Allergie: Als iemand in aanraking komt met een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
@@ -652,10 +646,5 @@ Voordat we aan de paper konden beginnen hadden we een opzet nodig van de hoofdst
 We hadden de paper naar twee docenten gestuurd voor feedback, een deel van die feedback heb ik verwerkt. Daarnaast heb ik de stukjes van andere gecontroleerd op aanleiding van de feedback en aangepast waar nodig, om een zo goed mogelijke paper op te leveren.
 
 De uiteindelijke paper staat [hier](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Paper%20Groep%205%20Cofano%20Containers%20(1).pdf). 
-
-[Terug naar de inhoud](#inhoud)
-
-# Overige dingen
-
 
 [Terug naar de inhoud](#inhoud)
