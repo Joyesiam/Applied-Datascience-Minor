@@ -519,18 +519,27 @@ Tijdens het Foodboost project heb ik verschillende bronnen gebruikt. Voor het LP
 -	[Integer vs. Linear Programming in Python](https://mlabonne.github.io/blog/integerprogramming/)
 
 Voor het Lineaire Regressie en Ridge model heb ik de volgende gebruikt:
-
 -	[Linear Regressions and Split Datasets Using Sklearn](https://medium.com/the-code-monster/split-a-dataset-into-train-and-test-datasets-using-sk-learn-acc7fd1802e0)
 -	[sklearn Linear model Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
 
 En FuzzyWuzzy heb ik gebruikt om bijna dezelfde ingrediënten samen te voegen:
-
 -	[FuzzyWuzzy Python library](https://www.geeksforgeeks.org/fuzzywuzzy-python-library/)
 
-
-
-
 ### Container
+
+Tijdens het container project heb ik een aantal paper gelezen:
+- [A decision support system for managing combinatorial problems in container terminals](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/A%20decision%20support%20system%20for%20managing%20combinatorial%20problems%20in%20container%20terminals.pdf)
+- [An optimization model for the container pre-marshalling problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/An%20optimization%20model%20for%20the%20container%20pre-marshalling%20problem.pdf)
+- [Two-stage search algorithm for the inbound container unloading and stacking problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Two-stage%20search%20algorithm%20for%20the%20inbound%20container%20unloading%20and%20stacking%20problem.pdf)
+
+Daarnaast heb ik andere bronnen gebruikt om een Reinfocement Learning model te maken: 
+-	[Part 1 — Building a deep Q-network to play Gridworld — DeepMind’s deep Q-networks](https://towardsdatascience.com/part-1-building-a-deep-q-network-to-play-gridworld-deepminds-deep-q-networks-78842007c631)
+-	[Part 2 — Building a deep Q-network to play Gridworld — Catastrophic Forgetting and Experience Replay](https://towardsdatascience.com/part-2-building-a-deep-q-network-to-play-gridworld-catastrophic-forgetting-and-experience-6b2b000910d7)
+-	[Part 3— Building a deep Q-network to play Gridworld — Learning Instability and Target Networks](https://towardsdatascience.com/part-3-building-a-deep-q-network-to-play-gridworld-learning-instability-and-target-networks-fb399cb42616)
+-	[Guide to Reinforcement Learning with Python and TensorFlow](https://rubikscode.net/2021/07/13/deep-q-learning-with-python-and-tensorflow-2-0/)
+-	[Hands-On Introduction to Reinforcement Learning in Python](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88)
+-	[Reinforcement Q-Learning from Scratch in Python with OpenAI Gym](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) 
+
 
 Papers: 
 - [A decision support system for managing combinatorial problems in container terminals](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/A%20decision%20support%20system%20for%20managing%20combinatorial%20problems%20in%20container%20terminals.pdf)
