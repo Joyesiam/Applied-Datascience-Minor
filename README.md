@@ -1,6 +1,6 @@
 # Applied-Datascience-Minor-portfolio
 Student: Joanne Pals  
-Studentennummer: 20189186
+Studentennummer: 20189176
 
 # Inhoud
 - [Verplichte criteria](#Verplichte-criteria)  
