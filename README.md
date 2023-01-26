@@ -514,10 +514,13 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 
 ### Foodboost
 
+Tijdens het Foodboost project heb ik verschillende bronnen gebruikt. Voor het LP-model heb deze gebruikt:
 -	[Introduction to Linear Programming in Python](https://mlabonne.github.io/blog/linearoptimization/)
 -	[Integer vs. Linear Programming in Python](https://mlabonne.github.io/blog/integerprogramming/)
+Voor het Lineaire Regressie en Ridge model heb ik de volgende gebruikt:
 -	[Linear Regressions and Split Datasets Using Sklearn](https://medium.com/the-code-monster/split-a-dataset-into-train-and-test-datasets-using-sk-learn-acc7fd1802e0)
 -	[sklearn Linear model Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+En FuzzyWuzzy heb ik gebruikt om bijna dezelfde ingrediënten samen te voegen:
 -	[FuzzyWuzzy Python library](https://www.geeksforgeeks.org/fuzzywuzzy-python-library/)
 
 
