@@ -490,7 +490,9 @@ Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https:/
 
 ### Q-Learning
 
-Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier]( https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
+Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. 
+
+Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
 
 [Terug naar de inhoud](#inhoud)
 
