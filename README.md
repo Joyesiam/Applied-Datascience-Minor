@@ -2,14 +2,15 @@
 Student: Joanne Pals  
 Studentennummer: 20189186
 
-- naar elk bestand/ plaatje verwijzen
-- bronnen rl toevoegen
+
 - q learning 
-- literatuuronderzoek uitbereiden 
 - termologie 
 - hoofdstuk overig 
+
+als laatste:
 - alles na lezen en controleren
 - links proberen
+- naar elk bestand/ plaatje verwijzen
 
 # Inhoud
 - [Verplichte criteria](#Verplichte-criteria)  
