@@ -3,16 +3,13 @@ Student: Joanne Pals
 Studentennummer: 20189186
 
 - naar elk bestand/ plaatje verwijzen
-- Lp model 
-- links proberen
-
-https://datascience.hhs.nl:8888/user/20189176/notebooks/ads5/FoodBoost%20eerste%206%20weken/Stap%205%20Lp%20model%20v3.ipynb
 - bronnen rl toevoegen
 - q learning 
-- starr leerdoelen controleren
 - literatuuronderzoek uitbereiden 
 - termologie 
 - hoofdstuk overig 
+- alles na lezen en controleren
+- links proberen
 
 # Inhoud
 - [Verplichte criteria](#Verplichte-criteria)  
