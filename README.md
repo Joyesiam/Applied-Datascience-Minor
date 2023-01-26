@@ -2,13 +2,6 @@
 Student: Joanne Pals  
 Studentennummer: 20189186
 
-- termologie  
-
-als laatste:
-- alles na lezen en controleren
-- links proberen
-- naar elk bestand/ plaatje verwijzen
-
 # Inhoud
 - [Verplichte criteria](#Verplichte-criteria)  
   - [DataCamp](#DataCamp)
@@ -34,7 +27,6 @@ als laatste:
   - [Presentaties](#Presentaties)
   - [Paper](#Paper)
 - [Overige dingen](#Overige-dingen)
-
 
 # Verplichte criteria
 
