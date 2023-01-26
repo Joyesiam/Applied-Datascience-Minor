@@ -555,6 +555,42 @@ Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/N
 
 [Terug naar de inhoud](#inhoud)
 
+### Lineair Programmeer model
+
+Lineair programmeer model 
+
+Om de recepten zo optimaal in te delen over de week hebben we een Lineair Programmeer model gebruikt. Jesse was daar al mee begonnen voordat ik er bij aansloot. Hij had toe deze [website](https://mlabonne.github.io/blog/linearoptimization/) gevonden. Dat voorbeeld hebben we gevolgd en aangepast naar ons project. De restricties aan ons model waren:
+
+-	Elke dag staat er één lunch en één diner op het menu.
+-	Elke dag staan er maximaal 1040 calorieën op het menu.
+-	Elk recept mag maar één keer voorkomen tijdens de week.
+
+Toen we het werkend kregen kwamen we er achter dat als we precies één lunch of diner wilden hebben dat het model dan soms een recept 0,99 maal pakt en een ander recept 0,01 maal pakt. Daardoor voldeed het wel aan de restrictie, maar was het niet wat wij wilden. Daarom hebben we ons model verandert naar een Integer model zodat de recepten of helemaal of helemaal niet gekozen konden worden en toen was het probleem verholpen. De uitkomsten van dit model zijn een weekmenu en de verspreiding van de colorieën per week:
+
+<details>
+  <summary>Weekmenu</summary>
+  <img src="/Afbeeldingen/weekmenu.png" />
+</details>
+
+<details>
+  <summary>Verspreiding van de calorieën per week</summary>
+  <img src="/Afbeeldingen/weekmenu%20calorieen.png" />
+</details>
+
+Later had ik het Lineair Programmeer model uitbreid met een rating. Daarvoor wordt er per recept een willekeurige rating gegenereerd. In het model zelf is de doelfunctie uitbreidt met de rating zodat de hoogst beoordeelde recepten eerder gekozen worden dan de lagere. De extra uitkomsten uit dit model zijn een weekmenu en de verdeling van rating over de week. De verspreiding van de calorieën per week is onveranderd. De rating hebben we niet gebruikt voor het project. 
+
+<details>
+  <summary>Weekmenu met rating</summary>
+  <img src="/Afbeeldingen/weekmenu%20met%20rating.png" />
+</details>
+
+<details>
+  <summary>Verdeling van de rating in een week</summary>
+  <img src="/Afbeeldingen/Rating%20over%20de%20week.png" />
+</details>
+
+Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Stap%205%20Lp%20model%20v3.ipynb) met de code. 
+
 ## Container
 
 ### Onderzoek naar de datasets
