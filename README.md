@@ -8,7 +8,7 @@ Studentennummer: 20189176
   - [Mijn bijdrage aan het project](#Mijn-bijdrage-aan-het-project)
   - [Mijn leerdoelen](#Mijn-leerdoelen)
   - [Evaluatie van de groep](#Evaluatie-van-de-groep)
-- [Onderzoek naar het project](#Onderzoek-naar-het-projec)
+- [Onderzoek naar het project](#Onderzoek-naar-het-project)
   - [Definiëren van de taken](#Definiëren-van-de-taken)
   - [Evaluatie](#Evaluatie)
   - [Conclusies](#Conclusies)
@@ -67,7 +67,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 | --- | --- |
 | S | Tijdens het Foodboost project moesten er modellen getraind worden. |
 | T | Mijn taak was om een model te maken en te trainen om de voedingsstof vet te voorspellen op basis van de andere voedingsstoffen. |
-| A | Als eerste had ik de dataset nutritions op geschoond. Daarna heb ik gekeken welke andere voedingsstoffen sterke correlatie hadden met vet. Daar kwam de voedingsstof energie uit. Vervolgens heb ik gekozen wel model ik wil gebruiken; Lineaire Regressie. <br> Om een model te trainen heb ik eerst de data gesplitst. Daarna kwam ik er achter dan ik eerst moest kijken of de data normaal verdeeld is of niet. Met histogrammen heb ik daar naar gekeken. De data was niet normaal verdeeld, dat heb ik opgelost door de wortel te trekken van de data. Daarna moest ik ook uitzoeken of de data geen uitschieters bevat. Van de originele data heb ik boxplotten gemaakt. Daar was één uitschieter te zien, die heb ik uit de data gehaald. <br> Daarna kon ik het model gaan trainen met de data. Vervolgens moest ik een evaluatie metriek kiezen. Daarvoor heb ik de R2-score gekozen. De uitkomsten uit het model moest ik eerst naast de originele waardes zetten zodat ik ze kon vergelijken, dus dat heb ik gedaan. Ook moest ik de uitkomsten van het model kwadrateren. Daarna heb ik de R2-score berekend en kon in het model daarmee evalueren. |
+| A | Als eerste had ik de dataset nutritions op geschoond. Daarna heb ik gekeken welke andere voedingsstoffen sterke correlatie hadden met vet. Daar kwam de voedingsstof energie uit. Vervolgens heb ik gekozen wel model ik wil gebruiken; Lineaire Regressie. <br> <br> Om een model te trainen heb ik eerst de data gesplitst. Daarna kwam ik er achter dan ik eerst moest kijken of de data normaal verdeeld is of niet. Met histogrammen heb ik daar naar gekeken. De data was niet normaal verdeeld, dat heb ik opgelost door de wortel te trekken van de data. Daarna moest ik ook uitzoeken of de data geen uitschieters bevat. Van de originele data heb ik boxplotten gemaakt. Daar was één uitschieter te zien, die heb ik uit de data gehaald. <br><br> Daarna kon ik het model gaan trainen met de data. Vervolgens moest ik een evaluatie metriek kiezen. Daarvoor heb ik de R2-score gekozen. De uitkomsten uit het model moest ik eerst naast de originele waardes zetten zodat ik ze kon vergelijken, dus dat heb ik gedaan. Ook moest ik de uitkomsten van het model kwadrateren. Daarna heb ik de R2-score berekend en kon in het model daarmee evalueren. |
 | R | Als resultaat van de R2-score kwam een score van 0.6617. Dus ik heb een werkend Lineair Regressie model gemaakt. |
 | R | De volgende keer moet ik misschien Cross-validation op het model uitvoeren om zo een nog beter beeld te krijgen hoe goed het model werkt. Daarnaast weet ik voor de volgende keer dat ik genoeg tijd moet nemen om de data voor te bereiden voordat ik het model zelf kan train. Ik had zelf namelijk verwacht dat het trainen van het model langer zou duren dan de data voorbereiden. | 
 
@@ -75,7 +75,7 @@ Nu weet ik waar ik neurale netwerk allemaal voor kan gebruiken, zal ik het later
 
 ## Evaluatie van de groep
 
-Ik vond het erg fijn om met mijn groepsgenoten samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. In de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
+Ik vond het erg fijn om met mijn groepsgenoten samen te werken. We hadden respect voor elkaar en naar de mening van iedereen werd geluisterd. In de eerste week van de minor hadden we onze sterkte en zwakte punten besproken zodat we daar rekening mee konden houden en elkaar daar mee konden helpen. Om hulp vragen ging naar mijn idee erg goed in de groep, vaak boden we het ook aan als we een onderwerp introduceerden waar niet iedereen kennis over had. Ik merk ook dat we steeds meer een groep werden door dat we elkaar leerden kennen, daardoor hebben we veel plezier gehad. Ik zal nu reflecteren per groepslid.
 
 Ayrton: Een zin dit hem omschrijft: "Het maakt mij niet zo veel uit". Dat hebben we hem vaak horen zeggen. Daarnaast zei hij niet zo veel. Ik merkte dat hij soms achterliep op de groep qua kennis, wat niet erg is. Maar als we hem vroegen of hij uitleg er over nodig had, zei hij van niet, maar als we hem een vraag over het onderwerp stelden om te controleren of we het duidelijk hadden uitgelegd dan begreep hij het niet. Het leek als of hij sommige dingen niet wilde begrijpen, doordat hij niet over onderwerpen door vroeg als hij het niet begreep. Een leerdoel voor hem is om hulp vragen als hij dat nodig heeft, wij vinden het niet erg om je te helpen.
 
@@ -93,13 +93,13 @@ Sefa: Ook een gezellige jongen, fijn om mee samen te werken. Hij had nog geen er
 | --- | --- |
 | S | Er moest een taakverdeling gemaakt worden, dit gebeurde elke vergadering. |
 | T | Mijn taak als voorzitter is een taakverdeling maken waarmee iedereen het eens is. Daarnaast moet het ook duidelijk zijn wie wat moet gaan doen en wanneer het af moet zijn. |
-| A | Mijn aanpak begin altijd al tijdens het maken van een agenda, daar zet ik al de nieuwe taken op die besproken moeten worden. Tijdens de vergadering zelf bespreken we de voortgang van de taken van iedereen. Aan het eind van de vergadering staat er altijd het punt taakverdeling op de agenda. Eerst bespreken welke taken er allemaal zijn, en daarna kan iedereen zijn voorkeur aangeven voor een taak. Vaak laat zich als eerst horen Martti, daarna ik als ik een voorkeur heb en vervolgens zeggen Eric en Jesse dat ze een bepaalde taak wel op zich kunnen nemen. De taken staan dan nog niet vast, want ik vraag dan eerst aan de rest van de groep of zijn het er mee eens zijn of de persoon met de voorkeur die taak gaat doen. Hierna geeft Sefa vaak ook aan wat hij zou willen doen. Als ik geen voorkeur had dan is dit het moment dat ik aangeeft dat ik nog geen taak had. Ook heeft Ayrton nog geen taak op dit moment, maar dat geeft hij niet aan. Ik moet dan specifiek vragen aan hem wat hij graag zou willen doen, zijn antwoord is dan meestal: Het maakt mij niet zo veel uit. Daardoor krijgt hij vaak de taken waar niemand echt zin in heeft of hij wordt bij iemand anders bij een taak gezet zodat ze er samen aan kunnen werken. Hier na vraag ik aan de groep of het zo duidelijk is en of er nog aanpassingen nodig zijn. Daarna bespreken we als groep per taak wanneer het af moet zijn, hierbij geeft de persoon met deze taak aan wanneer hij het af kan hebben en vaak wordt dat dan de deadline. |
+| A | Mijn aanpak begin altijd al tijdens het maken van een agenda, daar zet ik al de nieuwe taken op die besproken moeten worden. Tijdens de vergadering zelf bespreken we de voortgang van de taken van iedereen. Aan het eind van de vergadering staat er altijd het punt taakverdeling op de agenda. Eerst bespreken welke taken er allemaal zijn, en daarna kan iedereen zijn voorkeur aangeven voor een taak. Vaak laat Martti zich als eerst horen, daarna ik als ik een voorkeur heb en vervolgens zeggen Eric en Jesse dat ze een bepaalde taak wel op zich kunnen nemen. De taken staan dan nog niet vast, want ik vraag dan eerst aan de rest van de groep of zijn het er mee eens zijn of de persoon met de voorkeur die taak gaat doen. Hierna geeft Sefa vaak ook aan wat hij zou willen doen. Als ik geen voorkeur had dan is dit het moment dat ik aangeeft dat ik nog geen taak had. Ook heeft Ayrton nog geen taak op dit moment, maar dat geeft hij niet aan. Ik moet dan specifiek vragen aan hem wat hij graag zou willen doen, zijn antwoord is dan meestal: Het maakt mij niet zo veel uit. Daardoor krijgt hij vaak de taken waar niemand echt zin in heeft of hij wordt bij iemand anders bij een taak gezet zodat ze er samen aan kunnen werken. Hier na vraag ik aan de groep of het zo duidelijk is en of er nog aanpassingen nodig zijn. Daarna bespreken we als groep per taak wanneer het af moet zijn, hierbij geeft de persoon met deze taak aan wanneer hij het af kan hebben en vaak wordt dat dan de deadline. |
 | R | Hierdoor hebben we een taakverdeling waarbij iedereen een taak heeft en de duidelijk wanneer het af moet zijn. |
 | R | Ik denk dat ik het zo goed gaat en dat ik het volgende keer weer zo zou aanpakken. Mogelijk zal ik er de volgende keer opletten dat iedereen wel eens een andere soort taak doet dan altijd, bijvoorbeeld niet alleen programmeertaken maar ook literatuuronderzoek. |
 
 [Terug naar de inhoud](#inhoud)
 
-# Onderzoek naar het projec
+# Onderzoek naar het project
 
 ## Definiëren van de taken
 
@@ -414,7 +414,7 @@ Uit beide histogrammen blijkt dat dat ze allebei niet normaal verdeeld zijn. Daa
   <img src="/Afbeeldingen/hist%20energie%202.png" />
 </details>
 
-Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het lineaire regressie model gemaakt en getraind. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
+Het worteltrekken heb ik ook de testset gedaan. Hierna heb ik de trainset gesplitst en het Lineaire Regressie model gemaakt en getraind. Vervolgens heb ik met de testset een voorspelling gemaakt. Om te kunnen beredeneren hoe goed het model is, moeten de waardes weer gekwadrateerd worden. Daarna heb ik de voorspelde waardes vergeleken met de originele vetwaardes met een R2-score. 
 
 Als input van het Ridge model heb ik dezelfde trainset gebruikt als voor Lineaire Regressie, maar niet genormaliseerd. Daarna heb ik het model op getraind. Met het getrainde model heb ik de vetwaardes voorspeld op basis van de originele energie waardes. Met een R2-score heb ik weer de originele vetwaardes vergeleken met de voorspelde waarden uit het model.
 
@@ -425,7 +425,7 @@ Om beide modellen te kunnen vergelijken heb ik de volgende tabel gemaakt:
 | Ridge | 0.6588 |
 | Lineaire Regressie | 0.6617|
 
-De R2 scores van het Ridge en het Lineaire regressie model liggen erg dichtbij elkaar. Maar het lineaire regressie model is net een klein beetje beter. 
+De R2 scores van het Ridge en het Lineaire Regressie model liggen erg dichtbij elkaar. Maar het Lineaire Regressie model is net een klein beetje beter. 
 
 De hele code staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Ridge%20en%20lineaire%20regressie%20Foodboost(1).ipynb).
 
@@ -490,7 +490,7 @@ Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https:/
 
 ### Q-Learning
 
-Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier]( https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters Learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
+Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier]( https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
 
 [Terug naar de inhoud](#inhoud)
 
@@ -511,7 +511,7 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 
 ### Foodboost
 
-Tijdens het Foodboost project heb ik verschillende bronnen gebruikt. Voor het LP-model heb deze gebruikt:
+Tijdens het Foodboost project heb ik verschillende bronnen gebruikt. Voor het LP-model heb ik deze gebruikt:
 -	[Introduction to Linear Programming in Python](https://mlabonne.github.io/blog/linearoptimization/)
 -	[Integer vs. Linear Programming in Python](https://mlabonne.github.io/blog/integerprogramming/)
 
@@ -548,24 +548,20 @@ Voor de Grid Search het ik deze bron gebruikt:
 - Allergie: Als iemand in aanraking komt met een bepaalde stof en daarop een reactie krijgt (overgevoeligheid).
 - Calorie: Hoeveel energie het eten bevat.
 - Kcal: Eenheid die de hoeveelheid energie aangeeft. 1 kcal = 1000 calorieën
-- Lineair programmeren: Een wiskundige manier om de beste uitkomst te berekenen. 
+- Lineair programmeren: Een wiskundige manier om de beste uitkomst te berekenen met restricties. 
 - Pivot tabel: Een draaitabel; een tabel wordt vervormd: de unieke waardes uit een bepaalde kolom worden de nieuwe kolomnamen, een andere kolom wordt de index. 
 - Tag: label; omschrijft tot welke categorie een gerecht behoort.
-- Lineair Programmeren?
 
 ### Container
-- Reinforcement Learing:
-- Stack: Een stapel containers.
-- Yard: 
-- Agent:
-- Envoirment: De ruimte waard
+- Agent: Maakt de beslissingen bij een Reinfocement Learning model.
+- Envoirment: Gesimuleerde ruimte waar de agent een game speelt bij Reinfocement Learning.
+- Game: Als de agent de kade van drie bij drie bij één heeft vol gezet met containers of als er te veel pogingen zijn gedaan om een container neer te zetten.
 - Learning rate: De mate/snelheid waarin de agent leert.
 - Move: Een container oppakken en ergens anders weer neerzetten.
-- Game: Als de agent de kade van drie bij drie bij één heeft volgezet met containers of als er te veel pogingen zijn gedaan om een container neer te zetten.
 - Prioriteit: Een cijfer dat aangeeft met welk schip de container weer mee moet. Hoe lager, hoog sneller dat schip vertrekt
-- Trachstacker: 
-- Container Stacking Probleem: 
+- Reinforcement Learing: Model trainen op basis van straffen en beloningen.
 - State: De huidige status van de kade/ speelveld
+- Reachstacker: Vervoersmiddel die containers verplaatste vanaf het schip naar de kade, kan alleen containers via de lange kant oppakken. 
 
 [Terug naar de inhoud](#inhoud)
 
