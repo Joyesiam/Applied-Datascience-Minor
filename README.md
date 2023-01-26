@@ -513,10 +513,19 @@ Het container project behoort tot de transport en logistieke sector. Hierbij gel
 ## Literatuuronderzoek
 
 ### Foodboost
-```diff
--   bestanden/ videos 
-```
+
+-	[Introduction to Linear Programming in Python](https://mlabonne.github.io/blog/linearoptimization/)
+-	[Integer vs. Linear Programming in Python](https://mlabonne.github.io/blog/integerprogramming/)
+-	[Linear Regressions and Split Datasets Using Sklearn](https://medium.com/the-code-monster/split-a-dataset-into-train-and-test-datasets-using-sk-learn-acc7fd1802e0)
+-	[sklearn Linear model Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+-	[FuzzyWuzzy Python library](https://www.geeksforgeeks.org/fuzzywuzzy-python-library/)
+
+
+
+
 ### Container
+
+Papers: 
 - [A decision support system for managing combinatorial problems in container terminals](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/A%20decision%20support%20system%20for%20managing%20combinatorial%20problems%20in%20container%20terminals.pdf)
 - [An optimization model for the container pre-marshalling problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/An%20optimization%20model%20for%20the%20container%20pre-marshalling%20problem.pdf)
 - [Two-stage search algorithm for the inbound container unloading and stacking problem](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/PDF/Two-stage%20search%20algorithm%20for%20the%20inbound%20container%20unloading%20and%20stacking%20problem.pdf)
