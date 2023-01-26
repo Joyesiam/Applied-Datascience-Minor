@@ -479,7 +479,8 @@ Het [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/N
 [Terug naar de inhoud](#inhoud)
 
 ## Container
-https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc
+
+### Reinfocement Learning
 
 Voor het container probleem heb ik Reinforcement Learning gebruikt omdat er geen beste uitkomst bestaat. Dat is omdat het niet duidelijk is wat de beste oplossing is. Daarnaast is er ook niet echt data over, waardoor dit geen Supervised of Unsupervised Learning is. Bij Reinforcement Learning genereert het model zelf data door games te spelen. Met de die data leert het model. In mijn geval is een game één keer een kade van drie breed bij drie lang bij één hoog vullen. 
 
@@ -497,6 +498,11 @@ Als resultaat uit het model heb ik een learning curve gemaakt met daarin de maxi
 Mijn de hele code van het Reinforcement Learning staat in dit [notebook](https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/RL%20Joanne.ipynb).
 
 [Terug naar de inhoud](#inhoud)
+
+### Q-Learning
+
+Tijden het maken van mijn Reinfocement Learning model had ik eerst een Q-Learning model gemaakt zonder dat ik het door had. De code is [hier]( https://github.com/Joyesiam/Applied-Datascience-Minor/blob/main/Notebooks/Q-learning.ipynb) te vinden. Het environment, de agent en restricties zijn hetzelfde als bij mijn Reinfocement model. Met een Grid Search heb ik de beste waardes van de parameters Learning rate en gamma bepaald. Dat heb ik gedaan door het model meerdere keren te laten trainen met een verschillende learning rates. Elke keer heb ik het gemiddelde en de mediaan van de laatste 500 games bekeken. De beste learning rate was 0,001. Dit heb ik ook voor de gamma gedaan, de beste was 0,7. Daarna heb ik het model getraind met de beste gamma en learning rate. De uitkomst is niet zo goed, want het lijkt als of het model niet echt traint. Daarom was ik verder gegaan met Deep Q-Learning. 
+
 
 # Domeinkennis
 
@@ -540,6 +546,9 @@ Daarnaast heb ik andere bronnen gebruikt om een Reinfocement Learning model te m
 -	[Guide to Reinforcement Learning with Python and TensorFlow](https://rubikscode.net/2021/07/13/deep-q-learning-with-python-and-tensorflow-2-0/)
 -	[Hands-On Introduction to Reinforcement Learning in Python](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88)
 -	[Reinforcement Q-Learning from Scratch in Python with OpenAI Gym](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) 
+
+Voor de Grid Search het ik deze bron gebruikt:
+- [Machine Learning - Grid Search](https://www.w3schools.com/python/python_ml_grid_search.asp)
 
 [Terug naar de inhoud](#inhoud)
 
