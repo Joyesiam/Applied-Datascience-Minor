@@ -1,9 +1,7 @@
-# Applied-Datascience-Minor
+# Applied-Datascience-Minor-portfolio
 Student: Joanne Pals  
 Studentennummer: 20189186
-https://markdownlivepreview.com/
 
-- episode/ games recht trekken
 - naar elk bestand/ plaatje verwijzen
 - Lp model 
 - links proberen
